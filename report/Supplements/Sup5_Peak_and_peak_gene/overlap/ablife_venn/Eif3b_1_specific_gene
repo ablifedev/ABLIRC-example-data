@@ -1,0 +1,470 @@
+chr1	108336120	108336127	chr1_369621	4	+	8	4	108336122	noncoding_exon:1.0;	ENSG00000241361.8	SLC25A24P1	chr1	transcribed_unprocessed_pseudogene	SLC25A24 pseudogene 1	332	sample2
+chr9	34564689	34564741	chr9_413413	4	-	53	4	34564715	CDS:1.0;	ENSG00000122756.14	CNTFR	chr9	protein_coding	ciliary neurotrophic factor receptor	10500	sample2
+chr9	6645268	6645353	chr9_412079	6	-	86	5	6645314	CDS:1.0;	ENSG00000178445.8	GLDC	chr9	protein_coding	glycine dehydrogenase (decarboxylating)	10480	sample2
+chr7	140479314	140479352	chr7_192933	6	-	39	6	140479332	five_prime_UTR:0.21;CDS:0.79;	ENSG00000133606.10	MKRN1	chr7	protein_coding	makorin ring finger protein 1	9881	sample2
+chr15	50840967	50840987	chr15_90553	4	-	21	4	50840970	noncoding_exon:1.0;	ENSG00000273674.4	CTD-2378E12.1	chr15	lincRNA		--	3387	sample2
+chr8	107901164	107901186	chr8_433224	6	-	23	6	107901168	CDS:1.0;	ENSG00000147655.10	RSPO2	chr8	protein_coding	R-spondin 2	10156	sample2
+chr7	76047740	76047764	chr7_188661	4	-	25	4	76047745	five_prime_UTR:1.0;	ENSG00000127952.16	STYXL1	chr7	protein_coding	serine/threonine/tyrosine interacting-like 1	9787	sample2
+chr6	3456973	3457039	chr6_253747	5	-	67	4	3456976	five_prime_UTR:0.74;intron:0.26;	ENSG00000137266.14	SLC22A23	chr6	protein_coding	solute carrier family 22, member 23	9137	sample2
+chr3	42803419	42803475	chr3_317219	4	-	57	4	42803449	intron:1.0;	ENSG00000280571.1	RP4-613B23.5	chr3	protein_coding		--	7999	sample2
+chr1	496289	496351	chr1_380489	6	-	63	5	496290	noncoding_exon:1.0;	ENSG00000237094.11	RP4-669L17.10	chr1	lincRNA		--	610	sample2
+chr9	135913438	135913474	chr9_410566	4	+	37	4	135913444	noncoding_exon:1.0;	ENSG00000238058.1	RP11-432J22.2	chr9	antisense		--	10424	sample2
+chr14	75003026	75003083	chr14_100216	4	+	58	4	75003051	CDS:1.0;	ENSG00000119718.10	EIF2B2	chr14	protein_coding	eukaryotic translation initiation factor 2B, subunit 2 beta, 39kDa	3001	sample2
+chr17	7394561	7394584	chr17_52634	9	-	24	9	7394564	five_prime_UTR:0.39;intron:0.61;	ENSG00000187838.16	TMEM256-PLSCR3	chr17	protein_coding	TMEM256-PLSCR3 readthrough (NMD candidate)	4567	sample2
+chr3	12905314	12905377	chr3_315296	5	-	64	5	12905329	intron:1.0;	ENSG00000144711.13	IQSEC1	chr3	protein_coding	IQ motif and Sec7 domain 1	7952	sample2
+chr9	121201760	121201815	chr9_417377	7	-	56	6	121201788	five_prime_UTR:1.0;	ENSG00000119396.10	RAB14	chr9	protein_coding	RAB14, member RAS oncogene family	10594	sample2
+chr12	109092872	109092925	chr12_168063	4	-	54	4	109092892	intron:1.0;	ENSG00000189046.10	ALKBH2	chr12	protein_coding	alkB, alkylation repair homolog 2 (E. coli)	2711	sample2
+chr1	226883840	226883890	chr1_378321	4	+	51	4	226883869	CDS:1.0;	ENSG00000143801.16	PSEN2	chr1	protein_coding	presenilin 2	550	sample2
+chr12	1380409	1380431	chr12_161175	5	-	23	5	1380412	noncoding_exon:1.0;	ENSG00000249028.2	RP5-951N9.1	chr12	antisense		--	2522	sample2
+chr19	1567463	1567492	chr19_122882	4	-	30	4	1567463	CDS:1.0;	ENSG00000181588.16	MEX3D	chr19	protein_coding	mex-3 RNA binding family member D	5682	sample2
+chr16	29858975	29859047	chr16_76887	8	-	73	5	29859022	three_prime_UTR:1.0;	ENSG00000103502.13	CDIPT	chr16	protein_coding	CDP-diacylglycerol--inositol 3-phosphatidyltransferase	4000	sample2
+chr16	58515907	58515928	chr16_69275	4	+	22	4	58515910	CDS:1.0;	ENSG00000103037.11	SETD6	chr16	protein_coding	SET domain containing 6	3794	sample2
+chr13	39014271	39014324	chr13_146487	5	-	54	5	39014284	CDS:1.0;	ENSG00000120685.19	PROSER1	chr13	protein_coding	proline and serine rich 1	2880	sample2
+chr17	60525815	60525892	chr17_58890	6	-	78	5	60525825	CDS:1.0;	ENSG00000062725.9	APPBP2	chr17	protein_coding	amyloid beta precursor protein (cytoplasmic tail) binding protein 2	4743	sample2
+chr22	41925512	41925554	chr22_223038	4	-	43	4	41925539	CDS:1.0;	ENSG00000159958.4	TNFRSF13C	chr22	protein_coding	tumor necrosis factor receptor superfamily, member 13C	7576	sample2
+chr18	11667801	11667822	chr18_133281	6	+	22	6	11667804	antisense;	ENSG00000260759.1	RP11-677O4.2	chr18	lincRNA		--	4945	sample2
+chr11	66002544	66002570	chr11_6025	4	+	27	4	66002558	five_prime_UTR:1.0;	ENSG00000175334.7	BANF1	chr11	protein_coding	barrier to autointegration factor 1	1793	sample2
+chr2	219550567	219550610	chr2_342235	2	+	44	2	219550572	three_prime_UTR:0.28;intron:0.72;	ENSG00000188760.10	TMEM198	chr2	protein_coding	transmembrane protein 198	6414	sample2
+chr20	45330548	45330564	chr20_234565	5	-	17	5	45330549	CDS:1.0;	ENSG00000124145.6	SDC4	chr20	protein_coding	syndecan 4	6959	sample2
+chr15	34362298	34362327	chr15_89470	4	-	30	4	34362317	CDS:0.79;intron:0.21;	ENSG00000176454.13	LPCAT4	chr15	protein_coding	lysophosphatidylcholine acyltransferase 4	3375	sample2
+chr11	62799588	62799620	chr11_16558	5	-	33	5	62799591	intron:1.0;	ENSG00000162231.13	NXF1	chr11	protein_coding	nuclear RNA export factor 1	2086	sample2
+chr9	137189145	137189265	chr9_411158	4	+	121	4	137189218	CDS:1.0;	ENSG00000176101.11	SSNA1	chr9	protein_coding	Sjogren syndrome nuclear autoantigen 1	10455	sample2
+chr2	669477	669625	chr2_344513	5	-	149	4	669486	three_prime_UTR:0.69;CDS:0.31;	ENSG00000151353.14	TMEM18	chr2	protein_coding	transmembrane protein 18	6447	sample2
+chr16	89102603	89102617	chr16_72690	5	+	15	5	89102603	CDS:1.0;	ENSG00000176715.15	ACSF3	chr16	protein_coding	acyl-CoA synthetase family member 3	3845	sample2
+chr11	18455853	18455872	chr11_14054	5	-	20	5	18455854	antisense;	ENSG00000166800.9	LDHAL6A	chr11	protein_coding	lactate dehydrogenase A-like 6A	1994	sample2
+chrX	123627740	123627781	chrX_207341	6	-	42	6	123627747	CDS:1.0;	ENSG00000125676.19	THOC2	chrX	protein_coding	THO complex 2	11234	sample2
+chr1	160683640	160683661	chr1_372891	6	+	22	6	160683643	noncoding_exon:1.0;	ENSG00000228863.8	RP11-404F10.2	chr1	antisense		--	456	sample2
+chr17	35095658	35095687	chr17_43447	4	+	30	4	35095664	antisense;	ENSG00000267618.5	RAD51L3-RFFL	chr17	protein_coding		--	4281	sample2
+chr12	55820412	55820441	chr12_154660	4	+	30	4	55820418	three_prime_UTR:1.0;	ENSG00000123353.9	ORMDL2	chr12	protein_coding	ORMDL sphingolipid biosynthesis regulator 2	2345	sample2
+chr8	144316489	144316559	chr8_436140	7	-	71	5	144316523	three_prime_UTR:1.0;	ENSG00000185000.9	DGAT1	chr8	protein_coding	diacylglycerol O-acyltransferase 1	10217	sample2
+chr14	60643888	60643907	chr14_106115	4	-	20	4	60643890	three_prime_UTR:1.0;	ENSG00000126778.8	SIX1	chr14	protein_coding	SIX homeobox 1	3154	sample2
+chr5	2754814	2754837	chr5_274699	5	-	24	5	2754818	antisense;	ENSG00000186493.11	C5orf38	chr5	protein_coding	chromosome 5 open reading frame 38	8669	sample2
+chr16	56357167	56357185	chr16_77943	4	-	19	4	56357168	antisense;	ENSG00000087258.13	GNAO1	chr16	protein_coding	guanine nucleotide binding protein (G protein), alpha activating activity polypeptide O	4028	sample2
+chr16	30114604	30114685	chr16_77025	5	-	82	4	30114639	three_prime_UTR:1.0;	ENSG00000102882.11	MAPK3	chr16	protein_coding	mitogen-activated protein kinase 3	4004	sample2
+chr1	107056954	107056995	chr1_369603	4	+	42	4	107056974	CDS:1.0;	ENSG00000198890.7	PRMT6	chr1	protein_coding	protein arginine methyltransferase 6	331	sample2
+chr9	96501393	96501415	chr9_405413	6	+	23	6	96501398	antisense;	ENSG00000081377.16	CDC14B	chr9	protein_coding	cell division cycle 14B	10287	sample2
+chr19	36150018	36150043	chr19_117043	5	+	26	5	36150025	three_prime_UTR:1.0;	ENSG00000126247.10	CAPNS1	chr19	protein_coding	calpain, small subunit 1	5391	sample2
+chr5	138561045	138561099	chr5_280063	19	-	55	17	138561074	intron:1.0;	ENSG00000113013.12	HSPA9	chr5	protein_coding	heat shock 70kDa protein 9 (mortalin)	8741	sample2
+chr2	176188841	176188862	chr2_339396	5	+	22	5	176188844	CDS:1.0;	ENSG00000128645.12	HOXD1	chr2	protein_coding	homeobox D1	6359	sample2
+chr4	118279188	118279236	chr4_289438	17	+	49	16	118279213	intron:1.0;	ENSG00000269893.6	SNHG8	chr4	lincRNA	small nucleolar RNA host gene 8	8318	sample2
+chr12	6510221	6510403	chr12_151215	37	+	183	13	6510271	intron:1.0;	ENSG00000010292.12	NCAPD2	chr12	protein_coding	non-SMC condensin I complex, subunit D2	2251	sample2
+chr1	179345024	179345048	chr1_374791	5	+	25	5	179345025	CDS:1.0;	ENSG00000057252.12	SOAT1	chr1	protein_coding	sterol O-acyltransferase 1	487	sample2
+chr22	31956657	31956860	chr22_213545	9	+	204	5	31956751	three_prime_UTR:0.33;CDS:0.67;	ENSG00000128245.14	YWHAH	chr22	protein_coding	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta	7261	sample2
+chr10	57513203	57513223	chr10_24411	4	+	21	4	57513205	noncoding_exon:1.0;	ENSG00000235810.1	RP11-550A9.1	chr10	processed_pseudogene		--	1296	sample2
+chr1	100132877	100132904	chr1_391469	5	-	28	5	100132882	five_prime_UTR:1.0;	ENSG00000156876.9	SASS6	chr1	protein_coding	spindle assembly 6 homolog (C. elegans)	922	sample2
+chr8	141210428	141210447	chr8_427660	4	+	20	4	141210430	antisense;	ENSG00000022567.9	SLC45A4	chr8	protein_coding	solute carrier family 45, member 4	10042	sample2
+chr20	35176340	35176409	chr20_227796	6	+	70	4	35176382	CDS:1.0;	ENSG00000101000.4	PROCR	chr20	protein_coding	protein C receptor, endothelial	6773	sample2
+chr11	112963232	112963252	chr11_9711	5	+	21	5	112963234	intron:1.0;	ENSG00000149294.16	NCAM1	chr11	protein_coding	neural cell adhesion molecule 1	1879	sample2
+chr2	232569046	232569181	chr2_342836	4	+	136	4	232569069	three_prime_UTR:1.0;	ENSG00000135930.13	EIF4E2	chr2	protein_coding	eukaryotic translation initiation factor 4E family member 2	6430	sample2
+chr12	123579223	123579243	chr12_160020	4	+	21	4	123579226	antisense;	ENSG00000247373.3	RP11-486O12.2	chr12	lincRNA		--	2484	sample2
+chr6	12125211	12125235	chr6_242982	7	+	25	7	12125217	CDS:1.0;	ENSG00000095951.16	HIVEP1	chr6	protein_coding	human immunodeficiency virus type I enhancer binding protein 1	8853	sample2
+chr3	23919390	23919765	chr3_302288	9	+	376	4	23919509	three_prime_UTR:0.7;CDS:0.3;	ENSG00000174748.18	RPL15	chr3	protein_coding	ribosomal protein L15	7686	sample2
+chr5	127526723	127526769	chr5_269751	5	+	47	5	127526742	CDS:1.0;	ENSG00000164244.20	PRRC1	chr5	protein_coding	proline-rich coiled-coil 1	8541	sample2
+chr12	48818886	48818909	chr12_153319	4	+	24	4	48818892	five_prime_UTR:1.0;	ENSG00000167535.7	CACNB3	chr12	protein_coding	calcium channel, voltage-dependent, beta 3 subunit	2288	sample2
+chr4	151103827	151103890	chr4_290589	46	+	64	32	151103869	intron:1.0;	ENSG00000145425.9	RPS3A	chr4	protein_coding	ribosomal protein S3A	8334	sample2
+chr17	67993610	67993631	chr17_59671	7	-	22	7	67993612	five_prime_UTR:1.0;	ENSG00000186665.8	C17orf58	chr17	protein_coding	chromosome 17 open reading frame 58	4769	sample2
+chr2	88111749	88111769	chr2_350189	4	-	21	4	88111750	antisense;	ENSG00000115593.14	SMYD1	chr2	protein_coding	SET and MYND domain containing 1	6568	sample2
+chr11	62665418	62665570	chr11_4584	57	+	153	19	62665547	intron:1.0;	ENSG00000214756.7	METTL12	chr11	protein_coding	methyltransferase like 12	1664	sample2
+chr1	150509939	150509989	chr1_371628	3	+	51	3	150509956	CDS:1.0;	ENSG00000143369.14	ECM1	chr1	protein_coding	extracellular matrix protein 1	416	sample2
+chr5	174751741	174751762	chr5_282025	4	-	22	4	174751743	antisense;	ENSG00000251670.1	CTD-2532K18.1	chr5	lincRNA		--	8773	sample2
+chr18	62523939	62523998	chr18_136004	4	+	60	4	62523971	CDS:1.0;	ENSG00000141664.9	ZCCHC2	chr18	protein_coding	zinc finger, CCHC domain containing 2	4969	sample2
+chr2	119626483	119626507	chr2_336033	7	+	25	7	119626484	intron:1.0;	ENSG00000163075.12	CFAP221	chr2	protein_coding	cilia and flagella associated protein 221	6319	sample2
+chrX	13689255	13689288	chrX_195162	4	+	34	4	13689269	five_prime_UTR:1.0;	ENSG00000123595.6	RAB9A	chrX	protein_coding	RAB9A, member RAS oncogene family	10775	sample2
+chr17	1936371	1936390	chr17_51347	5	-	20	5	1936373	three_prime_UTR:1.0;	ENSG00000185924.6	RTN4RL1	chr17	protein_coding	reticulon 4 receptor-like 1	4528	sample2
+chr17	15649997	15650035	chr17_53463	4	-	39	4	15650011	intron:1.0;	ENSG00000251537.4	RP11-385D13.1	chr17	protein_coding		--	4591	sample2
+chr12	52901158	52901219	chr12_164417	4	-	62	4	52901190	CDS:1.0;	ENSG00000170421.11	KRT8	chr12	protein_coding	keratin 8, type II	2625	sample2
+chr17	29390642	29390672	chr17_54948	4	-	31	4	29390653	noncoding_exon:1.0;	ENSG00000264808.1	RP11-802D6.1	chr17	antisense		--	4642	sample2
+chr11	93731505	93731572	chr11_19694	33	-	68	28	93731541	noncoding_exon:1.0;	ENSG00000202314.1	SNORD6	chr11	snoRNA	small nucleolar RNA, C/D box 6	2180	sample2
+chr2	128091329	128091386	chr2_336479	5	+	58	5	128091365	five_prime_UTR:0.49;CDS:0.51;	ENSG00000136731.12	UGGT1	chr2	protein_coding	UDP-glucose glycoprotein glucosyltransferase 1	6325	sample2
+chr17	29572869	29572938	chr17_42643	12	+	70	10	29572871	intron:1.0;	ENSG00000264031.1	ABHD15-AS1	chr17	antisense	ABHD15 antisense RNA 1	4270	sample2
+chr12	93501986	93502032	chr12_156892	4	+	47	4	93502010	three_prime_UTR:1.0;	ENSG00000198015.12	MRPL42	chr12	protein_coding	mitochondrial ribosomal protein L42	2402	sample2
+chr11	32613920	32613939	chr11_2569	3	+	20	3	32613921	antisense;	ENSG00000186714.12	CCDC73	chr11	protein_coding	coiled-coil domain containing 73	1616	sample2
+chr1	231528554	231528577	chr1_399762	2	-	24	2	231528555	noncoding_exon:0.09;intron:0.91;	ENSG00000233461.5	RP11-295G20.2	chr1	antisense		--	1209	sample2
+chr12	120293093	120293159	chr12_169674	3	-	67	3	120293122	noncoding_exon:0.95;intron:0.05;	ENSG00000200795.1	RNU4-1	chr12	snRNA	RNA, U4 small nuclear 1	2740	sample2
+chr17	1003700	1003756	chr17_39071	3	+	57	3	1003732	antisense;	ENSG00000159842.14	ABR	chr17	protein_coding	active BCR-related	4161	sample2
+chr6	85677291	85677368	chr6_258893	49	-	78	30	85677304	intron:1.0;	ENSG00000203875.10	SNHG5	chr6	processed_transcript	small nucleolar RNA host gene 5	9324	sample2
+chr7	27184435	27184463	chr7_186271	4	-	29	4	27184441	CDS:1.0;	ENSG00000005073.5	HOXA11	chr7	protein_coding	homeobox A11	9733	sample2
+chr9	137205069	137205090	chr9_421421	4	-	22	4	137205071	CDS:1.0;	ENSG00000187713.6	TMEM203	chr9	protein_coding	transmembrane protein 203	10702	sample2
+chr9	124869275	124869340	chr9_407504	5	+	66	5	124869290	five_prime_UTR:0.23;CDS:0.77;	ENSG00000136950.13	ARPC5L	chr9	protein_coding	actin related protein 2/3 complex, subunit 5-like	10303	sample2
+chr1	109505189	109505208	chr1_391775	5	-	20	5	109505191	three_prime_UTR:1.0;	ENSG00000181754.6	AMIGO1	chr1	protein_coding	adhesion molecule with Ig-like domain 1	930	sample2
+chrX	24149500	24149557	chrX_202775	3	-	58	3	24149525	noncoding_exon:0.05;intron:0.95;	ENSG00000234230.1	ZFX-AS1	chrX	antisense	ZFX antisense RNA 1	10995	sample2
+chr11	125956285	125956316	chr11_11191	2	+	32	2	125956298	antisense;	ENSG00000064309.14	CDON	chr11	protein_coding	cell adhesion associated, oncogene regulated	1901	sample2
+chr6	43505722	43505755	chr6_246531	4	+	34	4	43505724	CDS:1.0;	ENSG00000137221.14	TJAP1	chr6	protein_coding	tight junction associated protein 1 (peripheral)	9031	sample2
+chr19	30554366	30554386	chr19_128576	3	-	21	3	30554367	antisense;	ENSG00000198597.8	ZNF536	chr19	protein_coding	zinc finger protein 536	5996	sample2
+chr8	129920661	129920685	chr8_427448	5	+	25	5	129920661	antisense;	ENSG00000153310.18	FAM49B	chr8	protein_coding	family with sequence similarity 49, member B	10037	sample2
+chrX	32818971	32818994	chrX_195997	5	+	24	5	32818972	antisense;	ENSG00000198947.14	DMD	chrX	protein_coding	dystrophin	10790	sample2
+chr22	40856564	40856624	chr22_222688	6	-	61	4	40856590	five_prime_UTR:1.0;	ENSG00000100380.12	ST13	chr22	protein_coding	suppression of tumorigenicity 13 (colon carcinoma) (Hsp70 interacting protein)	7561	sample2
+chr8	33513530	33513583	chr8_423323	13	+	54	12	33513556	noncoding_exon:0.91;intron:0.09;	ENSG00000239039.1	SNORD13	chr8	snoRNA	small nucleolar RNA, C/D box 13	9947	sample2
+chrX	48597543	48597590	chrX_196978	4	+	48	4	48597554	five_prime_UTR:1.0;	ENSG00000101940.17	WDR13	chrX	protein_coding	WD repeat domain 13	10847	sample2
+chr9	128333552	128333601	chr9_408400	4	+	50	4	128333573	CDS:1.0;	ENSG00000167113.10	COQ4	chr9	protein_coding	coenzyme Q4	10325	sample2
+chr5	32585560	32585625	chr5_265559	5	+	66	4	32585592	five_prime_UTR:1.0;	ENSG00000113387.11	SUB1	chr5	protein_coding	SUB1 homolog (S. cerevisiae)	8494	sample2
+chr17	19548029	19548070	chr17_41849	5	+	42	5	19548037	CDS:1.0;	ENSG00000142494.13	SLC47A1	chr17	protein_coding	solute carrier family 47 (multidrug and toxin extrusion), member 1	4254	sample2
+chr13	38688358	38688414	chr13_141453	4	+	57	4	38688382	CDS:1.0;	ENSG00000150893.10	FREM2	chr13	protein_coding	FRAS1 related extracellular matrix protein 2	2814	sample2
+chr12	108787816	108787843	chr12_168010	17	-	28	17	108787824	three_prime_UTR:1.0;	ENSG00000084112.14	SSH1	chr12	protein_coding	slingshot protein phosphatase 1	2710	sample2
+chr1	148011093	148011121	chr1_371461	5	+	29	5	148011094	antisense;	ENSG00000215859.8	RP6-74O6.2	chr1	lincRNA		--	409	sample2
+chr7	143901973	143902030	chr7_193157	6	-	58	5	143901979	five_prime_UTR:0.07;intron:0.93;	ENSG00000198420.9	TCAF1	chr7	protein_coding	TRPM8 channel-associated factor 1	9885	sample2
+chr14	105498949	105498988	chr14_103314	4	+	40	4	105498956	three_prime_UTR:1.0;	ENSG00000185347.17	C14orf80	chr14	protein_coding	chromosome 14 open reading frame 80	3078	sample2
+chr2	27132246	27132289	chr2_346094	5	-	44	5	27132271	CDS:1.0;	ENSG00000138073.13	PREB	chr2	protein_coding	prolactin regulatory element binding	6495	sample2
+chr11	106077794	106077858	chr11_9225	5	+	65	5	106077821	CDS:1.0;	ENSG00000149313.10	AASDHPPT	chr11	protein_coding	aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase	1874	sample2
+chr12	49347202	49347240	chr12_153397	4	+	39	4	49347214	five_prime_UTR:1.0;	ENSG00000178401.14	DNAJC22	chr12	protein_coding	DnaJ (Hsp40) homolog, subfamily C, member 22	2292	sample2
+chr7	107891236	107891289	chr7_179724	4	+	54	4	107891256	five_prime_UTR:0.26;CDS:0.74;	ENSG00000091140.12	DLD	chr7	protein_coding	dihydrolipoamide dehydrogenase	9596	sample2
+chr10	79347686	79347743	chr10_26316	5	+	58	4	79347708	CDS:1.0;	ENSG00000108179.13	PPIF	chr10	protein_coding	peptidylprolyl isomerase F	1332	sample2
+chr11	608400	608451	chr11_235	5	+	52	5	608404	CDS:1.0;	ENSG00000070047.11	PHRF1	chr11	protein_coding	PHD and ring finger domains 1	1558	sample2
+chr6	2623620	2623640	chr6_253547	5	-	21	5	2623622	noncoding_exon:1.0;	ENSG00000164385.8	LINC01600	chr6	lincRNA	long intergenic non-protein coding RNA 1600	9134	sample2
+chr9	108911106	108911160	chr9_416383	5	-	55	5	108911132	CDS:1.0;	ENSG00000070061.14	IKBKAP	chr9	protein_coding	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase complex-associated protein	10576	sample2
+chr14	19357065	19357088	chr14_103371	4	-	24	4	19357065	noncoding_exon:1.0;	ENSG00000274827.4	LINC01297	chr14	lincRNA	long intergenic non-protein coding RNA 1297	3090	sample2
+chr22	41524883	41524937	chr22_215302	4	+	55	4	41524901	CDS:1.0;	ENSG00000100412.15	ACO2	chr22	protein_coding	aconitase 2, mitochondrial	7302	sample2
+chr9	113221643	113221678	chr9_406578	5	+	36	4	113221655	five_prime_UTR:1.0;	ENSG00000136868.10	SLC31A1	chr9	protein_coding	solute carrier family 31 (copper transporter), member 1	10294	sample2
+chr12	50112223	50112278	chr12_153677	4	+	56	4	50112238	five_prime_UTR:1.0;	ENSG00000178449.8	COX14	chr12	protein_coding	COX14 cytochrome c oxidase assembly factor	2314	sample2
+chr2	86874015	86874039	chr2_350181	14	-	25	14	86874020	antisense;	ENSG00000233673.6	ANAPC1P1	chr2	transcribed_unprocessed_pseudogene	anaphase promoting complex subunit 1 pseudogene 1	6567	sample2
+chr19	46838258	46838324	chr19_130807	6	-	67	5	46838270	three_prime_UTR:1.0;	ENSG00000042753.11	AP2S1	chr19	protein_coding	adaptor-related protein complex 2, sigma 1 subunit	6084	sample2
+chr2	111883978	111884071	chr2_351392	8	-	94	4	111884017	five_prime_UTR:1.0;	ENSG00000153107.11	ANAPC1	chr2	protein_coding	anaphase promoting complex subunit 1	6594	sample2
+chr1	231163724	231163759	chr1_399660	17	-	36	17	231163731	antisense;	ENSG00000119283.15	TRIM67	chr1	protein_coding	tripartite motif containing 67	1207	sample2
+chr9	128824098	128824159	chr9_408820	3	+	62	3	128824133	antisense;	ENSG00000198917.11	C9orf114	chr9	protein_coding	chromosome 9 open reading frame 114	10356	sample2
+chrM	4262	4398	chrM_209916	96	+	137	36	4348	noncoding_exon:0.51;intron:0.49;	ENSG00000210100.1	MT-TI	chrM	Mt_tRNA	mitochondrially encoded tRNA isoleucine	10723	sample2
+chr12	123034598	123034617	chr12_170279	6	-	20	6	123034600	five_prime_UTR:1.0;	ENSG00000090975.12	PITPNM2	chr12	protein_coding	phosphatidylinositol transfer protein, membrane-associated 2	2748	sample2
+chr22	45671989	45672055	chr22_216197	5	+	67	4	45672027	noncoding_exon:1.0;	ENSG00000280383.1	CTA-941F9.10	chr22	sense_overlapping		--	7331	sample2
+chr8	144605548	144605597	chr8_436553	4	-	50	4	144605569	CDS:1.0;	ENSG00000147799.11	ARHGAP39	chr8	protein_coding	Rho GTPase activating protein 39	10243	sample2
+chr1	153981844	153982117	chr1_393653	7	-	274	4	153981972	three_prime_UTR:0.93;CDS:0.07;	ENSG00000143545.8	RAB13	chr1	protein_coding	RAB13, member RAS oncogene family	1004	sample2
+chr19	4208763	4208770	chr19_111578	4	+	8	4	4208763	CDS:1.0;	ENSG00000089847.12	ANKRD24	chr19	protein_coding	ankyrin repeat domain 24	5145	sample2
+chr1	151146588	151146617	chr1_393236	4	-	30	4	151146592	five_prime_UTR:1.0;	ENSG00000143434.15	SEMA6C	chr1	protein_coding	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6C	993	sample2
+chr12	93570558	93570577	chr12_167089	5	-	20	5	93570560	intron:1.0;	ENSG00000246985.7	SOCS2-AS1	chr12	processed_transcript	SOCS2 antisense RNA 1	2698	sample2
+chrX	100632491	100632542	chrX_205927	6	-	52	5	100632516	CDS:1.0;	ENSG00000000003.14	TSPAN6	chrX	protein_coding	tetraspanin 6	11138	sample2
+chr11	125903179	125903198	chr11_21422	5	-	20	5	125903180	five_prime_UTR:1.0;	ENSG00000110060.8	PUS3	chr11	protein_coding	pseudouridylate synthase 3	2228	sample2
+chr19	42387405	42387423	chr19_118593	3	+	19	3	42387406	antisense;	ENSG00000105427.9	CNFN	chr19	protein_coding	cornifelin	5466	sample2
+chr17	67922696	67922718	chr17_47879	5	+	23	5	67922697	intron:1.0;	ENSG00000171634.16	BPTF	chr17	protein_coding	bromodomain PHD finger transcription factor	4420	sample2
+chr20	38011604	38011679	chr20_234077	6	-	76	4	38011639	CDS:1.0;	ENSG00000101407.12	TTI1	chr20	protein_coding	TELO2 interacting protein 1	6949	sample2
+chr10	33330781	33330805	chr10_32737	5	-	25	5	33330785	CDS:1.0;	ENSG00000099250.17	NRP1	chr10	protein_coding	neuropilin 1	1418	sample2
+chrY	11972112	11972131	chrY_194702	4	+	20	4	11972114	noncoding_exon:1.0;	ENSG00000235649.2	MXRA5Y	chrY	unprocessed_pseudogene	matrix-remodelling associated 5, Y-linked, pseudogene	11343	sample2
+chr13	99494692	99494733	chr13_144239	4	+	42	4	99494713	antisense;	ENSG00000280734.2	LINC01232	chr13	processed_transcript	long intergenic non-protein coding RNA 1232	2842	sample2
+chr1	93847568	93847663	chr1_369119	46	+	96	34	93847639	noncoding_exon:1.0;	ENSG00000260464.1	RP4-561L24.3	chr1	lincRNA		--	329	sample2
+chr1	65636342	65636360	chr1_367618	4	+	19	4	65636344	CDS:1.0;	ENSG00000116678.18	LEPR	chr1	protein_coding	leptin receptor	298	sample2
+chr17	35151220	35151327	chr17_55443	29	-	108	17	35151253	antisense;	ENSG00000141161.11	UNC45B	chr17	protein_coding	unc-45 homolog B (C. elegans)	4648	sample2
+chr11	77474199	77474222	chr11_18999	11	-	24	11	77474204	antisense;	ENSG00000268635.2	RP11-739B23.1	chr11	antisense		--	2168	sample2
+chr6	43179521	43179554	chr6_246420	4	+	34	4	43179535	three_prime_UTR:1.0;	ENSG00000112658.7	SRF	chr6	protein_coding	serum response factor (c-fos serum response element-binding transcription factor)	9029	sample2
+chr19	55146797	55146826	chr19_132168	4	-	30	4	55146805	intron:1.0;	ENSG00000105048.16	TNNT1	chr19	protein_coding	troponin T type 1 (skeletal, slow)	6139	sample2
+chr7	64979394	64979414	chr7_188019	5	-	21	5	64979397	CDS:1.0;	ENSG00000152926.14	ZNF117	chr7	protein_coding	zinc finger protein 117	9775	sample2
+chr2	121530934	121531000	chr2_336331	10	+	67	9	121530942	intron:1.0;	ENSG00000265451.1	RP11-204L24.2	chr2	antisense		--	6322	sample2
+chr6	110358150	110358174	chr6_260325	8	-	25	8	110358154	CDS:1.0;	ENSG00000053328.8	METTL24	chr6	protein_coding	methyltransferase like 24	9346	sample2
+chr20	34552807	34552829	chr20_233277	4	-	23	4	34552809	antisense;	ENSG00000101460.12	MAP1LC3A	chr20	protein_coding	microtubule-associated protein 1 light chain 3 alpha	6934	sample2
+chr3	40457335	40457399	chr3_303653	9	+	65	7	40457359	five_prime_UTR:0.39;CDS:0.05;intron:0.56;	ENSG00000188846.13	RPL14	chr3	protein_coding	ribosomal protein L14	7701	sample2
+chr6	162789025	162789050	chr6_263535	4	-	26	4	162789028	antisense;	ENSG00000112530.11	PACRG	chr6	protein_coding	PARK2 co-regulated	9398	sample2
+chr5	73448065	73448088	chr5_276819	5	-	24	5	73448067	CDS:1.0;	ENSG00000251493.3	FOXD1	chr5	protein_coding	forkhead box D1	8694	sample2
+chr16	4804718	4804755	chr16_75245	4	-	38	4	4804731	three_prime_UTR:1.0;	ENSG00000140632.16	GLYR1	chr16	protein_coding	glyoxylate reductase 1 homolog (Arabidopsis)	3947	sample2
+chr10	43874241	43874260	chr10_23991	4	+	20	4	43874242	noncoding_exon:1.0;	ENSG00000226808.1	LINC00840	chr10	lincRNA	long intergenic non-protein coding RNA 840	1293	sample2
+chr4	143700425	143700444	chr4_298649	4	-	20	4	143700426	CDS:1.0;	ENSG00000183090.5	FREM3	chr4	protein_coding	FRAS1 related extracellular matrix 3	8458	sample2
+chr12	6493122	6493197	chr12_161418	6	-	76	4	6493153	five_prime_UTR:0.81;CDS:0.19;	ENSG00000111639.7	MRPL51	chr12	protein_coding	mitochondrial ribosomal protein L51	2529	sample2
+chr4	2942208	2942257	chr4_292888	4	-	50	4	2942222	CDS:1.0;	ENSG00000087269.15	NOP14	chr4	protein_coding	NOP14 nucleolar protein	8370	sample2
+chr7	102463957	102463997	chr7_190222	4	-	41	4	102463964	intron:1.0;	ENSG00000160993.3	ALKBH4	chr7	protein_coding	alkB, alkylation repair homolog 4 (E. coli)	9844	sample2
+chr4	177814250	177814274	chr4_291576	9	+	25	9	177814252	intron:1.0;	ENSG00000231171.3	LINC01098	chr4	lincRNA	long intergenic non-protein coding RNA 1098	8345	sample2
+chr1	242084511	242084553	chr1_400809	24	-	43	24	242084529	three_prime_UTR:1.0;	ENSG00000180287.16	PLD5	chr1	protein_coding	phospholipase D family, member 5	1234	sample2
+chr17	68035748	68035840	chr17_47912	8	+	93	4	68035781	five_prime_UTR:1.0;	ENSG00000182481.8	KPNA2	chr17	protein_coding	karyopherin alpha 2 (RAG cohort 1, importin alpha 1)	4421	sample2
+chr3	151376815	151376836	chr3_326151	9	-	22	9	151376818	intron:1.0;	ENSG00000169313.9	P2RY12	chr3	protein_coding	purinergic receptor P2Y, G-protein coupled, 12	8191	sample2
+chr12	57096721	57096753	chr12_165415	4	-	33	4	57096730	CDS:1.0;	ENSG00000166888.10	STAT6	chr12	protein_coding	signal transducer and activator of transcription 6, interleukin-4 induced	2668	sample2
+chr17	75046924	75046960	chr17_60176	4	-	37	4	75046924	five_prime_UTR:1.0;	ENSG00000167863.11	ATP5H	chr17	protein_coding	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit d	4777	sample2
+chr15	64130871	64130899	chr15_84295	4	+	29	4	64130872	intron:1.0;	ENSG00000028528.14	SNX1	chr15	protein_coding	sorting nexin 1	3259	sample2
+chr5	142394462	142394494	chr5_280602	6	-	33	6	142394465	antisense;	ENSG00000231185.6	AC005592.2	chr5	antisense		--	8746	sample2
+chr1	2520768	2520822	chr1_381284	4	-	55	4	2520791	CDS:1.0;	ENSG00000157881.13	PANK4	chr1	protein_coding	pantothenate kinase 4	652	sample2
+chr7	140119112	140119133	chr7_192846	4	-	22	4	140119112	CDS:1.0;	ENSG00000006459.10	KDM7A	chr7	protein_coding	lysine (K)-specific demethylase 7A	9879	sample2
+chr7	55953191	55953230	chr7_175731	4	+	40	4	55953200	CDS:1.0;	ENSG00000249773.3	MRPS17	chr7	protein_coding	mitochondrial ribosomal protein S17	9497	sample2
+chr22	29581300	29581321	chr22_220260	4	-	22	4	29581303	five_prime_UTR:1.0;	ENSG00000184117.11	NIPSNAP1	chr22	protein_coding	nipsnap homolog 1 (C. elegans)	7448	sample2
+chr7	44847968	44847998	chr7_187405	4	-	31	4	44847972	five_prime_UTR:0.9;CDS:0.1;	ENSG00000105968.18	H2AFV	chr7	protein_coding	H2A histone family, member V	9762	sample2
+chr6	106653693	106653726	chr6_248551	5	+	34	5	106653701	three_prime_UTR:1.0;	ENSG00000130348.11	QRSL1	chr6	protein_coding	glutaminyl-tRNA synthase (glutamine-hydrolyzing)-like 1	9059	sample2
+chr1	236267925	236267951	chr1_379805	8	+	27	8	236267930	noncoding_exon:1.0;	ENSG00000222650.1	RNU2-70P	chr1	snRNA	RNA, U2 small nuclear 70, pseudogene	599	sample2
+chr18	49489245	49489308	chr18_139428	32	-	64	26	49489287	intron:1.0;	ENSG00000177576.10	C18orf32	chr18	protein_coding	chromosome 18 open reading frame 32	5003	sample2
+chr11	61364251	61364253	chr11_4341	4	+	3	4	61364251	five_prime_UTR:1.0;	ENSG00000149483.11	TMEM138	chr11	protein_coding	transmembrane protein 138	1655	sample2
+chr1	233614310	233614349	chr1_379629	4	+	40	4	233614324	CDS:1.0;	ENSG00000135750.14	KCNK1	chr1	protein_coding	potassium channel, two pore domain subfamily K, member 1	597	sample2
+chr19	17486687	17486706	chr19_127817	3	-	20	3	17486689	antisense;	ENSG00000130304.16	SLC27A1	chr19	protein_coding	solute carrier family 27 (fatty acid transporter), member 1	5959	sample2
+chr6	44114136	44114209	chr6_257391	5	-	74	4	44114198	CDS:1.0;	ENSG00000180992.6	MRPL14	chr6	protein_coding	mitochondrial ribosomal protein L14	9295	sample2
+chr13	32427981	32428005	chr13_141013	4	+	25	4	32427982	antisense;	ENSG00000139597.16	N4BP2L1	chr13	protein_coding	NEDD4 binding protein 2-like 1	2810	sample2
+chr16	1678301	1678348	chr16_63921	4	+	48	4	1678318	intron:1.0;	ENSG00000261732.1	LA16c-431H6.6	chr16	protein_coding		--	3555	sample2
+chr1	14822935	14822957	chr1_382589	5	-	23	5	14822939	antisense;	ENSG00000189337.15	KAZN	chr1	protein_coding	kazrin, periplakin interacting protein	695	sample2
+chr12	54402283	54402330	chr12_164745	4	-	48	4	54402310	CDS:1.0;	ENSG00000161638.10	ITGA5	chr12	protein_coding	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	2631	sample2
+chr7	135510034	135510090	chr7_192356	6	-	57	5	135510055	five_prime_UTR:1.0;	ENSG00000080802.18	CNOT4	chr7	protein_coding	CCR4-NOT transcription complex, subunit 4	9871	sample2
+chr6	42236288	42236309	chr6_257045	6	-	22	6	42236291	CDS:1.0;	ENSG00000124496.12	TRERF1	chr6	protein_coding	transcriptional regulating factor 1	9285	sample2
+chr14	63727456	63727525	chr14_106243	4	-	70	4	63727486	CDS:1.0;	ENSG00000126821.7	SGPP1	chr14	protein_coding	sphingosine-1-phosphate phosphatase 1	3156	sample2
+chr3	121911591	121911611	chr3_309630	6	+	21	6	121911593	intron:1.0;	ENSG00000163406.10	SLC15A2	chr3	protein_coding	solute carrier family 15 (oligopeptide transporter), member 2	7831	sample2
+chr1	151327313	151327362	chr1_393311	4	-	50	4	151327330	five_prime_UTR:1.0;	ENSG00000143393.16	PI4KB	chr1	protein_coding	phosphatidylinositol 4-kinase, catalytic, beta	994	sample2
+chr2	26793970	26794010	chr2_329961	5	+	41	5	26793992	three_prime_UTR:1.0;	ENSG00000115163.14	CENPA	chr2	protein_coding	centromere protein A	6185	sample2
+chr3	33717992	33718034	chr3_316873	6	-	43	6	33718011	five_prime_UTR:0.76;CDS:0.24;	ENSG00000163539.15	CLASP2	chr3	protein_coding	cytoplasmic linker associated protein 2	7994	sample2
+chr5	7300411	7300434	chr5_274785	12	-	24	12	7300417	noncoding_exon:1.0;	ENSG00000205976.4	RP11-404K5.2	chr5	unprocessed_pseudogene		--	8673	sample2
+chr19	13762908	13762964	chr19_113924	4	+	57	4	13762930	CDS:1.0;	ENSG00000104957.13	CCDC130	chr19	protein_coding	coiled-coil domain containing 130	5264	sample2
+chr12	96400046	96400079	chr12_167356	4	-	34	4	96400054	five_prime_UTR:1.0;	ENSG00000059758.7	CDK17	chr12	protein_coding	cyclin-dependent kinase 17	2700	sample2
+chr20	17969077	17969115	chr20_226553	4	+	39	4	17969094	five_prime_UTR:0.03;intron:0.97;	ENSG00000125871.13	MGME1	chr20	protein_coding	mitochondrial genome maintenance exonuclease 1	6748	sample2
+chr5	56950627	56950639	chr5_276306	5	-	13	5	56950627	CDS:1.0;	ENSG00000155545.19	MIER3	chr5	protein_coding	mesoderm induction early response 1, family member 3	8687	sample2
+chr7	76505373	76505427	chr7_177273	5	+	55	5	76505391	CDS:1.0;	ENSG00000091073.19	DTX2	chr7	protein_coding	deltex 2, E3 ubiquitin ligase	9541	sample2
+chr14	54441275	54441338	chr14_105782	5	-	64	4	54441314	five_prime_UTR:0.17;CDS:0.83;	ENSG00000100528.11	CNIH1	chr14	protein_coding	cornichon family AMPA receptor auxiliary protein 1	3149	sample2
+chr19	18568837	18569001	chr19_115056	10	+	165	4	18568931	three_prime_UTR:1.0;	ENSG00000105700.10	KXD1	chr19	protein_coding	KxDL motif containing 1	5312	sample2
+chr7	30504570	30504628	chr7_186600	4	-	59	4	30504591	CDS:1.0;	ENSG00000006625.17	GGCT	chr7	protein_coding	gamma-glutamylcyclotransferase	9739	sample2
+chr17	64465495	64465514	chr17_47540	4	+	20	4	64465497	CDS:1.0;	ENSG00000271605.5	MILR1	chr17	protein_coding	mast cell immunoglobulin-like receptor 1	4417	sample2
+chr1	20115687	20115711	chr1_383365	4	-	25	4	20115689	intron:1.0;	ENSG00000117215.14	PLA2G2D	chr1	protein_coding	phospholipase A2, group IID	724	sample2
+chr1	150237050	150237078	chr1_371536	6	+	29	6	150237053	noncoding_exon:1.0;	ENSG00000222222.1	RNU2-17P	chr1	snRNA	RNA, U2 small nuclear 17, pseudogene	414	sample2
+chr6	31884931	31884975	chr6_255789	4	-	45	4	31884950	CDS:1.0;	ENSG00000204371.11	EHMT2	chr6	protein_coding	euchromatic histone-lysine N-methyltransferase 2	9251	sample2
+chr22	29698442	29698461	chr22_220263	4	-	20	4	29698443	antisense;	ENSG00000186575.17	NF2	chr22	protein_coding	neurofibromin 2 (merlin)	7449	sample2
+chr17	7935068	7935107	chr17_52812	5	-	40	5	7935087	antisense;	ENSG00000170037.13	CNTROB	chr17	protein_coding	centrobin, centrosomal BRCA2 interacting protein	4577	sample2
+chr5	134738605	134738721	chr5_270203	9	+	117	4	134738622	five_prime_UTR:0.13;CDS:0.87;	ENSG00000164615.4	CAMLG	chr5	protein_coding	calcium modulating ligand	8549	sample2
+chr16	29876856	29876901	chr16_76910	4	-	46	4	29876859	CDS:1.0;	ENSG00000174938.14	SEZ6L2	chr16	protein_coding	seizure related 6 homolog (mouse)-like 2	4001	sample2
+chr9	70774181	70774201	chr9_414309	4	-	21	4	70774182	intron:1.0;	ENSG00000083067.22	TRPM3	chr9	protein_coding	transient receptor potential cation channel, subfamily M, member 3	10536	sample2
+chr19	55467727	55467746	chr19_121572	5	+	20	5	55467728	antisense;	ENSG00000279063.1	CTD-2537I9.15	chr19	TEC		--	5620	sample2
+chr10	133370610	133370669	chr10_39016	5	-	60	4	133370619	CDS:1.0;	ENSG00000127884.4	ECHS1	chr10	protein_coding	enoyl CoA hydratase, short chain, 1, mitochondrial	1550	sample2
+chr10	131906663	131906712	chr10_30339	5	+	50	5	131906673	intron:1.0;	ENSG00000175470.18	PPP2R2D	chr10	protein_coding	protein phosphatase 2, regulatory subunit B, delta	1386	sample2
+chr2	73223443	73223489	chr2_333358	4	+	47	4	73223454	CDS:1.0;	ENSG00000135632.11	SMYD5	chr2	protein_coding	SMYD family member 5	6257	sample2
+chr4	120843973	120843995	chr4_289567	5	+	23	5	120843975	antisense;	ENSG00000138738.10	PRDM5	chr4	protein_coding	PR domain containing 5	8321	sample2
+chr5	77776239	77776285	chr5_277012	4	-	47	4	77776253	five_prime_UTR:0.61;CDS:0.39;	ENSG00000171530.13	TBCA	chr5	protein_coding	tubulin folding cofactor A	8697	sample2
+chr9	136382259	136382334	chr9_420664	7	-	76	5	136382298	CDS:1.0;	ENSG00000165684.3	SNAPC4	chr9	protein_coding	small nuclear RNA activating complex, polypeptide 4, 190kDa	10663	sample2
+chr6	33772075	33772187	chr6_256101	6	-	113	4	33772096	three_prime_UTR:1.0;	ENSG00000161904.11	LEMD2	chr6	protein_coding	LEM domain containing 2	9271	sample2
+chr14	103102392	103102414	chr14_109270	4	-	23	4	103102396	antisense;	ENSG00000205436.7	EXOC3L4	chr14	protein_coding	exocyst complex component 3-like 4	3206	sample2
+chr19	40321228	40321252	chr19_129619	5	-	25	5	40321229	three_prime_UTR:1.0;	ENSG00000160392.13	C19orf47	chr19	protein_coding	chromosome 19 open reading frame 47	6039	sample2
+chr3	12503518	12503556	chr3_301200	4	+	39	4	12503532	CDS:1.0;	ENSG00000154743.17	TSEN2	chr3	protein_coding	TSEN2 tRNA splicing endonuclease subunit	7675	sample2
+chr10	113904835	113904867	chr10_29396	4	+	33	4	113904836	CDS:1.0;	ENSG00000196865.4	NHLRC2	chr10	protein_coding	NHL repeat containing 2	1381	sample2
+chr10	22412140	22412159	chr10_32152	3	-	20	3	22412142	antisense;	ENSG00000077327.15	SPAG6	chr10	protein_coding	sperm associated antigen 6	1409	sample2
+chr9	127945505	127945526	chr9_418767	4	-	22	4	127945509	CDS:1.0;	ENSG00000167106.11	FAM102A	chr9	protein_coding	family with sequence similarity 102, member A	10616	sample2
+chr17	2419326	2419345	chr17_51521	4	-	20	4	2419328	three_prime_UTR:1.0;	ENSG00000127804.12	METTL16	chr17	protein_coding	methyltransferase like 16	4532	sample2
+chr6	43011464	43011510	chr6_246239	4	+	47	4	43011485	three_prime_UTR:1.0;	ENSG00000112640.14	PPP2R5D	chr6	protein_coding	protein phosphatase 2, regulatory subunit B', delta	9020	sample2
+chr19	54191772	54191846	chr19_121384	6	+	75	5	54191796	CDS:1.0;	ENSG00000170892.10	TSEN34	chr19	protein_coding	TSEN34 tRNA splicing endonuclease subunit	5591	sample2
+chr12	131921405	131921484	chr12_160539	6	+	80	5	131921458	three_prime_UTR:1.0;	ENSG00000177169.9	ULK1	chr12	protein_coding	unc-51 like autophagy activating kinase 1	2502	sample2
+chrX	105955504	105955509	chrX_206170	5	-	6	5	105955504	antisense;	ENSG00000123572.16	NRK	chrX	protein_coding	Nik related kinase	11156	sample2
+chr3	141051578	141051601	chr3_325665	4	-	24	4	141051579	antisense;	ENSG00000175093.4	SPSB4	chr3	protein_coding	splA/ryanodine receptor domain and SOCS box containing 4	8184	sample2
+chr1	153670170	153670230	chr1_393489	5	-	61	4	153670195	CDS:1.0;	ENSG00000143621.16	ILF2	chr1	protein_coding	interleukin enhancer binding factor 2	997	sample2
+chr13	27255488	27255522	chr13_140736	20	+	35	20	27255500	intron:1.0;	ENSG00000122026.10	RPL21	chr13	protein_coding	ribosomal protein L21	2803	sample2
+chr8	47738664	47738696	chr8_430271	3	-	33	3	47738673	five_prime_UTR:1.0;	ENSG00000221869.4	CEBPD	chr8	protein_coding	CCAAT/enhancer binding protein (C/EBP), delta	10095	sample2
+chr20	3753675	3753714	chr20_231555	5	-	40	5	3753688	three_prime_UTR:1.0;	ENSG00000101220.17	C20orf27	chr20	protein_coding	chromosome 20 open reading frame 27	6886	sample2
+chr19	55487064	55487111	chr19_121593	4	+	48	4	55487074	three_prime_UTR:1.0;	ENSG00000090971.4	NAT14	chr19	protein_coding	N-acetyltransferase 14 (GCN5-related, putative)	5622	sample2
+chr17	31937141	31937176	chr17_43168	5	+	36	5	31937152	five_prime_UTR:1.0;	ENSG00000178691.10	SUZ12	chr17	protein_coding	SUZ12 polycomb repressive complex 2 subunit	4279	sample2
+chr17	32373582	32373630	chr17_43286	5	+	49	5	32373605	three_prime_UTR:1.0;	ENSG00000010244.16	ZNF207	chr17	protein_coding	zinc finger protein 207	4280	sample2
+chr4	86594398	86594453	chr4_288195	5	+	56	5	86594422	five_prime_UTR:1.0;	ENSG00000163629.12	PTPN13	chr4	protein_coding	protein tyrosine phosphatase, non-receptor type 13 (APO-1/CD95 (Fas)-associated phosphatase)	8311	sample2
+chr8	144523255	144523306	chr8_428296	4	+	52	4	144523275	three_prime_UTR:1.0;	ENSG00000160959.7	LRRC14	chr8	protein_coding	leucine rich repeat containing 14	10069	sample2
+chr21	8256775	8256813	chr21_236801	3	+	39	3	8256779	noncoding_exon:0.87;intron:0.13;	ENSG00000277739.1	RNA5-8S5	chr21	rRNA	RNA, 5.8S ribosomal 5	7020	sample2
+chr5	176385220	176385327	chr5_282144	6	-	108	5	176385228	CDS:1.0;	ENSG00000048162.19	NOP16	chr5	protein_coding	NOP16 nucleolar protein	8776	sample2
+chr5	69094208	69094296	chr5_267002	5	+	89	4	69094266	five_prime_UTR:0.53;CDS:0.47;	ENSG00000145740.18	SLC30A5	chr5	protein_coding	solute carrier family 30 (zinc transporter), member 5	8504	sample2
+chr17	7930559	7930580	chr17_52802	3	-	22	3	7930560	five_prime_UTR:1.0;	ENSG00000262730.1	RP11-1099M24.7	chr17	protein_coding		--	4575	sample2
+chr19	40395700	40395722	chr19_117931	4	+	23	4	40395701	antisense;	ENSG00000105227.14	PRX	chr19	protein_coding	periaxin	5430	sample2
+chr15	51751442	51751465	chr15_83801	4	+	24	4	51751445	antisense;	ENSG00000140280.13	LYSMD2	chr15	protein_coding	LysM, putative peptidoglycan-binding, domain containing 2	3254	sample2
+chr3	42568876	42568920	chr3_317185	4	-	45	4	42568890	CDS:1.0;	ENSG00000093183.13	SEC22C	chr3	protein_coding	SEC22 vesicle trafficking protein homolog C (S. cerevisiae)	7998	sample2
+chr4	77719302	77719337	chr4_295607	4	-	36	4	77719310	three_prime_UTR:1.0;	ENSG00000138767.12	CNOT6L	chr4	protein_coding	CCR4-NOT transcription complex, subunit 6-like	8412	sample2
+chr22	38732268	38732310	chr22_214526	5	+	43	5	38732284	three_prime_UTR:1.0;	ENSG00000100226.15	GTPBP1	chr22	protein_coding	GTP binding protein 1	7289	sample2
+chr3	171140412	171140436	chr3_312961	12	+	25	12	171140414	antisense;	ENSG00000154310.16	TNIK	chr3	protein_coding	TRAF2 and NCK interacting kinase	7889	sample2
+chr7	35037374	35037403	chr7_186730	4	-	30	4	35037378	intron:1.0;	ENSG00000173852.13	DPY19L1	chr7	protein_coding	dpy-19-like 1 (C. elegans)	9743	sample2
+chr16	83808019	83808121	chr16_71637	9	+	103	5	83808026	five_prime_UTR:0.56;CDS:0.44;	ENSG00000230989.6	HSBP1	chr16	protein_coding	heat shock factor binding protein 1	3830	sample2
+chr17	83079777	83079806	chr17_62868	11	-	30	11	83079781	antisense;	ENSG00000176845.12	METRNL	chr17	protein_coding	meteorin, glial cell differentiation regulator-like	4936	sample2
+chr11	65112624	65112708	chr11_5218	5	+	85	4	65112638	CDS:1.0;	ENSG00000149809.14	TM7SF2	chr11	protein_coding	transmembrane 7 superfamily member 2	1699	sample2
+chr17	62065255	62065300	chr17_59091	2	-	46	2	62065280	five_prime_UTR:0.6;intron:0.4;	ENSG00000108510.9	MED13	chr17	protein_coding	mediator complex subunit 13	4745	sample2
+chr11	77637609	77637666	chr11_19033	5	-	58	5	77637626	CDS:1.0;	ENSG00000074201.8	CLNS1A	chr11	protein_coding	chloride channel, nucleotide-sensitive, 1A	2169	sample2
+chr3	9944779	9944816	chr3_300703	4	+	38	4	9944784	three_prime_UTR:1.0;	ENSG00000163703.17	CRELD1	chr3	protein_coding	cysteine-rich with EGF-like domains 1	7662	sample2
+chr6	4428032	4428087	chr6_242207	30	+	56	30	4428053	noncoding_exon:0.89;intron:0.11;	ENSG00000201185.1	RNA5SP202	chr6	rRNA	RNA, 5S ribosomal pseudogene 202	8848	sample2
+chr2	215312087	215312139	chr2_341655	4	+	53	4	215312102	five_prime_UTR:1.0;	ENSG00000138363.14	ATIC	chr2	protein_coding	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	6395	sample2
+chr19	6389618	6389637	chr19_125022	4	-	20	4	6389623	CDS:1.0;	ENSG00000125651.13	GTF2F1	chr19	protein_coding	general transcription factor IIF, polypeptide 1, 74kDa	5813	sample2
+chr12	25885729	25885775	chr12_152383	5	+	47	4	25885734	antisense;	ENSG00000256256.1	RP11-443N24.4	chr12	lincRNA		--	2275	sample2
+chr5	88761223	88761242	chr5_268131	4	+	20	4	88761224	antisense;	ENSG00000081189.13	MEF2C	chr5	protein_coding	myocyte enhancer factor 2C	8522	sample2
+chr18	74596529	74596560	chr18_140101	4	-	32	4	74596540	noncoding_exon:1.0;	ENSG00000264247.1	LINC00909	chr18	lincRNA	long intergenic non-protein coding RNA 909	5015	sample2
+chr4	112442014	112442064	chr4_289210	5	+	51	5	112442034	three_prime_UTR:1.0;	ENSG00000073331.17	ALPK1	chr4	protein_coding	alpha-kinase 1	8317	sample2
+chr15	74873210	74873238	chr15_93200	4	-	29	4	74873215	CDS:1.0;	ENSG00000140497.16	SCAMP2	chr15	protein_coding	secretory carrier membrane protein 2	3454	sample2
+chr12	109575997	109576016	chr12_158231	4	+	20	4	109575997	CDS:1.0;	ENSG00000110921.11	MVK	chr12	protein_coding	mevalonate kinase	2434	sample2
+chr20	44499017	44499246	chr20_234428	4	-	230	4	44499098	intron:1.0;	ENSG00000132824.13	SERINC3	chr20	protein_coding	serine incorporator 3	6956	sample2
+chr12	66136839	66136858	chr12_155826	4	+	20	4	66136840	antisense;	ENSG00000228144.2	RP11-745O10.4	chr12	protein_coding		--	2387	sample2
+chr10	98268153	98268176	chr10_27560	6	+	24	6	98268154	antisense;	ENSG00000138131.3	LOXL4	chr10	protein_coding	lysyl oxidase-like 4	1352	sample2
+chr6	35498027	35498059	chr6_256359	4	-	33	4	35498036	three_prime_UTR:1.0;	ENSG00000112041.12	TULP1	chr6	protein_coding	tubby like protein 1	9273	sample2
+chr2	23385338	23385374	chr2_329333	5	+	37	5	23385347	five_prime_UTR:1.0;	ENSG00000119771.14	KLHL29	chr2	protein_coding	kelch-like family member 29	6176	sample2
+chr6	30702751	30702781	chr6_255492	5	-	31	5	30702759	CDS:1.0;	ENSG00000137337.14	MDC1	chr6	protein_coding	mediator of DNA-damage checkpoint 1	9223	sample2
+chr6	43626198	43626221	chr6_246566	4	+	24	4	43626199	antisense;	ENSG00000172432.18	GTPBP2	chr6	protein_coding	GTP binding protein 2	9035	sample2
+chr11	57460791	57460825	chr11_3952	4	+	35	4	57460804	five_prime_UTR:1.0;	ENSG00000186907.7	RTN4RL2	chr11	protein_coding	reticulon 4 receptor-like 2	1640	sample2
+chr1	913910	913943	chr1_358218	4	+	34	4	913916	intron:1.0;	ENSG00000272438.1	RP11-54O7.16	chr1	lincRNA		--	68	sample2
+chr2	54254574	54254594	chr2_347724	5	-	21	5	54254576	three_prime_UTR:1.0;	ENSG00000178021.10	TSPYL6	chr2	protein_coding	TSPY-like 6	6520	sample2
+chr1	630900	630958	chr1_380491	27	-	59	18	630929	intron:1.0;	ENSG00000230021.7	RP5-857K21.4	chr1	lincRNA		--	611	sample2
+chr8	11826023	11826130	chr8_422147	4	+	108	4	11826023	CDS:1.0;	ENSG00000079459.12	FDFT1	chr8	protein_coding	farnesyl-diphosphate farnesyltransferase 1	9928	sample2
+chr20	7981893	7981937	chr20_231825	4	-	45	4	7981916	three_prime_UTR:1.0;	ENSG00000125827.8	TMX4	chr20	protein_coding	thioredoxin-related transmembrane protein 4	6894	sample2
+chr12	50994543	50994582	chr12_164275	5	-	40	4	50994557	CDS:1.0;	ENSG00000110911.14	SLC11A2	chr12	protein_coding	solute carrier family 11 (proton-coupled divalent metal ion transporter), member 2	2624	sample2
+chr5	17217670	17217810	chr5_265361	4	+	141	4	17217769	five_prime_UTR:1.0;	ENSG00000176788.8	BASP1	chr5	protein_coding	brain abundant, membrane attached signal protein 1	8489	sample2
+chr11	7089607	7089629	chr11_1126	9	+	23	9	7089610	CDS:1.0;	ENSG00000170748.6	RBMXL2	chr11	protein_coding	RNA binding motif protein, X-linked-like 2	1591	sample2
+chr8	66113357	66113419	chr8_424744	30	+	63	28	66113388	noncoding_exon:1.0;	ENSG00000253190.3	AC084082.3	chr8	lincRNA		--	9991	sample2
+chr5	177536494	177536527	chr5_282561	4	-	34	4	177536509	CDS:1.0;	ENSG00000146067.15	FAM193B	chr5	protein_coding	family with sequence similarity 193, member B	8791	sample2
+chr7	25949919	25949943	chr7_185943	8	-	25	8	25949925	noncoding_exon:1.0;	ENSG00000199085.2	MIR148A	chr7	miRNA	microRNA 148a	9725	sample2
+chr11	30992608	30992634	chr11_2401	5	+	27	5	30992609	antisense;	ENSG00000170959.14	DCDC1	chr11	protein_coding	doublecortin domain containing 1	1613	sample2
+chr5	142108812	142108857	chr5_271282	4	+	46	4	142108825	five_prime_UTR:1.0;	ENSG00000131507.10	NDFIP1	chr5	protein_coding	Nedd4 family interacting protein 1	8569	sample2
+chr16	56590170	56590192	chr16_69003	4	+	23	4	56590172	intron:1.0;	ENSG00000087250.8	MT3	chr16	protein_coding	metallothionein 3	3787	sample2
+chr9	3531248	3531294	chr9_401593	4	+	47	4	3531263	intron:1.0;	ENSG00000232104.3	RFX3-AS1	chr9	lincRNA	RFX3 antisense RNA 1	10251	sample2
+chr16	67163240	67163278	chr16_69467	4	+	39	4	67163254	CDS:1.0;	ENSG00000135722.8	FBXL8	chr16	protein_coding	F-box and leucine-rich repeat protein 8	3799	sample2
+chr1	19657138	19657191	chr1_361177	5	+	54	4	19657166	three_prime_UTR:1.0;	ENSG00000270136.5	MINOS1-NBL1	chr1	protein_coding	MINOS1-NBL1 readthrough	138	sample2
+chr20	32762564	32762624	chr20_227431	4	+	61	4	32762593	five_prime_UTR:1.0;	ENSG00000088305.18	DNMT3B	chr20	protein_coding	DNA (cytosine-5-)-methyltransferase 3 beta	6768	sample2
+chr22	22268153	22268184	chr22_219160	4	-	32	4	22268155	antisense;	ENSG00000279278.1	CH17-264L24.1	chr22	lincRNA		--	7429	sample2
+chr15	22838814	22838865	chr15_82203	4	+	52	4	22838835	five_prime_UTR:1.0;	ENSG00000140157.14	NIPA2	chr15	protein_coding	non imprinted in Prader-Willi/Angelman syndrome 2	3235	sample2
+chr15	90957282	90957309	chr15_88262	4	+	28	4	90957290	CDS:1.0;	ENSG00000166965.12	RCCD1	chr15	protein_coding	RCC1 domain containing 1	3346	sample2
+chr10	12210289	12210322	chr10_22768	4	+	34	4	12210297	CDS:1.0;	ENSG00000151465.13	CDC123	chr10	protein_coding	cell division cycle 123	1284	sample2
+chr4	139301697	139301765	chr4_290130	9	+	69	8	139301730	five_prime_UTR:1.0;	ENSG00000164134.12	NAA15	chr4	protein_coding	N(alpha)-acetyltransferase 15, NatA auxiliary subunit	8329	sample2
+chr13	94634281	94634305	chr13_149292	5	-	25	5	94634287	antisense;	ENSG00000152749.7	GPR180	chr13	protein_coding	G protein-coupled receptor 180	2923	sample2
+chr5	181306600	181306652	chr5_274405	6	+	53	5	181306617	noncoding_exon:1.0;	ENSG00000238035.8	AC138035.2	chr5	lincRNA		--	8657	sample2
+chr16	690278	690311	chr16_73606	4	-	34	4	690291	intron:1.0;	ENSG00000127580.15	WDR24	chr16	protein_coding	WD repeat domain 24	3882	sample2
+chr11	101038703	101038722	chr11_8982	4	+	20	4	101038705	antisense;	ENSG00000082175.14	PGR	chr11	protein_coding	progesterone receptor	1869	sample2
+chr6	107028563	107028590	chr6_260018	16	-	28	16	107028571	antisense;	ENSG00000130349.9	C6orf203	chr6	protein_coding	chromosome 6 open reading frame 203	9342	sample2
+chr6	3227589	3227650	chr6_253603	5	-	62	4	3227596	five_prime_UTR:1.0;	ENSG00000137285.9	TUBB2B	chr6	protein_coding	tubulin, beta 2B class IIb	9136	sample2
+chr3	42858042	42858063	chr3_304066	4	+	22	4	42858044	intron:1.0;	ENSG00000144648.14	ACKR2	chr3	protein_coding	atypical chemokine receptor 2	7720	sample2
+chr12	56153925	56153984	chr12_154828	7	+	60	6	56153945	CDS:1.0;	ENSG00000196465.10	MYL6B	chr12	protein_coding	myosin, light chain 6B, alkali, smooth muscle and non-muscle	2357	sample2
+chr16	83807581	83807602	chr16_80399	4	-	22	4	83807583	noncoding_exon:1.0;	ENSG00000260228.5	RP11-483P21.2	chr16	antisense		--	4088	sample2
+chr1	233905014	233905039	chr1_399984	10	-	26	10	233905019	antisense;	ENSG00000183780.12	SLC35F3	chr1	protein_coding	solute carrier family 35, member F3	1212	sample2
+chr22	43848581	43848603	chr22_215688	4	+	23	4	43848582	antisense;	ENSG00000130540.13	SULT4A1	chr22	protein_coding	sulfotransferase family 4A, member 1	7316	sample2
+chr14	76968912	76968949	chr14_107397	3	-	38	3	76968930	antisense;	ENSG00000243225.2	RP11-7F17.1	chr14	processed_pseudogene		--	3180	sample2
+chr17	12992596	12992643	chr17_53230	5	-	48	5	12992611	three_prime_UTR:1.0;	ENSG00000006744.18	ELAC2	chr17	protein_coding	elaC ribonuclease Z 2	4589	sample2
+chr9	136428841	136428878	chr9_420750	4	-	38	4	136428854	three_prime_UTR:1.0;	ENSG00000148384.11	INPP5E	chr9	protein_coding	inositol polyphosphate-5-phosphatase, 72 kDa	10665	sample2
+chr1	116949468	116949520	chr1_370919	4	+	53	4	116949489	CDS:1.0;	ENSG00000134247.9	PTGFRN	chr1	protein_coding	prostaglandin F2 receptor inhibitor	384	sample2
+chr15	77113307	77113349	chr15_93689	4	-	43	4	77113329	three_prime_UTR:1.0;	ENSG00000173517.10	PEAK1	chr15	protein_coding	pseudopodium-enriched atypical kinase 1	3464	sample2
+chr6	103003683	103003713	chr6_259862	4	-	31	4	103003689	antisense;	ENSG00000217120.1	RP1-76C18.1	chr6	processed_pseudogene		--	9338	sample2
+chrX	46912539	46912564	chrX_203529	4	-	26	4	46912544	antisense;	ENSG00000102221.13	JADE3	chrX	protein_coding	jade family PHD finger 3	11015	sample2
+chr1	53772415	53772449	chr1_388235	4	-	35	4	53772429	CDS:1.0;	ENSG00000058804.11	NDC1	chr1	protein_coding	NDC1 transmembrane nucleoporin	843	sample2
+chr12	8774402	8774459	chr12_151655	4	+	58	4	8774424	three_prime_UTR:1.0;	ENSG00000166532.15	RIMKLB	chr12	protein_coding	ribosomal modification protein rimK-like family member B	2270	sample2
+chr11	44171676	44171742	chr11_3352	5	+	67	5	44171716	CDS:1.0;	ENSG00000151348.13	EXT2	chr11	protein_coding	exostosin glycosyltransferase 2	1631	sample2
+chr11	47164522	47164566	chr11_15232	4	-	45	4	47164541	three_prime_UTR:1.0;	ENSG00000149182.14	ARFGAP2	chr11	protein_coding	ADP-ribosylation factor GTPase activating protein 2	2009	sample2
+chr2	28412365	28412384	chr2_346336	4	-	20	4	28412366	antisense;	ENSG00000075426.11	FOSL2	chr2	protein_coding	FOS-like antigen 2	6505	sample2
+chr8	11853362	11853421	chr8_428780	6	-	60	4	11853399	CDS:1.0;	ENSG00000164733.20	CTSB	chr8	protein_coding	cathepsin B	10075	sample2
+chr8	144097054	144097134	chr8_428012	6	+	81	5	144097083	CDS:1.0;	ENSG00000179091.4	CYC1	chr8	protein_coding	cytochrome c-1	10058	sample2
+chr7	102467721	102467775	chr7_179458	4	+	55	4	102467745	CDS:1.0;	ENSG00000161036.10	LRWD1	chr7	protein_coding	leucine-rich repeats and WD repeat domain containing 1	9591	sample2
+chr5	78985346	78985367	chr5_277129	4	-	22	4	78985350	five_prime_UTR:1.0;	ENSG00000113273.15	ARSB	chr5	protein_coding	arylsulfatase B	8698	sample2
+chr17	49497579	49497602	chr17_45649	8	+	24	8	49497581	intron:1.0;	ENSG00000064300.8	NGFR	chr17	protein_coding	nerve growth factor receptor	4381	sample2
+chr7	128653973	128654031	chr7_180610	4	+	59	4	128653997	noncoding_exon:1.0;	ENSG00000243679.1	RP11-274B21.3	chr7	processed_pseudogene		--	9607	sample2
+chr1	110034632	110034676	chr1_370032	5	+	45	5	110034650	five_prime_UTR:0.11;CDS:0.89;	ENSG00000143093.14	STRIP1	chr1	protein_coding	striatin interacting protein 1	346	sample2
+chr17	57839832	57839935	chr17_58491	5	-	104	5	57839903	CDS:1.0;	ENSG00000181610.12	MRPS23	chr17	protein_coding	mitochondrial ribosomal protein S23	4732	sample2
+chr2	238448154	238448173	chr2_343920	4	+	20	4	238448156	three_prime_UTR:1.0;	ENSG00000065802.11	ASB1	chr2	protein_coding	ankyrin repeat and SOCS box containing 1	6437	sample2
+chr14	76788028	76788058	chr14_107369	4	-	31	4	76788030	three_prime_UTR:1.0;	ENSG00000013523.9	ANGEL1	chr14	protein_coding	angel homolog 1 (Drosophila)	3179	sample2
+chr6	27893439	27893489	chr6_244201	3	+	51	3	27893458	CDS:0.54;intron:0.46;	ENSG00000274641.1	HIST1H2BO	chr6	protein_coding	histone cluster 1, H2bo	8917	sample2
+chrX	106612396	106612429	chrX_199274	4	+	34	4	106612410	CDS:1.0;	ENSG00000147231.13	CXorf57	chrX	protein_coding	chromosome X open reading frame 57	10888	sample2
+chrX	38805851	38806043	chrX_196121	6	+	193	4	38805871	three_prime_UTR:1.0;	ENSG00000165175.15	MID1IP1	chrX	protein_coding	MID1 interacting protein 1	10791	sample2
+chr21	8759586	8759632	chr21_236897	4	+	47	4	8759610	noncoding_exon:1.0;	ENSG00000279579.3	bP-2189O9.3	chr21	lincRNA		--	7063	sample2
+chr4	121950707	121950729	chr4_289582	4	+	23	4	121950710	antisense;	ENSG00000138741.10	TRPC3	chr4	protein_coding	transient receptor potential cation channel, subfamily C, member 3	8322	sample2
+chr13	107320922	107320962	chr13_149870	38	-	41	38	107320939	intron:1.0;	ENSG00000204442.3	FAM155A	chr13	protein_coding	family with sequence similarity 155, member A	2937	sample2
+chr16	2776996	2777061	chr16_74493	6	-	66	4	2777028	CDS:1.0;	ENSG00000103363.14	TCEB2	chr16	protein_coding	transcription elongation factor B (SIII), polypeptide 2 (18kDa, elongin B)	3923	sample2
+chr18	61662280	61662305	chr18_139815	4	-	26	4	61662282	intron:1.0;	ENSG00000267175.5	RP11-879F14.1	chr18	lincRNA		--	5013	sample2
+chr13	52016638	52016670	chr13_147609	4	-	33	4	52016639	antisense;	ENSG00000253710.2	ALG11	chr13	protein_coding	ALG11, alpha-1,2-mannosyltransferase	2895	sample2
+chr20	32848944	32849006	chr20_227479	5	+	63	4	32848963	three_prime_UTR:1.0;	ENSG00000101367.8	MAPRE1	chr20	protein_coding	microtubule-associated protein, RP/EB family, member 1	6769	sample2
+chr7	44569808	44569903	chr7_187326	4	-	96	4	44569819	CDS:1.0;	ENSG00000136271.10	DDX56	chr7	protein_coding	DEAD (Asp-Glu-Ala-Asp) box helicase 56	9759	sample2
+chr21	14644689	14644713	chr21_236992	7	+	25	7	14644691	antisense;	ENSG00000243440.6	AF165138.7	chr21	protein_coding		--	7070	sample2
+chr1	109100367	109100640	chr1_369717	104	+	274	35	109100593	noncoding_exon:0.9;intron:0.1;	ENSG00000278249.1	SCARNA2	chr1	scaRNA	small Cajal body-specific RNA 2	335	sample2
+chr10	97760782	97760819	chr10_27509	4	+	38	4	97760793	three_prime_UTR:1.0;	ENSG00000155256.17	ZFYVE27	chr10	protein_coding	zinc finger, FYVE domain containing 27	1351	sample2
+chr3	49163376	49163413	chr3_318866	4	-	38	4	49163381	CDS:1.0;	ENSG00000177352.9	CCDC71	chr3	protein_coding	coiled-coil domain containing 71	8054	sample2
+chr17	42128287	42128326	chr17_56343	4	-	40	4	42128301	CDS:1.0;	ENSG00000267261.5	CTD-2132N18.3	chr17	protein_coding		--	4682	sample2
+chr11	9461024	9461067	chr11_1333	4	+	44	4	9461048	five_prime_UTR:1.0;	ENSG00000166478.9	ZNF143	chr11	protein_coding	zinc finger protein 143	1601	sample2
+chr16	74296900	74296956	chr16_70668	4	+	57	4	74296916	five_prime_UTR:0.25;CDS:0.75;	ENSG00000103035.10	PSMD7	chr16	protein_coding	proteasome (prosome, macropain) 26S subunit, non-ATPase, 7	3826	sample2
+chr9	137578672	137578705	chr9_421677	5	-	34	5	137578675	CDS:1.0;	ENSG00000148399.11	DPH7	chr9	protein_coding	diphthamide biosynthesis 7	10713	sample2
+chr1	28508546	28508740	chr1_362561	101	+	195	62	28508665	intron:1.0;	ENSG00000180198.15	RCC1	chr1	protein_coding	regulator of chromosome condensation 1	170	sample2
+chr16	84976349	84976395	chr16_80651	4	-	47	4	84976362	CDS:1.0;	ENSG00000153786.12	ZDHHC7	chr16	protein_coding	zinc finger, DHHC-type containing 7	4099	sample2
+chrX	71911060	71911086	chrX_198175	4	+	27	4	71911062	five_prime_UTR:1.0;	ENSG00000204131.8	NHSL2	chrX	protein_coding	NHS-like 2	10872	sample2
+chr1	150235937	150235994	chr1_392988	6	-	58	5	150235957	five_prime_UTR:1.0;	ENSG00000143401.14	ANP32E	chr1	protein_coding	acidic (leucine-rich) nuclear phosphoprotein 32 family, member E	978	sample2
+chr7	127703259	127703293	chr7_180285	5	+	35	5	127703262	CDS:1.0;	ENSG00000197157.10	SND1	chr7	protein_coding	staphylococcal nuclease and tudor domain containing 1	9605	sample2
+chr1	180632056	180632090	chr1_374980	4	+	35	4	180632064	five_prime_UTR:1.0;	ENSG00000143324.13	XPR1	chr1	protein_coding	xenotropic and polytropic retrovirus receptor 1	493	sample2
+chr10	133289917	133289967	chr10_38924	4	-	51	4	133289942	CDS:1.0;	ENSG00000130640.13	TUBGCP2	chr10	protein_coding	tubulin, gamma complex associated protein 2	1547	sample2
+chr5	138391363	138391401	chr5_270590	4	+	39	4	138391369	CDS:1.0;	ENSG00000120733.13	KDM3B	chr5	protein_coding	lysine (K)-specific demethylase 3B	8552	sample2
+chr2	10122754	10122792	chr2_328899	5	+	39	5	10122762	five_prime_UTR:1.0;	ENSG00000171848.13	RRM2	chr2	protein_coding	ribonucleotide reductase M2	6166	sample2
+chr16	11774253	11774304	chr16_75604	5	-	52	4	11774261	CDS:1.0;	ENSG00000122299.11	ZC3H7A	chr16	protein_coding	zinc finger CCCH-type containing 7A	3951	sample2
+chr6	33292290	33292313	chr6_255991	4	-	24	4	33292306	CDS:1.0;	ENSG00000237441.9	RGL2	chr6	protein_coding	ral guanine nucleotide dissociation stimulator-like 2	9264	sample2
+chr17	40062829	40062854	chr17_44011	7	+	26	7	40062833	five_prime_UTR:1.0;	ENSG00000126351.12	THRA	chr17	protein_coding	thyroid hormone receptor, alpha	4302	sample2
+chr19	49556593	49556661	chr19_131444	4	-	69	4	49556639	CDS:1.0;	ENSG00000142546.13	NOSIP	chr19	protein_coding	nitric oxide synthase interacting protein	6116	sample2
+chr12	65465648	65465685	chr12_155759	4	+	38	4	65465650	three_prime_UTR:1.0;	ENSG00000174099.10	MSRB3	chr12	protein_coding	methionine sulfoxide reductase B3	2385	sample2
+chr7	139770301	139770326	chr7_192811	11	-	26	11	139770306	intron:1.0;	ENSG00000064393.15	HIPK2	chr7	protein_coding	homeodomain interacting protein kinase 2	9877	sample2
+chr19	908989	909028	chr19_122600	4	-	40	4	909000	intron:1.0;	ENSG00000198858.9	R3HDM4	chr19	protein_coding	R3H domain containing 4	5666	sample2
+chr5	140643618	140643682	chr5_271101	5	+	65	4	140643648	CDS:0.89;intron:0.11;	ENSG00000113119.12	TMCO6	chr5	protein_coding	transmembrane and coiled-coil domains 6	8564	sample2
+chrX	12885912	12885930	chrX_202110	4	-	19	4	12885914	antisense;	ENSG00000196664.4	TLR7	chrX	protein_coding	toll-like receptor 7	10981	sample2
+chr5	95550596	95550647	chr5_277905	7	-	52	7	95550613	five_prime_UTR:1.0;	ENSG00000198677.10	TTC37	chr5	protein_coding	tetratricopeptide repeat domain 37	8710	sample2
+chr17	30117094	30117154	chr17_42700	12	+	61	9	30117130	intron:1.0;	ENSG00000126653.15	NSRP1	chr17	protein_coding	nuclear speckle splicing regulatory protein 1	4271	sample2
+chr17	79081897	79081907	chr17_61216	7	-	11	7	79081897	antisense;	ENSG00000167280.16	ENGASE	chr17	protein_coding	endo-beta-N-acetylglucosaminidase	4810	sample2
+chr16	2155022	2155105	chr16_74206	35	-	84	21	2155075	intron:1.0;	ENSG00000260260.1	SNHG19	chr16	lincRNA	small nucleolar RNA host gene 19	3915	sample2
+chr14	89168385	89168413	chr14_100932	12	+	29	12	89168390	antisense;	ENSG00000053254.15	FOXN3	chr14	protein_coding	forkhead box N3	3009	sample2
+chr19	48451104	48451141	chr19_120098	4	+	38	4	48451115	CDS:1.0;	ENSG00000105447.12	GRWD1	chr19	protein_coding	glutamate-rich WD repeat containing 1	5512	sample2
+chr19	53874039	53874073	chr19_121285	4	+	35	4	53874046	CDS:1.0;	ENSG00000179820.15	MYADM	chr19	protein_coding	myeloid-associated differentiation marker	5586	sample2
+chr20	34508993	34509014	chr20_233276	6	-	22	6	34508995	antisense;	ENSG00000078747.12	ITCH	chr20	protein_coding	itchy E3 ubiquitin protein ligase	6933	sample2
+chr1	182212453	182212493	chr1_396084	11	-	41	11	182212466	intron:1.0;	ENSG00000228918.3	LINC01344	chr1	lincRNA	long intergenic non-protein coding RNA 1344	1092	sample2
+chr17	67366485	67366522	chr17_59659	4	-	38	4	67366502	five_prime_UTR:0.08;CDS:0.92;	ENSG00000197170.9	PSMD12	chr17	protein_coding	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12	4768	sample2
+chrX	71061080	71061118	chrX_204866	6	-	39	6	71061099	CDS:1.0;	ENSG00000147164.11	SNX12	chrX	protein_coding	sorting nexin 12	11078	sample2
+chr17	64146325	64146448	chr17_47526	45	+	124	23	64146338	noncoding_exon:1.0;	ENSG00000266402.3	SNHG25	chr17	lincRNA	small nucleolar RNA host gene 25	4416	sample2
+chr8	20106926	20106945	chr8_429101	3	-	20	3	20106927	antisense;	ENSG00000253775.1	AC100802.3	chr8	antisense		--	10078	sample2
+chr16	69320140	69320193	chr16_70145	3	+	54	3	69320149	CDS:1.0;	ENSG00000260914.3	RP11-343C2.11	chr16	protein_coding		--	3816	sample2
+chr1	11838404	11838442	chr1_360067	4	+	39	4	11838426	CDS:1.0;	ENSG00000011021.21	CLCN6	chr1	protein_coding	chloride channel, voltage-sensitive 6	110	sample2
+chr3	128242782	128242805	chr3_324560	7	-	24	7	128242786	antisense;	ENSG00000132394.10	EEFSEC	chr3	protein_coding	eukaryotic elongation factor, selenocysteine-tRNA-specific	8154	sample2
+chr6	138693561	138693589	chr6_250592	4	+	29	4	138693562	intron:1.0;	ENSG00000225177.5	RP11-390P2.4	chr6	antisense		--	9091	sample2
+chr2	88784881	88784915	chr2_334231	6	+	35	6	88784887	intron:1.0;	ENSG00000230006.7	ANKRD36BP2	chr2	transcribed_unprocessed_pseudogene	ankyrin repeat domain 36B pseudogene 2	6293	sample2
+chr5	59170128	59170148	chr5_266415	4	+	21	4	59170130	antisense;	ENSG00000113448.16	PDE4D	chr5	protein_coding	phosphodiesterase 4D, cAMP-specific	8500	sample2
+chr7	124360955	124360977	chr7_191446	5	-	23	5	124360957	antisense;	ENSG00000242593.5	RP5-921G16.1	chr7	antisense		--	9862	sample2
+chr16	11385356	11385380	chr16_65723	7	+	25	7	11385361	antisense;	ENSG00000188897.8	CTD-3088G3.8	chr16	protein_coding		--	3628	sample2
+chr2	219373716	219373763	chr2_356539	4	-	48	4	219373737	three_prime_UTR:1.0;	ENSG00000123992.18	DNPEP	chr2	protein_coding	aspartyl aminopeptidase	6659	sample2
+chr6	30346435	30346468	chr6_244323	4	+	34	4	30346448	CDS:1.0;	ENSG00000248167.6	TRIM39-RPP21	chr6	protein_coding	TRIM39-RPP21 readthrough	8923	sample2
+chr9	70413366	70413420	chr9_414301	5	-	55	4	70413375	five_prime_UTR:1.0;	ENSG00000119138.4	KLF9	chr9	protein_coding	Kruppel-like factor 9	10535	sample2
+chrX	119838366	119838460	chrX_207159	5	-	95	4	119838379	CDS:1.0;	ENSG00000125351.10	UPF3B	chrX	protein_coding	UPF3 regulator of nonsense transcripts homolog B (yeast)	11230	sample2
+chr22	32270734	32270774	chr22_213590	4	+	41	4	32270749	noncoding_exon:1.0;	ENSG00000214076.3	CPSF1P1	chr22	processed_pseudogene	cleavage and polyadenylation specific factor 1, 160kDa pseudogene 1	7262	sample2
+chr6	125979884	125979936	chr6_261301	5	-	53	5	125979904	noncoding_exon:0.96;intron:0.04;	ENSG00000251920.1	RNA5SP216	chr6	rRNA	RNA, 5S ribosomal pseudogene 216	9368	sample2
+chr6	30601316	30601368	chr6_255427	4	-	53	4	30601335	three_prime_UTR:1.0;	ENSG00000204569.9	PPP1R10	chr6	protein_coding	protein phosphatase 1, regulatory subunit 10	9221	sample2
+chr19	55180293	55180313	chr19_121505	6	+	21	6	55180296	antisense;	ENSG00000129990.14	SYT5	chr19	protein_coding	synaptotagmin V	5617	sample2
+chrM	5515	5568	chrM_209979	5	-	54	4	5538	antisense;	ENSG00000210117.1	MT-TW	chrM	Mt_tRNA	mitochondrially encoded tRNA tryptophan	10746	sample2
+chr1	15492742	15492791	chr1_382610	4	-	50	4	15492753	three_prime_UTR:1.0;	ENSG00000132906.17	CASP9	chr1	protein_coding	caspase 9, apoptosis-related cysteine peptidase	697	sample2
+chr3	15645491	15645552	chr3_301659	4	+	62	4	15645510	three_prime_UTR:1.0;	ENSG00000169814.12	BTD	chr3	protein_coding	biotinidase	7684	sample2
+chr2	97426048	97426204	chr2_350609	3	-	157	3	97426177	noncoding_exon:1.0;	ENSG00000230606.10	AC159540.1	chr2	lincRNA		--	6584	sample2
+chr19	37337895	37337919	chr19_117163	4	+	25	4	37337896	intron:1.0;	ENSG00000181666.17	HKR1	chr19	protein_coding	HKR1, GLI-Kruppel zinc finger family member	5395	sample2
+chr11	124804777	124804798	chr11_21371	9	-	22	9	124804780	antisense;	ENSG00000245498.6	RP11-677M14.7	chr11	antisense		--	2227	sample2
+chr12	56725262	56725318	chr12_165364	7	-	57	6	56725277	five_prime_UTR:1.0;	ENSG00000196531.10	NACA	chr12	protein_coding	nascent polypeptide-associated complex alpha subunit	2664	sample2
+chr17	46755801	46755823	chr17_45102	9	+	23	9	46755804	CDS:1.0;	ENSG00000073969.18	NSF	chr17	protein_coding	N-ethylmaleimide-sensitive factor	4348	sample2
+chr11	2929075	2929134	chr11_12296	4	-	60	4	2929101	CDS:1.0;	ENSG00000181649.5	PHLDA2	chr11	protein_coding	pleckstrin homology-like domain, family A, member 2	1967	sample2
+chr12	129127718	129127739	chr12_171082	4	-	22	4	129127719	intron:1.0;	ENSG00000151952.14	TMEM132D	chr12	protein_coding	transmembrane protein 132D	2773	sample2
+chr7	155003574	155003615	chr7_183309	5	+	42	5	155003581	noncoding_exon:1.0;	ENSG00000273344.1	PAXIP1-AS1	chr7	lincRNA	PAXIP1 antisense RNA 1 (head to head)	9669	sample2
+chr1	204562408	204562451	chr1_397118	22	-	44	22	204562412	noncoding_exon:0.91;intron:0.09;	ENSG00000200408.1	RNA5SP74	chr1	rRNA	RNA, 5S ribosomal pseudogene 74	1113	sample2
+chr14	92941309	92941366	chr14_108519	6	-	58	5	92941317	three_prime_UTR:1.0;	ENSG00000100605.16	ITPK1	chr14	protein_coding	inositol-tetrakisphosphate 1-kinase	3190	sample2
+chr5	80746534	80746552	chr5_277279	4	-	19	4	80746535	noncoding_exon:1.0;	ENSG00000248967.1	RP11-241J12.3	chr5	processed_pseudogene		--	8702	sample2
+chr2	207181352	207181374	chr2_355821	4	-	23	4	207181355	antisense;	ENSG00000224342.1	AC007879.1	chr2	lincRNA		--	6641	sample2
+chr14	68879597	68879631	chr14_106581	4	-	35	4	68879604	intron:1.0;	ENSG00000072110.13	ACTN1	chr14	protein_coding	actinin, alpha 1	3162	sample2
+chr1	46132717	46132739	chr1_387332	7	-	23	7	46132721	five_prime_UTR:1.0;	ENSG00000117461.14	PIK3R3	chr1	protein_coding	phosphoinositide-3-kinase, regulatory subunit 3 (gamma)	835	sample2
+chr11	62841603	62841721	chr11_16606	34	-	119	26	62841622	five_prime_UTR:1.0;	ENSG00000133316.15	WDR74	chr11	protein_coding	WD repeat domain 74	2087	sample2
+chr19	18777754	18777776	chr19_128015	5	-	23	5	18777757	antisense;	ENSG00000105662.15	CRTC1	chr19	protein_coding	CREB regulated transcription coactivator 1	5976	sample2
+chr22	39136143	39136178	chr22_222419	4	-	36	4	39136144	intron:1.0;	ENSG00000100307.12	CBX7	chr22	protein_coding	chromobox homolog 7	7552	sample2
+chr1	151763453	151763496	chr1_393410	5	-	44	5	151763466	five_prime_UTR:0.12;CDS:0.6;intron:0.28;	ENSG00000143436.10	MRPL9	chr1	protein_coding	mitochondrial ribosomal protein L9	995	sample2
+chr4	143185029	143185075	chr4_290276	4	+	47	4	143185048	five_prime_UTR:1.0;	ENSG00000170185.9	USP38	chr4	protein_coding	ubiquitin specific peptidase 38	8330	sample2
+chr1	151247862	151247932	chr1_371742	5	+	71	4	151247883	three_prime_UTR:0.33;CDS:0.04;intron:0.63;	ENSG00000143398.19	PIP5K1A	chr1	protein_coding	phosphatidylinositol-4-phosphate 5-kinase, type I, alpha	418	sample2
+chr17	48543429	48543477	chr17_57640	4	-	49	4	48543452	CDS:1.0;	ENSG00000173917.10	HOXB2	chr17	protein_coding	homeobox B2	4721	sample2
+chr19	57329029	57329047	chr19_132475	4	-	19	4	57329031	antisense;	ENSG00000178229.7	ZNF543	chr19	protein_coding	zinc finger protein 543	6154	sample2
+chr11	117869015	117869057	chr11_20905	4	-	43	4	117869018	intron:1.0;	ENSG00000137726.15	FXYD6	chr11	protein_coding	FXYD domain containing ion transport regulator 6	2198	sample2
+chr5	141362442	141362460	chr5_271184	4	+	19	4	141362443	intron:1.0;	ENSG00000204956.5	PCDHGA1	chr5	protein_coding	protocadherin gamma subfamily A, 1	8568	sample2
+chr10	19633680	19633711	chr10_32017	10	-	32	10	19633682	noncoding_exon:0.94;intron:0.06;	ENSG00000252001.1	RNA5SP303	chr10	rRNA	RNA, 5S ribosomal pseudogene 303	1407	sample2
+chr4	107003361	107003383	chr4_297163	4	-	23	4	107003363	intron:1.0;	ENSG00000155011.8	DKK2	chr4	protein_coding	dickkopf WNT signaling pathway inhibitor 2	8440	sample2
+chr9	128908029	128908078	chr9_408834	5	+	50	4	128908050	CDS:1.0;	ENSG00000136802.11	LRRC8A	chr9	protein_coding	leucine rich repeat containing 8 family, member A	10357	sample2
+chrX	136659911	136659930	chrX_200880	4	+	20	4	136659913	three_prime_UTR:1.0;	ENSG00000102245.7	CD40LG	chrX	protein_coding	CD40 ligand	10928	sample2
+chr2	3553682	3553758	chr2_344711	4	-	77	4	3553706	intron:1.0;	ENSG00000171865.9	RNASEH1	chr2	protein_coding	ribonuclease H1	6450	sample2
+chr2	74369421	74369491	chr2_349494	9	-	71	8	74369430	CDS:1.0;	ENSG00000204843.12	DCTN1	chr2	protein_coding	dynactin 1	6551	sample2
+chr17	75779712	75779774	chr17_60412	5	-	63	4	75779722	five_prime_UTR:1.0;	ENSG00000132475.8	H3F3B	chr17	protein_coding	H3 histone, family 3B (H3.3B)	4782	sample2
+chr7	101088807	101088856	chr7_179081	4	+	50	4	101088823	CDS:1.0;	ENSG00000169871.12	TRIM56	chr7	protein_coding	tripartite motif containing 56	9588	sample2
+chr11	117205359	117205393	chr11_20839	4	-	35	4	117205368	three_prime_UTR:1.0;	ENSG00000160613.12	PCSK7	chr11	protein_coding	proprotein convertase subtilisin/kexin type 7	2197	sample2
+chr11	21000878	21000925	chr11_14105	10	-	48	10	21000904	noncoding_exon:0.96;intron:0.04;	ENSG00000201059.1	RNA5SP336	chr11	rRNA	RNA, 5S ribosomal pseudogene 336	1995	sample2
+chr10	100821300	100821327	chr10_27796	5	+	28	5	100821308	intron:1.0;	ENSG00000075891.21	PAX2	chr10	protein_coding	paired box 2	1365	sample2
+chr11	62612657	62612676	chr11_4582	4	+	20	4	62612658	intron:1.0;	ENSG00000149489.8	ROM1	chr11	protein_coding	retinal outer segment membrane protein 1	1663	sample2
+chr1	37482876	37482896	chr1_386145	4	-	21	4	37482877	antisense;	ENSG00000163874.8	ZC3H12A	chr1	protein_coding	zinc finger CCCH-type containing 12A	805	sample2
+chr16	6007398	6007419	chr16_65370	4	+	22	4	6007399	intron:1.0;	ENSG00000279877.1	RP11-420N3.3	chr16	processed_transcript		--	3624	sample2
+chr2	240586994	240587052	chr2_344040	7	+	59	5	240587034	CDS:1.0;	ENSG00000142330.19	CAPN10	chr2	protein_coding	calpain 10	6438	sample2
+chr11	62853871	62853968	chr11_16620	41	-	98	35	62853935	intron:1.0;	ENSG00000255717.6	SNHG1	chr11	processed_transcript	small nucleolar RNA host gene 1	2089	sample2
+chr9	135820928	135821010	chr9_420301	4	-	83	4	135820974	CDS:1.0;	ENSG00000130559.18	CAMSAP1	chr9	protein_coding	calmodulin regulated spectrin-associated protein 1	10656	sample2
+chr3	150546206	150546251	chr3_326112	5	-	46	5	150546218	five_prime_UTR:1.0;	ENSG00000120742.10	SERP1	chr3	protein_coding	stress-associated endoplasmic reticulum protein 1	8190	sample2
+chr12	79048231	79048253	chr12_166547	4	-	23	4	79048233	antisense;	ENSG00000067715.13	SYT1	chr12	protein_coding	synaptotagmin I	2687	sample2
+chr7	129770444	129770470	chr7_191722	4	-	27	4	129770448	noncoding_exon:1.0;	ENSG00000207990.2	MIR182	chr7	miRNA	microRNA 182	9864	sample2
+chr19	48635756	48635792	chr19_131219	4	-	37	4	48635775	CDS:1.0;	ENSG00000105516.10	DBP	chr19	protein_coding	D site of albumin promoter (albumin D-box) binding protein	6107	sample2
+chr8	96494152	96494194	chr8_426001	4	+	43	4	96494161	five_prime_UTR:1.0;	ENSG00000169439.11	SDC2	chr8	protein_coding	syndecan 2	10004	sample2
+chr18	9136599	9136627	chr18_137071	4	-	29	4	9136607	noncoding_exon:1.0;	ENSG00000266053.2	NDUFV2-AS1	chr18	antisense	NDUFV2 antisense RNA 1	4975	sample2
+chr5	140124180	140124208	chr5_280274	3	-	29	3	140124191	antisense;	ENSG00000185129.5	PURA	chr5	protein_coding	purine-rich element binding protein A	8742	sample2
+chr3	52697810	52697856	chr3_319764	5	-	47	5	52697834	CDS:1.0;	ENSG00000016864.16	GLT8D1	chr3	protein_coding	glycosyltransferase 8 domain containing 1	8099	sample2
+chr9	133058123	133058157	chr9_410213	4	+	35	4	133058129	three_prime_UTR:1.0;	ENSG00000148308.17	GTF3C5	chr9	protein_coding	general transcription factor IIIC, polypeptide 5, 63kDa	10412	sample2
+chr5	150302431	150302458	chr5_271802	23	+	28	23	150302439	antisense;	ENSG00000183876.8	ARSI	chr5	protein_coding	arylsulfatase family, member I	8573	sample2
+chr19	10319205	10319240	chr19_125928	4	-	36	4	10319224	CDS:1.0;	ENSG00000267303.1	CTD-2369P2.12	chr19	protein_coding		--	5856	sample2
+chr21	43694797	43694846	chr21_238444	5	+	50	5	43694799	three_prime_UTR:1.0;	ENSG00000160208.12	RRP1B	chr21	protein_coding	ribosomal RNA processing 1B	7094	sample2
+chr10	87754454	87754489	chr10_35333	4	-	36	4	87754463	three_prime_UTR:1.0;	ENSG00000138138.13	ATAD1	chr10	protein_coding	ATPase family, AAA domain containing 1	1480	sample2
+chr3	136298025	136298060	chr3_311176	4	+	36	4	136298033	CDS:1.0;	ENSG00000114054.13	PCCB	chr3	protein_coding	propionyl CoA carboxylase, beta polypeptide	7872	sample2
+chr5	32355470	32355489	chr5_265557	5	+	20	5	32355472	antisense;	ENSG00000056097.15	ZFR	chr5	protein_coding	zinc finger RNA binding protein	8493	sample2
+chr9	97633822	97633869	chr9_405500	5	+	48	5	97633846	five_prime_UTR:1.0;	ENSG00000136937.12	NCBP1	chr9	protein_coding	nuclear cap binding protein subunit 1, 80kDa	10289	sample2
+chr3	52054189	52054239	chr3_319456	5	-	51	5	52054215	CDS:1.0;	ENSG00000164086.9	DUSP7	chr3	protein_coding	dual specificity phosphatase 7	8077	sample2
+chr6	17721783	17721809	chr6_254758	4	-	27	4	17721785	noncoding_exon:0.92;intron:0.08;	ENSG00000201415.1	RNA5SP204	chr6	rRNA	RNA, 5S ribosomal pseudogene 204	9161	sample2
+chr19	55621242	55621306	chr19_132323	4	-	65	4	55621286	three_prime_UTR:1.0;	ENSG00000179922.5	ZNF784	chr19	protein_coding	zinc finger protein 784	6153	sample2
+chr19	14119674	14119733	chr19_126812	4	-	60	4	14119712	three_prime_UTR:1.0;	ENSG00000105011.8	ASF1B	chr19	protein_coding	anti-silencing function 1B histone chaperone	5910	sample2
+chrY	11107789	11107828	chrY_194697	3	+	40	3	11107806	antisense;	ENSG00000270570.1	RP1-85D24.1	chrY	processed_pseudogene		--	11342	sample2
+chr15	42567460	42567488	chr15_90045	2	-	29	2	42567466	antisense;	ENSG00000137814.9	HAUS2	chr15	protein_coding	HAUS augmin-like complex, subunit 2	3382	sample2
+chr1	91830026	91830046	chr1_390926	7	-	21	7	91830028	intron:1.0;	ENSG00000069702.10	TGFBR3	chr1	protein_coding	transforming growth factor, beta receptor III	916	sample2
+chr1	108573524	108573548	chr1_391614	7	-	25	7	108573526	antisense;	ENSG00000162636.15	FAM102B	chr1	protein_coding	family with sequence similarity 102, member B	926	sample2
+chr15	64980863	64980951	chr15_91775	5	-	89	4	64980884	CDS:1.0;	ENSG00000090487.10	SPG21	chr15	protein_coding	spastic paraplegia 21 (autosomal recessive, Mast syndrome)	3399	sample2
+chr18	5544064	5544087	chr18_136937	10	-	24	10	5544068	five_prime_UTR:1.0;	ENSG00000082397.15	EPB41L3	chr18	protein_coding	erythrocyte membrane protein band 4.1-like 3	4973	sample2
+chr8	116850746	116850767	chr8_433517	5	-	22	5	116850749	CDS:1.0;	ENSG00000164754.12	RAD21	chr8	protein_coding	RAD21 homolog (S. pombe)	10159	sample2
+chr12	102118543	102118583	chr12_167542	4	-	41	4	102118566	five_prime_UTR:1.0;	ENSG00000075188.8	NUP37	chr12	protein_coding	nucleoporin 37kDa	2702	sample2
+chr11	62753118	62753156	chr11_16539	4	-	39	4	62753127	CDS:1.0;	ENSG00000185670.7	ZBTB3	chr11	protein_coding	zinc finger and BTB domain containing 3	2085	sample2
+chr12	120291843	120291877	chr12_169673	13	-	35	13	120291852	noncoding_exon:1.0;	ENSG00000202538.1	RNU4-2	chr12	snRNA	RNA, U4 small nuclear 2	2739	sample2
+chr3	181822869	181822908	chr3_327298	17	-	40	17	181822871	noncoding_exon:0.95;intron:0.05;	ENSG00000199839.1	RNA5SP150	chr3	rRNA	RNA, 5S ribosomal pseudogene 150	8210	sample2
+chr3	131362274	131362298	chr3_324954	6	-	25	6	131362278	intron:1.0;	ENSG00000250608.1	RP11-933H2.4	chr3	processed_transcript		--	8177	sample2
+chr2	26034124	26034162	chr2_329770	5	+	39	5	26034126	five_prime_UTR:1.0;	ENSG00000084733.10	RAB10	chr2	protein_coding	RAB10, member RAS oncogene family	6178	sample2
+chr9	122526617	122526636	chr9_407229	6	+	20	6	122526619	antisense;	ENSG00000171505.5	OR1N1	chr9	protein_coding	olfactory receptor, family 1, subfamily N, member 1	10300	sample2

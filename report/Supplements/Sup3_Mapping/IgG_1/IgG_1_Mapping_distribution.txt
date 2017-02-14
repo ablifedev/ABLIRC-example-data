@@ -1,0 +1,7 @@
++Type	Reads	Fraction
+noncoding_exon	18265	14.89%
+intron	30943	25.23%
+CDS	38460	31.36%
+five_prime_UTR	5770	4.71%
+three_prime_UTR	18841	15.36%
+intergenic	10352	8.44%

@@ -1,0 +1,6 @@
+Sample	Total genes in genome	Expressed genes(RPKM>0)(%) a	Expressed genes(RPKM>=1)(%) b
+Eif3b_1	60498	21382(35.34%)	16341(76.42%)
+Eif3b_2	60498	25443(42.06%)	16846(66.21%)
+IgG_1	60498	10501(17.36%)	10356(98.62%)
+IgG_2	60498	13431(22.20%)	12710(94.63%)
+		a 表达的gene数占总参考<br>基因组中gene总数的比例	b RPKM值大于等于1的gene数<br>占RPKM值大于0的gene的比例

@@ -1,0 +1,16 @@
+[17-02-14 02:10 : DEBUG] 
+      ：
+
+
+
+[17-02-14 02:10 : DEBUG] Program version: v0.1
+[17-02-14 02:10 : DEBUG] Start the program with [/root/test/bin/public/gff2db.py -g all.gff -d all.db ]
+
+[17-02-14 02:10 : DEBUG]    ：Program start at 2017-02-14 02:10:18.070622
+[17-02-14 02:23 : INFO] Finished!
+
+[17-02-14 02:23 : DEBUG] Temp folder is deleted..
+[17-02-14 02:23 : DEBUG] Program ended
+[17-02-14 02:23 : DEBUG]    ：Program start at 2017-02-14 02:10:18.070622
+[17-02-14 02:23 : DEBUG]    ：Program end at 2017-02-14 02:23:14.988021
+[17-02-14 02:23 : DEBUG]    ：Program ran 00:12:56

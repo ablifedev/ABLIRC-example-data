@@ -1,0 +1,1666 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN">
+<html>
+<head><title>IgG_2.fq FastQC Report</title>
+
+<style type="text/css">
+
+ @media screen {
+  div.summary {
+    width: 18em;
+    position:fixed;
+    top: 3em;
+    margin:1em 0 0 1em;
+  }
+  
+  div.main {
+    display:block;
+    position:absolute;
+    overflow:auto;
+    height:auto;
+    width:auto;
+    top:4.5em;
+    bottom:2.3em;
+    left:18em;
+    right:0;
+    border-left: 1px solid #CCC;
+    padding:0 0 0 1em;
+    background-color: white;
+    z-index:1;
+  }
+  
+  div.header {
+    background-color: #EEE;
+    border:0;
+    margin:0;
+    padding: 0.5em;
+    font-size: 200%;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:2;
+  }
+
+  div.footer {
+    background-color: #EEE;
+    border:0;
+    margin:0;
+	padding:0.5em;
+    height: 1.3em;
+	overflow:hidden;
+    font-size: 100%;
+    font-weight: bold;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index:2;
+  }
+  
+  img.indented {
+    margin-left: 3em;
+  }
+ }
+ 
+ @media print {
+	img {
+		max-width:100% !important;
+		page-break-inside: avoid;
+	}
+	h2, h3 {
+		page-break-after: avoid;
+	}
+	div.header {
+      background-color: #FFF;
+    }
+	
+ }
+ 
+ body {    
+  font-family: sans-serif;   
+  color: #000;   
+  background-color: #FFF;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  }
+  
+  div.header {
+  border:0;
+  margin:0;
+  padding: 0.5em;
+  font-size: 200%;
+  font-weight: bold;
+  width:100%;
+  }    
+  
+  #header_title {
+  display:inline-block;
+  float:left;
+  clear:left;
+  }
+  #header_filename {
+  display:inline-block;
+  float:right;
+  clear:right;
+  font-size: 50%;
+  margin-right:2em;
+  text-align: right;
+  }
+
+  div.header h3 {
+  font-size: 50%;
+  margin-bottom: 0;
+  }
+  
+  div.summary ul {
+  padding-left:0;
+  list-style-type:none;
+  }
+  
+  div.summary ul li img {
+  margin-bottom:-0.5em;
+  margin-top:0.5em;
+  }
+	  
+  div.main {
+  background-color: white;
+  }
+      
+  div.module {
+  padding-bottom:1.5em;
+  padding-top:1.5em;
+  }
+	  
+  div.footer {
+  background-color: #EEE;
+  border:0;
+  margin:0;
+  padding: 0.5em;
+  font-size: 100%;
+  font-weight: bold;
+  width:100%;
+  }
+
+
+  a {
+  color: #000080;
+  }
+
+  a:hover {
+  color: #800000;
+  }
+      
+  h2 {
+  color: #800000;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  clear:left;
+  }
+
+  table { 
+  margin-left: 3em;
+  text-align: center;
+  }
+  
+  th { 
+  text-align: center;
+  background-color: #000080;
+  color: #FFF;
+  padding: 0.4em;
+  }      
+  
+  td { 
+  font-family: monospace; 
+  text-align: left;
+  background-color: #EEE;
+  color: #000;
+  padding: 0.4em;
+  }
+
+  img {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+  }
+
+  
+  p {
+  padding-top: 0;
+  margin-top: 0;
+  }
+  
+</style>
+
+</head>
+<body>
+<div class="header">
+<div id="header_title"><img src="Icons/fastqc_icon.png" alt="FastQC">FastQC Report</div>
+<div id="header_filename">
+星期一 13 二月 2017<br />
+IgG_2.fq
+</div>
+</div>
+<div class="summary">
+<h2>Summary</h2>
+<ul>
+<li><img src="Icons/tick.png" alt="[PASS]"> <a href="#M0">Basic Statistics</a></li>
+<li><img src="Icons/tick.png" alt="[PASS]"> <a href="#M1">Per base sequence quality</a></li>
+<li><img src="Icons/tick.png" alt="[PASS]"> <a href="#M2">Per sequence quality scores</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M3">Per base sequence content</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M4">Per base GC content</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M5">Per sequence GC content</a></li>
+<li><img src="Icons/tick.png" alt="[PASS]"> <a href="#M6">Per base N content</a></li>
+<li><img src="Icons/warning.png" alt="[WARNING]"> <a href="#M7">Sequence Length Distribution</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M8">Sequence Duplication Levels</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M9">Overrepresented sequences</a></li>
+<li><img src="Icons/error.png" alt="[FAIL]"> <a href="#M10">Kmer Content</a></li>
+</ul>
+</div>
+<div class="main">
+<div class="module"><h2 id="M0"><img src="Icons/tick.png" alt="[OK]"> Basic Statistics</h2>
+<table>
+<tr>
+<th>Measure</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>Filename</td>
+<td>IgG_2.fq</td>
+</tr>
+<tr>
+<td>File type</td>
+<td>Conventional base calls</td>
+</tr>
+<tr>
+<td>Encoding</td>
+<td>Sanger / Illumina 1.9</td>
+</tr>
+<tr>
+<td>Total Sequences</td>
+<td>1984719</td>
+</tr>
+<tr>
+<td>Sequence length</td>
+<td>16-148</td>
+</tr>
+<tr>
+<td>%GC</td>
+<td>56</td>
+</tr>
+</table>
+</div>
+<div class="module"><h2 id="M1"><img src="Icons/tick.png" alt="[OK]"> Per base sequence quality</h2>
+<p><img class="indented" src="Images/per_base_quality.png" alt="Per base quality graph"></p>
+</div>
+<div class="module"><h2 id="M2"><img src="Icons/tick.png" alt="[OK]"> Per sequence quality scores</h2>
+<p><img class="indented" src="Images/per_sequence_quality.png" alt="Per Sequence quality graph"></p>
+</div>
+<div class="module"><h2 id="M3"><img src="Icons/error.png" alt="[FAIL]"> Per base sequence content</h2>
+<p><img class="indented" src="Images/per_base_sequence_content.png" alt="Per base sequence content"></p>
+</div>
+<div class="module"><h2 id="M4"><img src="Icons/error.png" alt="[FAIL]"> Per base GC content</h2>
+<p><img class="indented" src="Images/per_base_gc_content.png" alt="Per base GC content graph"></p>
+</div>
+<div class="module"><h2 id="M5"><img src="Icons/error.png" alt="[FAIL]"> Per sequence GC content</h2>
+<p><img class="indented" src="Images/per_sequence_gc_content.png" alt="Per sequence GC content graph"></p>
+</div>
+<div class="module"><h2 id="M6"><img src="Icons/tick.png" alt="[OK]"> Per base N content</h2>
+<p><img class="indented" src="Images/per_base_n_content.png" alt="N content graph"></p>
+</div>
+<div class="module"><h2 id="M7"><img src="Icons/warning.png" alt="[WARN]"> Sequence Length Distribution</h2>
+<p><img class="indented" src="Images/sequence_length_distribution.png" alt="Sequence length distribution"></p>
+</div>
+<div class="module"><h2 id="M8"><img src="Icons/error.png" alt="[FAIL]"> Sequence Duplication Levels</h2>
+<p><img class="indented" src="Images/duplication_levels.png" alt="Duplication level graph"></p>
+</div>
+<div class="module"><h2 id="M9"><img src="Icons/error.png" alt="[FAIL]"> Overrepresented sequences</h2>
+<table>
+<tr>
+<th>Sequence</th>
+<th>Count</th>
+<th>Percentage</th>
+<th>Possible Source</th>
+</tr>
+<tr>
+<td>TGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>240541</td>
+<td>12.119650187255727</td>
+<td>RNA PCR Primer, Index 11 (100% over 50bp)</td>
+</tr>
+<tr>
+<td>GGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>26525</td>
+<td>1.3364612320434277</td>
+<td>RNA PCR Primer, Index 11 (100% over 52bp)</td>
+</tr>
+<tr>
+<td>GTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>17067</td>
+<td>0.8599202204443048</td>
+<td>RNA PCR Primer, Index 11 (100% over 51bp)</td>
+</tr>
+<tr>
+<td>TGCCAAGGAACTCCAGTCACGGCTACCTCTCGTATGCCGTCTTCTGCTTG</td>
+<td>15421</td>
+<td>0.776986565856426</td>
+<td>RNA PCR Primer, Index 11 (98% over 50bp)</td>
+</tr>
+<tr>
+<td>CTCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>12250</td>
+<td>0.6172158376072381</td>
+<td>RNA PCR Primer, Index 11 (100% over 56bp)</td>
+</tr>
+<tr>
+<td>TGCCAAGGAACTCCAGTCACGGCTACATGTCGTATGCCGTCTTCTGCTTG</td>
+<td>9085</td>
+<td>0.4577474191560619</td>
+<td>RNA PCR Primer, Index 11 (98% over 50bp)</td>
+</tr>
+<tr>
+<td>TCGTACGACTCTTAGCGG</td>
+<td>8760</td>
+<td>0.4413723050970943</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CGGTTCCGGCGGCGTCCGGTGAGCTCTCGCTGG</td>
+<td>8419</td>
+<td>0.4241910315767623</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>TGCCAAGGAACTCCAGTCACGGCTACAGCTCGTATGCCGTCTTCTGCTTG</td>
+<td>7249</td>
+<td>0.3652406209644791</td>
+<td>RNA PCR Primer, Index 11 (98% over 50bp)</td>
+</tr>
+<tr>
+<td>TCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>7061</td>
+<td>0.3557682472934456</td>
+<td>RNA PCR Primer, Index 11 (100% over 55bp)</td>
+</tr>
+<tr>
+<td>AGTTCTACAGTCCGACGATC</td>
+<td>4405</td>
+<td>0.22194577670692928</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>TTTTTTTAATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACG</td>
+<td>4215</td>
+<td>0.21237263310322518</td>
+<td>Illumina Single End PCR Primer 1 (100% over 43bp)</td>
+</tr>
+<tr>
+<td>CCTCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>3773</td>
+<td>0.19010247798302932</td>
+<td>RNA PCR Primer, Index 11 (98% over 57bp)</td>
+</tr>
+<tr>
+<td>GGTTCCGGCGGCGTCCGGTGAGCTCTCGCTGG</td>
+<td>3512</td>
+<td>0.17695200176952003</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CGGTTCCGGCGGCGTCCGGTGAGCTCTCGCTG</td>
+<td>3257</td>
+<td>0.1641038353540224</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>TCTCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>2953</td>
+<td>0.14878680558809584</td>
+<td>RNA PCR Primer, Index 11 (100% over 57bp)</td>
+</tr>
+<tr>
+<td>ATGTGGCGTACGGAAGACCCG</td>
+<td>2714</td>
+<td>0.1367447986339628</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CGCTCGCCGGCCGAGGTGGGATCCCGAGG</td>
+<td>2647</td>
+<td>0.1333690058894987</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CGCGACCTCAGATCAGACGTGGCGACCCG</td>
+<td>2601</td>
+<td>0.13105129743807561</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CCGAGGTGGGATCCCGAGGC</td>
+<td>2582</td>
+<td>0.1300939830777052</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>ATTCTCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>2520</td>
+<td>0.12697011516491755</td>
+<td>RNA PCR Primer, Index 11 (100% over 59bp)</td>
+</tr>
+<tr>
+<td>GGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG</td>
+<td>2472</td>
+<td>0.12455163678082389</td>
+<td>RNA PCR Primer, Index 11 (100% over 53bp)</td>
+</tr>
+<tr>
+<td>CTGGCGTGGAGCCGGGCG</td>
+<td>2343</td>
+<td>0.11805197612357214</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>AAGTCTTTGGGTTCCGG</td>
+<td>2333</td>
+<td>0.11754812646021931</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>CATGTGGCGTACGGAAGACCCG</td>
+<td>2173</td>
+<td>0.10948653184657375</td>
+<td>No Hit</td>
+</tr>
+<tr>
+<td>GAGTTCTACAGTCCGACGATCA</td>
+<td>2072</td>
+<td>0.10439765024671</td>
+<td>Illumina DpnII expression Sequencing Primer (100% over 21bp)</td>
+</tr>
+<tr>
+<td>CGAGAACTTTGAAGGCCGAAG</td>
+<td>1998</td>
+<td>0.10066916273789892</td>
+<td>No Hit</td>
+</tr>
+</table>
+</div>
+<div class="module"><h2 id="M10"><img src="Icons/error.png" alt="[FAIL]"> Kmer Content</h2>
+<p><img class="indented" src="Images/kmer_profiles.png" alt="Kmer graph"></p>
+<table>
+<tr>
+<th>Sequence</th>
+<th>Count</th>
+<th>Obs/Exp Overall</th>
+<th>Obs/Exp Max</th>
+<th>Max Obs/Exp Position</th>
+</tr>
+<tr>
+<td>AAGGA</td>
+<td>474975</td>
+<td>14.117007</td>
+<td>264.06482</td>
+<td>5</td>
+</tr>
+<tr>
+<td>AGGAA</td>
+<td>469770</td>
+<td>13.962304</td>
+<td>264.16788</td>
+<td>6</td>
+</tr>
+<tr>
+<td>CTACA</td>
+<td>516835</td>
+<td>11.929638</td>
+<td>87.081245</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>GAACT</td>
+<td>486890</td>
+<td>11.821832</td>
+<td>216.031</td>
+<td>8</td>
+</tr>
+<tr>
+<td>TACAT</td>
+<td>401200</td>
+<td>11.583098</td>
+<td>98.022484</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>AGTCA</td>
+<td>452750</td>
+<td>10.992903</td>
+<td>82.1277</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>AACTC</td>
+<td>459910</td>
+<td>10.61569</td>
+<td>204.88986</td>
+<td>9</td>
+</tr>
+<tr>
+<td>GTATG</td>
+<td>444860</td>
+<td>9.763746</td>
+<td>144.50694</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>TCGTA</td>
+<td>462900</td>
+<td>9.658323</td>
+<td>137.85353</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>GGAAC</td>
+<td>472635</td>
+<td>9.650946</td>
+<td>181.48695</td>
+<td>7</td>
+</tr>
+<tr>
+<td>CAAGG</td>
+<td>464445</td>
+<td>9.48371</td>
+<td>180.74748</td>
+<td>4</td>
+</tr>
+<tr>
+<td>TATGC</td>
+<td>444575</td>
+<td>9.275973</td>
+<td>124.15635</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>CGTAT</td>
+<td>438915</td>
+<td>9.157879</td>
+<td>138.51947</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>CCAAG</td>
+<td>470135</td>
+<td>9.126161</td>
+<td>171.46161</td>
+<td>3</td>
+</tr>
+<tr>
+<td>ACATC</td>
+<td>386290</td>
+<td>8.916385</td>
+<td>111.603035</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>GCCAA</td>
+<td>456295</td>
+<td>8.857499</td>
+<td>171.13568</td>
+<td>2</td>
+</tr>
+<tr>
+<td>TTCTG</td>
+<td>476095</td>
+<td>8.536283</td>
+<td>137.60573</td>
+<td>40-44</td>
+</tr>
+<tr>
+<td>TCTTC</td>
+<td>495655</td>
+<td>8.448432</td>
+<td>133.19847</td>
+<td>40-44</td>
+</tr>
+<tr>
+<td>CAGTC</td>
+<td>503820</td>
+<td>8.404299</td>
+<td>32.637886</td>
+<td>10-14</td>
+</tr>
+<tr>
+<td>GTCTT</td>
+<td>458280</td>
+<td>8.216864</td>
+<td>111.51665</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>TGCTT</td>
+<td>452065</td>
+<td>8.10543</td>
+<td>300.44156</td>
+<td>45-49</td>
+</tr>
+<tr>
+<td>ATCTC</td>
+<td>402775</td>
+<td>7.9891114</td>
+<td>95.19862</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>CTTCT</td>
+<td>467425</td>
+<td>7.967251</td>
+<td>132.18333</td>
+<td>40-44</td>
+</tr>
+<tr>
+<td>GGCTA</td>
+<td>449220</td>
+<td>7.882495</td>
+<td>78.710396</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>ATGCC</td>
+<td>470340</td>
+<td>7.845814</td>
+<td>93.30158</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>CATCT</td>
+<td>392910</td>
+<td>7.793437</td>
+<td>94.96202</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>TCCAG</td>
+<td>464275</td>
+<td>7.7446427</td>
+<td>37.654434</td>
+<td>10-14</td>
+</tr>
+<tr>
+<td>CCAGT</td>
+<td>461275</td>
+<td>7.694599</td>
+<td>34.175144</td>
+<td>10-14</td>
+</tr>
+<tr>
+<td>GCTAC</td>
+<td>458140</td>
+<td>7.6423025</td>
+<td>73.95057</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>TGCCA</td>
+<td>450615</td>
+<td>7.5167785</td>
+<td>147.10391</td>
+<td>1</td>
+</tr>
+<tr>
+<td>GTCAC</td>
+<td>448135</td>
+<td>7.475409</td>
+<td>56.16755</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>TCACG</td>
+<td>447085</td>
+<td>7.457894</td>
+<td>55.504566</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>CTCCA</td>
+<td>462565</td>
+<td>7.33534</td>
+<td>35.899364</td>
+<td>10-14</td>
+</tr>
+<tr>
+<td>ACTCC</td>
+<td>457075</td>
+<td>7.2482796</td>
+<td>36.03341</td>
+<td>10-14</td>
+</tr>
+<tr>
+<td>TCTCG</td>
+<td>478415</td>
+<td>6.8579054</td>
+<td>70.02356</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>ACGGC</td>
+<td>486960</td>
+<td>6.831396</td>
+<td>40.960907</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>TCTGC</td>
+<td>465560</td>
+<td>6.673634</td>
+<td>100.65294</td>
+<td>40-44</td>
+</tr>
+<tr>
+<td>CGTCT</td>
+<td>458005</td>
+<td>6.565335</td>
+<td>95.14974</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>CTGCT</td>
+<td>454970</td>
+<td>6.5218296</td>
+<td>94.12021</td>
+<td>40-44</td>
+</tr>
+<tr>
+<td>CTCGT</td>
+<td>454485</td>
+<td>6.5148773</td>
+<td>66.39014</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>CACGG</td>
+<td>461345</td>
+<td>6.4720516</td>
+<td>42.647247</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>AAAAA</td>
+<td>107645</td>
+<td>6.1258206</td>
+<td>290.05624</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>CGGCT</td>
+<td>488230</td>
+<td>5.8857427</td>
+<td>56.40847</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>TGCCG</td>
+<td>456100</td>
+<td>5.498407</td>
+<td>88.57602</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>GCCGT</td>
+<td>451455</td>
+<td>5.4424105</td>
+<td>88.52862</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>CCGTC</td>
+<td>471020</td>
+<td>5.398059</td>
+<td>83.47727</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>TTTTT</td>
+<td>115645</td>
+<td>3.0839005</td>
+<td>18.112057</td>
+<td>2</td>
+</tr>
+<tr>
+<td>TGAAA</td>
+<td>63915</td>
+<td>2.2588353</td>
+<td>27.719719</td>
+<td>45-49</td>
+</tr>
+<tr>
+<td>CTCTT</td>
+<td>124330</td>
+<td>2.1192026</td>
+<td>19.384007</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>TCCGA</td>
+<td>123155</td>
+<td>2.0543675</td>
+<td>36.66053</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>TTGAA</td>
+<td>67555</td>
+<td>2.051634</td>
+<td>27.616018</td>
+<td>45-49</td>
+</tr>
+<tr>
+<td>GAAGA</td>
+<td>68225</td>
+<td>2.0277548</td>
+<td>8.898843</td>
+<td>120-124</td>
+</tr>
+<tr>
+<td>CGGCG</td>
+<td>196455</td>
+<td>1.9917277</td>
+<td>6.1698856</td>
+<td>7</td>
+</tr>
+<tr>
+<td>GATCT</td>
+<td>94335</td>
+<td>1.9682822</td>
+<td>54.616783</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>CGAGA</td>
+<td>91985</td>
+<td>1.8782831</td>
+<td>5.519787</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>AAGAA</td>
+<td>45035</td>
+<td>1.8521293</td>
+<td>14.954338</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>GAAAA</td>
+<td>45020</td>
+<td>1.8515124</td>
+<td>76.40991</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>GGTGC</td>
+<td>145925</td>
+<td>1.8504826</td>
+<td>12.047507</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ACTCT</td>
+<td>92770</td>
+<td>1.8401088</td>
+<td>8.138209</td>
+<td>8</td>
+</tr>
+<tr>
+<td>TACAC</td>
+<td>79200</td>
+<td>1.8281026</td>
+<td>37.249645</td>
+<td>70-74</td>
+</tr>
+<tr>
+<td>TACAG</td>
+<td>70185</td>
+<td>1.7041124</td>
+<td>5.3532734</td>
+<td>6</td>
+</tr>
+<tr>
+<td>GAGAA</td>
+<td>56215</td>
+<td>1.6707983</td>
+<td>5.837715</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>CGATC</td>
+<td>99990</td>
+<td>1.6679486</td>
+<td>41.493332</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>GTGCC</td>
+<td>138200</td>
+<td>1.6660378</td>
+<td>11.496475</td>
+<td>2</td>
+</tr>
+<tr>
+<td>AATGA</td>
+<td>45160</td>
+<td>1.5960102</td>
+<td>12.460285</td>
+<td>8</td>
+</tr>
+<tr>
+<td>ATGAA</td>
+<td>44400</td>
+<td>1.5691508</td>
+<td>6.5837684</td>
+<td>125-129</td>
+</tr>
+<tr>
+<td>CGGGT</td>
+<td>122775</td>
+<td>1.5569165</td>
+<td>6.710851</td>
+<td>3</td>
+</tr>
+<tr>
+<td>GCTCT</td>
+<td>107885</td>
+<td>1.5464922</td>
+<td>19.365665</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>TCAGA</td>
+<td>62695</td>
+<td>1.522253</td>
+<td>7.9574766</td>
+<td>8</td>
+</tr>
+<tr>
+<td>AAAAT</td>
+<td>31000</td>
+<td>1.5159774</td>
+<td>25.104116</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>AGATC</td>
+<td>62145</td>
+<td>1.5088989</td>
+<td>7.8830185</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>TTCCG</td>
+<td>104055</td>
+<td>1.4915906</td>
+<td>31.132057</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>CGACG</td>
+<td>105715</td>
+<td>1.4830396</td>
+<td>13.907286</td>
+<td>75-79</td>
+</tr>
+<tr>
+<td>GGCGG</td>
+<td>138640</td>
+<td>1.4785432</td>
+<td>6.593746</td>
+<td>8</td>
+</tr>
+<tr>
+<td>GAGAT</td>
+<td>57645</td>
+<td>1.4722925</td>
+<td>7.7267165</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>GGTAA</td>
+<td>57395</td>
+<td>1.4659072</td>
+<td>8.359917</td>
+<td>8</td>
+</tr>
+<tr>
+<td>GGGTG</td>
+<td>106885</td>
+<td>1.425774</td>
+<td>6.7223535</td>
+<td>4</td>
+</tr>
+<tr>
+<td>ACAGT</td>
+<td>58310</td>
+<td>1.4157838</td>
+<td>5.2353587</td>
+<td>7</td>
+</tr>
+<tr>
+<td>AGAAA</td>
+<td>34290</td>
+<td>1.4102257</td>
+<td>12.685404</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>TCTTA</td>
+<td>56765</td>
+<td>1.4083321</td>
+<td>9.7799635</td>
+<td>5</td>
+</tr>
+<tr>
+<td>AAAAG</td>
+<td>34165</td>
+<td>1.405085</td>
+<td>23.891342</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>AGAAG</td>
+<td>46945</td>
+<td>1.3952795</td>
+<td>6.9750237</td>
+<td>125-129</td>
+</tr>
+<tr>
+<td>CGGTG</td>
+<td>109955</td>
+<td>1.3943453</td>
+<td>5.098948</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>ACACG</td>
+<td>71270</td>
+<td>1.3834779</td>
+<td>31.707626</td>
+<td>70-74</td>
+</tr>
+<tr>
+<td>ACGAT</td>
+<td>56650</td>
+<td>1.3754786</td>
+<td>9.106207</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>TTAAT</td>
+<td>37990</td>
+<td>1.3718973</td>
+<td>13.017664</td>
+<td>6</td>
+</tr>
+<tr>
+<td>TCTAC</td>
+<td>68365</td>
+<td>1.3560315</td>
+<td>6.4343357</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>ACGAC</td>
+<td>69080</td>
+<td>1.3409661</td>
+<td>17.174965</td>
+<td>70-74</td>
+</tr>
+<tr>
+<td>CTTAG</td>
+<td>64155</td>
+<td>1.3385823</td>
+<td>8.572244</td>
+<td>6</td>
+</tr>
+<tr>
+<td>ATCTA</td>
+<td>45870</td>
+<td>1.3243189</td>
+<td>16.806623</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>AGCTC</td>
+<td>78625</td>
+<td>1.3115557</td>
+<td>5.8993335</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>GGTGA</td>
+<td>70680</td>
+<td>1.3046069</td>
+<td>5.093542</td>
+<td>15-19</td>
+</tr>
+<tr>
+<td>GGTTC</td>
+<td>86350</td>
+<td>1.3020496</td>
+<td>7.9085813</td>
+<td>2</td>
+</tr>
+<tr>
+<td>CCGGC</td>
+<td>135065</td>
+<td>1.3017608</td>
+<td>5.5778923</td>
+<td>6</td>
+</tr>
+<tr>
+<td>TCCGG</td>
+<td>106500</td>
+<td>1.2838858</td>
+<td>6.423173</td>
+<td>5</td>
+</tr>
+<tr>
+<td>TTTAA</td>
+<td>35065</td>
+<td>1.2662694</td>
+<td>13.263184</td>
+<td>5</td>
+</tr>
+<tr>
+<td>GACGA</td>
+<td>61795</td>
+<td>1.26182</td>
+<td>8.113887</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>GAAAG</td>
+<td>42425</td>
+<td>1.2609379</td>
+<td>6.226897</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>CCGAT</td>
+<td>74485</td>
+<td>1.2424958</td>
+<td>29.227556</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>CTTGA</td>
+<td>58470</td>
+<td>1.2199658</td>
+<td>21.404228</td>
+<td>45-49</td>
+</tr>
+<tr>
+<td>AAGAG</td>
+<td>40560</td>
+<td>1.2055073</td>
+<td>5.604207</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>AGTCC</td>
+<td>71625</td>
+<td>1.1947876</td>
+<td>5.0968266</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>TTTTA</td>
+<td>38455</td>
+<td>1.1933441</td>
+<td>12.026115</td>
+<td>4</td>
+</tr>
+<tr>
+<td>TTCTA</td>
+<td>47870</td>
+<td>1.1876484</td>
+<td>5.0397277</td>
+<td>3</td>
+</tr>
+<tr>
+<td>ATGAT</td>
+<td>38855</td>
+<td>1.1800197</td>
+<td>10.825501</td>
+<td>9</td>
+</tr>
+<tr>
+<td>TGAAC</td>
+<td>48590</td>
+<td>1.1797794</td>
+<td>5.7811313</td>
+<td>2</td>
+</tr>
+<tr>
+<td>GACTC</td>
+<td>70670</td>
+<td>1.1788572</td>
+<td>6.8696017</td>
+<td>7</td>
+</tr>
+<tr>
+<td>AAGTC</td>
+<td>48310</td>
+<td>1.172981</td>
+<td>6.835614</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ACCTC</td>
+<td>73920</td>
+<td>1.1722208</td>
+<td>5.621859</td>
+<td>5</td>
+</tr>
+<tr>
+<td>TCGGG</td>
+<td>91210</td>
+<td>1.156639</td>
+<td>6.239298</td>
+<td>2</td>
+</tr>
+<tr>
+<td>CTCGG</td>
+<td>95815</td>
+<td>1.1550753</td>
+<td>5.877872</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AAAAC</td>
+<td>29385</td>
+<td>1.1488631</td>
+<td>20.826683</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>GAGCT</td>
+<td>64985</td>
+<td>1.1402965</td>
+<td>5.384397</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>GTTCC</td>
+<td>78465</td>
+<td>1.1247673</td>
+<td>7.573999</td>
+<td>3</td>
+</tr>
+<tr>
+<td>AAAGA</td>
+<td>27175</td>
+<td>1.117611</td>
+<td>12.601342</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>CACGA</td>
+<td>56835</td>
+<td>1.1032687</td>
+<td>30.4881</td>
+<td>70-74</td>
+</tr>
+<tr>
+<td>GCGGC</td>
+<td>108210</td>
+<td>1.0970699</td>
+<td>5.979978</td>
+<td>9</td>
+</tr>
+<tr>
+<td>TAATG</td>
+<td>35755</td>
+<td>1.0858732</td>
+<td>10.665373</td>
+<td>7</td>
+</tr>
+<tr>
+<td>AGAGA</td>
+<td>36460</td>
+<td>1.0836488</td>
+<td>5.13719</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>AAATA</td>
+<td>21905</td>
+<td>1.0712092</td>
+<td>11.229685</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>CGCTC</td>
+<td>93055</td>
+<td>1.0664438</td>
+<td>15.7600155</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>TTAGC</td>
+<td>51010</td>
+<td>1.0643142</td>
+<td>8.595405</td>
+<td>7</td>
+</tr>
+<tr>
+<td>TCTTT</td>
+<td>48820</td>
+<td>1.0408373</td>
+<td>6.29282</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>TGGAA</td>
+<td>40035</td>
+<td>1.0225211</td>
+<td>5.032719</td>
+<td>115-119</td>
+</tr>
+<tr>
+<td>AAATC</td>
+<td>29935</td>
+<td>1.0057324</td>
+<td>5.4961495</td>
+<td>2</td>
+</tr>
+<tr>
+<td>AAATT</td>
+<td>23875</td>
+<td>1.0033097</td>
+<td>8.033861</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>CAGAT</td>
+<td>40925</td>
+<td>0.993671</td>
+<td>7.863146</td>
+<td>9</td>
+</tr>
+<tr>
+<td>AGCGG</td>
+<td>65940</td>
+<td>0.97306913</td>
+<td>6.0812488</td>
+<td>9</td>
+</tr>
+<tr>
+<td>TAGCG</td>
+<td>55425</td>
+<td>0.97254646</td>
+<td>6.9218645</td>
+<td>8</td>
+</tr>
+<tr>
+<td>GACCT</td>
+<td>57555</td>
+<td>0.96008384</td>
+<td>5.925263</td>
+<td>4</td>
+</tr>
+<tr>
+<td>TCGCT</td>
+<td>66840</td>
+<td>0.95812714</td>
+<td>5.010919</td>
+<td>25-29</td>
+</tr>
+<tr>
+<td>CGACT</td>
+<td>57290</td>
+<td>0.9556633</td>
+<td>6.8186812</td>
+<td>6</td>
+</tr>
+<tr>
+<td>CAAAA</td>
+<td>24385</td>
+<td>0.9533784</td>
+<td>6.3728538</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>GTACG</td>
+<td>53550</td>
+<td>0.9396457</td>
+<td>7.6717534</td>
+<td>3</td>
+</tr>
+<tr>
+<td>AAAGG</td>
+<td>31375</td>
+<td>0.93251455</td>
+<td>7.509739</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>AACAA</td>
+<td>23825</td>
+<td>0.9314843</td>
+<td>6.8284335</td>
+<td>140-143</td>
+</tr>
+<tr>
+<td>CCTAC</td>
+<td>58330</td>
+<td>0.9249953</td>
+<td>13.200438</td>
+<td>70-74</td>
+</tr>
+<tr>
+<td>GCTTG</td>
+<td>61270</td>
+<td>0.92387474</td>
+<td>16.373953</td>
+<td>45-49</td>
+</tr>
+<tr>
+<td>ATCTG</td>
+<td>44200</td>
+<td>0.9222249</td>
+<td>23.073296</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>CTTCC</td>
+<td>67375</td>
+<td>0.91813576</td>
+<td>29.43879</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>TCTGG</td>
+<td>60660</td>
+<td>0.9146769</td>
+<td>7.637198</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>GGAAA</td>
+<td>30445</td>
+<td>0.9048733</td>
+<td>5.366392</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>TAAAA</td>
+<td>18260</td>
+<td>0.89295965</td>
+<td>8.461711</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>ATGTG</td>
+<td>39005</td>
+<td>0.8560781</td>
+<td>5.886627</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ACGCT</td>
+<td>51075</td>
+<td>0.8519899</td>
+<td>22.375753</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>GACGC</td>
+<td>60640</td>
+<td>0.85069793</td>
+<td>16.81232</td>
+<td>50-54</td>
+</tr>
+<tr>
+<td>CAAAT</td>
+<td>24430</td>
+<td>0.82077974</td>
+<td>5.2910347</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AAATG</td>
+<td>22260</td>
+<td>0.7866959</td>
+<td>5.1829805</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>AATAA</td>
+<td>16080</td>
+<td>0.7863522</td>
+<td>7.0987906</td>
+<td>125-129</td>
+</tr>
+<tr>
+<td>CCCTA</td>
+<td>49515</td>
+<td>0.78520733</td>
+<td>17.869083</td>
+<td>65-69</td>
+</tr>
+<tr>
+<td>CGTAC</td>
+<td>46620</td>
+<td>0.7776753</td>
+<td>6.721469</td>
+<td>2</td>
+</tr>
+<tr>
+<td>ACACT</td>
+<td>33330</td>
+<td>0.7693264</td>
+<td>6.1223283</td>
+<td>30-34</td>
+</tr>
+<tr>
+<td>GAAAT</td>
+<td>21650</td>
+<td>0.76513773</td>
+<td>5.672046</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>AGTCT</td>
+<td>36245</td>
+<td>0.7562452</td>
+<td>5.0779176</td>
+<td>2</td>
+</tr>
+<tr>
+<td>CCTCA</td>
+<td>47530</td>
+<td>0.7537292</td>
+<td>5.1091814</td>
+<td>6</td>
+</tr>
+<tr>
+<td>CTCAG</td>
+<td>45130</td>
+<td>0.7528205</td>
+<td>5.383657</td>
+<td>7</td>
+</tr>
+<tr>
+<td>TACCT</td>
+<td>37405</td>
+<td>0.74193454</td>
+<td>5.1653924</td>
+<td>20-24</td>
+</tr>
+<tr>
+<td>TTAAA</td>
+<td>17350</td>
+<td>0.72910684</td>
+<td>6.00682</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>TACGA</td>
+<td>29665</td>
+<td>0.7202749</td>
+<td>10.265212</td>
+<td>4</td>
+</tr>
+<tr>
+<td>ATCTT</td>
+<td>28815</td>
+<td>0.7148963</td>
+<td>13.729837</td>
+<td>60-64</td>
+</tr>
+<tr>
+<td>ATAAA</td>
+<td>14520</td>
+<td>0.7100643</td>
+<td>6.9901094</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>ATAGA</td>
+<td>19705</td>
+<td>0.69639903</td>
+<td>5.036093</td>
+<td>1</td>
+</tr>
+<tr>
+<td>TAAAT</td>
+<td>16395</td>
+<td>0.6889744</td>
+<td>5.1724863</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>AAACA</td>
+<td>17605</td>
+<td>0.6883014</td>
+<td>8.330674</td>
+<td>55-59</td>
+</tr>
+<tr>
+<td>CTTTC</td>
+<td>40080</td>
+<td>0.683163</td>
+<td>5.1181474</td>
+<td>35-39</td>
+</tr>
+<tr>
+<td>ATTTT</td>
+<td>21365</td>
+<td>0.6630034</td>
+<td>5.603036</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>CATTT</td>
+<td>21945</td>
+<td>0.54445255</td>
+<td>5.2634864</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ATATA</td>
+<td>12805</td>
+<td>0.5381102</td>
+<td>5.0611935</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ACAAA</td>
+<td>13235</td>
+<td>0.5174477</td>
+<td>5.2943707</td>
+<td>130-134</td>
+</tr>
+<tr>
+<td>ATTAT</td>
+<td>14075</td>
+<td>0.50827724</td>
+<td>5.1068816</td>
+<td>135-139</td>
+</tr>
+<tr>
+<td>CGGTT</td>
+<td>31815</td>
+<td>0.47973034</td>
+<td>7.303931</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ACCCT</td>
+<td>28260</td>
+<td>0.4481462</td>
+<td>5.025113</td>
+<td>65-69</td>
+</tr>
+</table>
+</div>
+</div><div class="footer">Produced by <a href="http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/">FastQC</a> (version 0.9.5)</div>
+</body></html>

@@ -1,0 +1,8 @@
++Type	Reads
+antisense	481
+noncoding_exon	422
+intron	1295
+CDS	4997
+five_prime_UTR	1041
+three_prime_UTR	1289
+intergenic	489

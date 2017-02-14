@@ -1,0 +1,3916 @@
+Supplements
+├── Sup0_Reference_genome
+│   ├── human.gene_type
+│   ├── human.gene_type_Pie_Chart.png
+│   ├── Length_distribution_across_Genomic_Regions_Bar.pdf
+│   ├── Length_distribution_across_Genomic_Regions_Bar.png
+│   └── Length_distribution_across_Genomic_Regions.xls
+├── Sup1_Clean
+├── Sup2_Quality_control
+│   ├── Eif3b_1_fastqc
+│   │   ├── Eif3b_1_duplication_levels.png
+│   │   ├── Eif3b_1_kmer_profiles.png
+│   │   ├── Eif3b_1_per_base_gc_content.png
+│   │   ├── Eif3b_1_per_base_n_content.png
+│   │   ├── Eif3b_1_per_base_quality.png
+│   │   ├── Eif3b_1_per_base_sequence_content.png
+│   │   ├── Eif3b_1_per_sequence_gc_content.png
+│   │   ├── Eif3b_1_per_sequence_quality.png
+│   │   └── Eif3b_1_sequence_length_distribution.png
+│   ├── Eif3b_2_fastqc
+│   │   ├── Eif3b_2_duplication_levels.png
+│   │   ├── Eif3b_2_kmer_profiles.png
+│   │   ├── Eif3b_2_per_base_gc_content.png
+│   │   ├── Eif3b_2_per_base_n_content.png
+│   │   ├── Eif3b_2_per_base_quality.png
+│   │   ├── Eif3b_2_per_base_sequence_content.png
+│   │   ├── Eif3b_2_per_sequence_gc_content.png
+│   │   ├── Eif3b_2_per_sequence_quality.png
+│   │   └── Eif3b_2_sequence_length_distribution.png
+│   ├── FastqcView
+│   │   ├── Eif3b_1_fastqc
+│   │   │   ├── Eif3b_1.fq_fastqc
+│   │   │   │   ├── fastqc_data.txt
+│   │   │   │   ├── fastqc_report.html
+│   │   │   │   ├── Icons
+│   │   │   │   │   ├── error.png
+│   │   │   │   │   ├── fastqc_icon.png
+│   │   │   │   │   ├── tick.png
+│   │   │   │   │   └── warning.png
+│   │   │   │   ├── Images
+│   │   │   │   │   ├── duplication_levels.png
+│   │   │   │   │   ├── kmer_profiles.png
+│   │   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   │   ├── per_base_n_content.png
+│   │   │   │   │   ├── per_base_quality.png
+│   │   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   │   └── sequence_length_distribution.png
+│   │   │   │   └── summary.txt
+│   │   │   ├── fastqc_data.txt
+│   │   │   ├── fastqc_report.html
+│   │   │   ├── Icons
+│   │   │   │   ├── error.png
+│   │   │   │   ├── fastqc_icon.png
+│   │   │   │   ├── tick.png
+│   │   │   │   └── warning.png
+│   │   │   ├── Images
+│   │   │   │   ├── duplication_levels.png
+│   │   │   │   ├── kmer_profiles.png
+│   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   ├── per_base_n_content.png
+│   │   │   │   ├── per_base_quality.png
+│   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   └── sequence_length_distribution.png
+│   │   │   └── summary.txt
+│   │   ├── Eif3b_2_fastqc
+│   │   │   ├── Eif3b_2.fq_fastqc
+│   │   │   │   ├── fastqc_data.txt
+│   │   │   │   ├── fastqc_report.html
+│   │   │   │   ├── Icons
+│   │   │   │   │   ├── error.png
+│   │   │   │   │   ├── fastqc_icon.png
+│   │   │   │   │   ├── tick.png
+│   │   │   │   │   └── warning.png
+│   │   │   │   ├── Images
+│   │   │   │   │   ├── duplication_levels.png
+│   │   │   │   │   ├── kmer_profiles.png
+│   │   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   │   ├── per_base_n_content.png
+│   │   │   │   │   ├── per_base_quality.png
+│   │   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   │   └── sequence_length_distribution.png
+│   │   │   │   └── summary.txt
+│   │   │   ├── fastqc_data.txt
+│   │   │   ├── fastqc_report.html
+│   │   │   ├── Icons
+│   │   │   │   ├── error.png
+│   │   │   │   ├── fastqc_icon.png
+│   │   │   │   ├── tick.png
+│   │   │   │   └── warning.png
+│   │   │   ├── Images
+│   │   │   │   ├── duplication_levels.png
+│   │   │   │   ├── kmer_profiles.png
+│   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   ├── per_base_n_content.png
+│   │   │   │   ├── per_base_quality.png
+│   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   └── sequence_length_distribution.png
+│   │   │   └── summary.txt
+│   │   ├── IgG_1_fastqc
+│   │   │   ├── fastqc_data.txt
+│   │   │   ├── fastqc_report.html
+│   │   │   ├── Icons
+│   │   │   │   ├── error.png
+│   │   │   │   ├── fastqc_icon.png
+│   │   │   │   ├── tick.png
+│   │   │   │   └── warning.png
+│   │   │   ├── IgG_1.fq_fastqc
+│   │   │   │   ├── fastqc_data.txt
+│   │   │   │   ├── fastqc_report.html
+│   │   │   │   ├── Icons
+│   │   │   │   │   ├── error.png
+│   │   │   │   │   ├── fastqc_icon.png
+│   │   │   │   │   ├── tick.png
+│   │   │   │   │   └── warning.png
+│   │   │   │   ├── Images
+│   │   │   │   │   ├── duplication_levels.png
+│   │   │   │   │   ├── kmer_profiles.png
+│   │   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   │   ├── per_base_n_content.png
+│   │   │   │   │   ├── per_base_quality.png
+│   │   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   │   └── sequence_length_distribution.png
+│   │   │   │   └── summary.txt
+│   │   │   ├── Images
+│   │   │   │   ├── duplication_levels.png
+│   │   │   │   ├── kmer_profiles.png
+│   │   │   │   ├── per_base_gc_content.png
+│   │   │   │   ├── per_base_n_content.png
+│   │   │   │   ├── per_base_quality.png
+│   │   │   │   ├── per_base_sequence_content.png
+│   │   │   │   ├── per_sequence_gc_content.png
+│   │   │   │   ├── per_sequence_quality.png
+│   │   │   │   └── sequence_length_distribution.png
+│   │   │   └── summary.txt
+│   │   └── IgG_2_fastqc
+│   │       ├── fastqc_data.txt
+│   │       ├── fastqc_report.html
+│   │       ├── Icons
+│   │       │   ├── error.png
+│   │       │   ├── fastqc_icon.png
+│   │       │   ├── tick.png
+│   │       │   └── warning.png
+│   │       ├── IgG_2.fq_fastqc
+│   │       │   ├── fastqc_data.txt
+│   │       │   ├── fastqc_report.html
+│   │       │   ├── Icons
+│   │       │   │   ├── error.png
+│   │       │   │   ├── fastqc_icon.png
+│   │       │   │   ├── tick.png
+│   │       │   │   └── warning.png
+│   │       │   ├── Images
+│   │       │   │   ├── duplication_levels.png
+│   │       │   │   ├── kmer_profiles.png
+│   │       │   │   ├── per_base_gc_content.png
+│   │       │   │   ├── per_base_n_content.png
+│   │       │   │   ├── per_base_quality.png
+│   │       │   │   ├── per_base_sequence_content.png
+│   │       │   │   ├── per_sequence_gc_content.png
+│   │       │   │   ├── per_sequence_quality.png
+│   │       │   │   └── sequence_length_distribution.png
+│   │       │   └── summary.txt
+│   │       ├── Images
+│   │       │   ├── duplication_levels.png
+│   │       │   ├── kmer_profiles.png
+│   │       │   ├── per_base_gc_content.png
+│   │       │   ├── per_base_n_content.png
+│   │       │   ├── per_base_quality.png
+│   │       │   ├── per_base_sequence_content.png
+│   │       │   ├── per_sequence_gc_content.png
+│   │       │   ├── per_sequence_quality.png
+│   │       │   └── sequence_length_distribution.png
+│   │       └── summary.txt
+│   ├── IgG_1_fastqc
+│   │   ├── IgG_1_duplication_levels.png
+│   │   ├── IgG_1_kmer_profiles.png
+│   │   ├── IgG_1_per_base_gc_content.png
+│   │   ├── IgG_1_per_base_n_content.png
+│   │   ├── IgG_1_per_base_quality.png
+│   │   ├── IgG_1_per_base_sequence_content.png
+│   │   ├── IgG_1_per_sequence_gc_content.png
+│   │   ├── IgG_1_per_sequence_quality.png
+│   │   └── IgG_1_sequence_length_distribution.png
+│   └── IgG_2_fastqc
+│       ├── IgG_2_duplication_levels.png
+│       ├── IgG_2_kmer_profiles.png
+│       ├── IgG_2_per_base_gc_content.png
+│       ├── IgG_2_per_base_n_content.png
+│       ├── IgG_2_per_base_quality.png
+│       ├── IgG_2_per_base_sequence_content.png
+│       ├── IgG_2_per_sequence_gc_content.png
+│       ├── IgG_2_per_sequence_quality.png
+│       └── IgG_2_sequence_length_distribution.png
+├── Sup3_Mapping
+│   ├── Eif3b_1
+│   │   ├── aaa_Bar.pdf
+│   │   ├── aaa_Bar.png
+│   │   ├── Eif3b_1_distance2startcodon_reads_density_Line.pdf
+│   │   ├── Eif3b_1_distance2startcodon_reads_density_Line.png
+│   │   ├── Eif3b_1_distance2startcodon_reads_density.txt
+│   │   ├── Eif3b_1_distance2stopcodon_reads_density_Line.pdf
+│   │   ├── Eif3b_1_distance2stopcodon_reads_density_Line.png
+│   │   ├── Eif3b_1_distance2stopcodon_reads_density.txt
+│   │   ├── Eif3b_1_distance2tss_reads_density_Line.pdf
+│   │   ├── Eif3b_1_distance2tss_reads_density_Line.png
+│   │   ├── Eif3b_1_distance2tss_reads_density.txt
+│   │   ├── Eif3b_1_distance2tts_reads_density_Line.pdf
+│   │   ├── Eif3b_1_distance2tts_reads_density_Line.png
+│   │   ├── Eif3b_1_distance2tts_reads_density.txt
+│   │   ├── Eif3b_1_distance2xxx_reads_density_codon.pdf
+│   │   ├── Eif3b_1_distance2xxx_reads_density_codon.png
+│   │   ├── Eif3b_1_distance2xxx_reads_density_tss_tts.pdf
+│   │   ├── Eif3b_1_distance2xxx_reads_density_tss_tts.png
+│   │   ├── Eif3b_1_expression_profile.txt
+│   │   ├── Eif3b_1_Mapping_distribution_Bar.pdf
+│   │   ├── Eif3b_1_Mapping_distribution_Bar.png
+│   │   ├── Eif3b_1_Mapping_distribution.txt
+│   │   ├── Eif3b_1_randCheck_gene_Line.pdf
+│   │   ├── Eif3b_1_randCheck_gene_Line.png
+│   │   ├── Eif3b_1_randCheck_gene.txt
+│   │   ├── Eif3b_1_randCheck_mRNA_Line.pdf
+│   │   ├── Eif3b_1_randCheck_mRNA_Line.png
+│   │   ├── Eif3b_1_randCheck_mRNA.txt
+│   │   ├── Eif3b_1_RPKM_Cumulative_Line.png
+│   │   ├── Eif3b_1_RPKM_Cumulative.txt
+│   │   ├── Eif3b_1_vs_IgG_1_distance2codon_reads_density.pdf
+│   │   ├── Eif3b_1_vs_IgG_1_distance2codon_reads_density.png
+│   │   ├── Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density.pdf
+│   │   └── Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density.png
+│   ├── Eif3b_2
+│   │   ├── Eif3b_2_distance2startcodon_reads_density_Line.pdf
+│   │   ├── Eif3b_2_distance2startcodon_reads_density_Line.png
+│   │   ├── Eif3b_2_distance2startcodon_reads_density.txt
+│   │   ├── Eif3b_2_distance2stopcodon_reads_density_Line.pdf
+│   │   ├── Eif3b_2_distance2stopcodon_reads_density_Line.png
+│   │   ├── Eif3b_2_distance2stopcodon_reads_density.txt
+│   │   ├── Eif3b_2_distance2tss_reads_density_Line.pdf
+│   │   ├── Eif3b_2_distance2tss_reads_density_Line.png
+│   │   ├── Eif3b_2_distance2tss_reads_density.txt
+│   │   ├── Eif3b_2_distance2tts_reads_density_Line.pdf
+│   │   ├── Eif3b_2_distance2tts_reads_density_Line.png
+│   │   ├── Eif3b_2_distance2tts_reads_density.txt
+│   │   ├── Eif3b_2_distance2xxx_reads_density_codon.pdf
+│   │   ├── Eif3b_2_distance2xxx_reads_density_codon.png
+│   │   ├── Eif3b_2_distance2xxx_reads_density_tss_tts.pdf
+│   │   ├── Eif3b_2_distance2xxx_reads_density_tss_tts.png
+│   │   ├── Eif3b_2_expression_profile.txt
+│   │   ├── Eif3b_2_Mapping_distribution_Bar.pdf
+│   │   ├── Eif3b_2_Mapping_distribution_Bar.png
+│   │   ├── Eif3b_2_Mapping_distribution.txt
+│   │   ├── Eif3b_2_randCheck_gene_Line.pdf
+│   │   ├── Eif3b_2_randCheck_gene_Line.png
+│   │   ├── Eif3b_2_randCheck_gene.txt
+│   │   ├── Eif3b_2_randCheck_mRNA_Line.pdf
+│   │   ├── Eif3b_2_randCheck_mRNA_Line.png
+│   │   ├── Eif3b_2_randCheck_mRNA.txt
+│   │   ├── Eif3b_2_RPKM_Cumulative_Line.png
+│   │   ├── Eif3b_2_RPKM_Cumulative.txt
+│   │   ├── Eif3b_2_vs_IgG_2_distance2codon_reads_density.pdf
+│   │   ├── Eif3b_2_vs_IgG_2_distance2codon_reads_density.png
+│   │   ├── Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density.pdf
+│   │   └── Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density.png
+│   ├── expressed_gene_reads.txt
+│   ├── expressed_gene_RPKM.txt
+│   ├── IgG_1
+│   │   ├── IgG_1_distance2startcodon_reads_density_Line.pdf
+│   │   ├── IgG_1_distance2startcodon_reads_density_Line.png
+│   │   ├── IgG_1_distance2startcodon_reads_density.txt
+│   │   ├── IgG_1_distance2stopcodon_reads_density_Line.pdf
+│   │   ├── IgG_1_distance2stopcodon_reads_density_Line.png
+│   │   ├── IgG_1_distance2stopcodon_reads_density.txt
+│   │   ├── IgG_1_distance2tss_reads_density_Line.pdf
+│   │   ├── IgG_1_distance2tss_reads_density_Line.png
+│   │   ├── IgG_1_distance2tss_reads_density.txt
+│   │   ├── IgG_1_distance2tts_reads_density_Line.pdf
+│   │   ├── IgG_1_distance2tts_reads_density_Line.png
+│   │   ├── IgG_1_distance2tts_reads_density.txt
+│   │   ├── IgG_1_distance2xxx_reads_density_codon.pdf
+│   │   ├── IgG_1_distance2xxx_reads_density_codon.png
+│   │   ├── IgG_1_distance2xxx_reads_density_tss_tts.pdf
+│   │   ├── IgG_1_distance2xxx_reads_density_tss_tts.png
+│   │   ├── IgG_1_expression_profile.txt
+│   │   ├── IgG_1_Mapping_distribution_Bar.pdf
+│   │   ├── IgG_1_Mapping_distribution_Bar.png
+│   │   ├── IgG_1_Mapping_distribution.txt
+│   │   ├── IgG_1_randCheck_gene_Line.pdf
+│   │   ├── IgG_1_randCheck_gene_Line.png
+│   │   ├── IgG_1_randCheck_gene.txt
+│   │   ├── IgG_1_randCheck_mRNA_Line.pdf
+│   │   ├── IgG_1_randCheck_mRNA_Line.png
+│   │   ├── IgG_1_randCheck_mRNA.txt
+│   │   ├── IgG_1_RPKM_Cumulative_Line.png
+│   │   └── IgG_1_RPKM_Cumulative.txt
+│   ├── IgG_2
+│   │   ├── IgG_2_distance2startcodon_reads_density_Line.pdf
+│   │   ├── IgG_2_distance2startcodon_reads_density_Line.png
+│   │   ├── IgG_2_distance2startcodon_reads_density.txt
+│   │   ├── IgG_2_distance2stopcodon_reads_density_Line.pdf
+│   │   ├── IgG_2_distance2stopcodon_reads_density_Line.png
+│   │   ├── IgG_2_distance2stopcodon_reads_density.txt
+│   │   ├── IgG_2_distance2tss_reads_density_Line.pdf
+│   │   ├── IgG_2_distance2tss_reads_density_Line.png
+│   │   ├── IgG_2_distance2tss_reads_density.txt
+│   │   ├── IgG_2_distance2tts_reads_density_Line.pdf
+│   │   ├── IgG_2_distance2tts_reads_density_Line.png
+│   │   ├── IgG_2_distance2tts_reads_density.txt
+│   │   ├── IgG_2_distance2xxx_reads_density_codon.pdf
+│   │   ├── IgG_2_distance2xxx_reads_density_codon.png
+│   │   ├── IgG_2_distance2xxx_reads_density_tss_tts.pdf
+│   │   ├── IgG_2_distance2xxx_reads_density_tss_tts.png
+│   │   ├── IgG_2_expression_profile.txt
+│   │   ├── IgG_2_Mapping_distribution_Bar.pdf
+│   │   ├── IgG_2_Mapping_distribution_Bar.png
+│   │   ├── IgG_2_Mapping_distribution.txt
+│   │   ├── IgG_2_randCheck_gene_Line.pdf
+│   │   ├── IgG_2_randCheck_gene_Line.png
+│   │   ├── IgG_2_randCheck_gene.txt
+│   │   ├── IgG_2_randCheck_mRNA_Line.pdf
+│   │   ├── IgG_2_randCheck_mRNA_Line.png
+│   │   ├── IgG_2_randCheck_mRNA.txt
+│   │   ├── IgG_2_RPKM_Cumulative_Line.png
+│   │   └── IgG_2_RPKM_Cumulative.txt
+│   ├── Mapped_normalized_reads_on_expressed_genes_in_reference_genome.txt
+│   ├── Mapping_of_clean_reads_on_the_reference_genome.txt
+│   └── Reads_distribution_across_reference_Genomic_Regions.txt
+├── Sup4_Correlation
+│   ├── Eif3b_1_vs_IgG_1
+│   │   └── Eif3b_1_vs_IgG_1_lm.png
+│   ├── Eif3b_2_vs_IgG_2
+│   │   └── Eif3b_2_vs_IgG_2_lm.png
+│   ├── Sample_correlation.pdf
+│   ├── Sample_correlation.png
+│   └── Sample_correlation.xls
+├── Sup5_Peak_and_peak_gene
+│   ├── ablife
+│   │   ├── all.db
+│   │   ├── all.gff
+│   │   ├── Eif3b_1_vs_IgG_1
+│   │   │   ├── Cumulative.txt
+│   │   │   ├── Eif3b_1_nonoverlap_peaks.txt
+│   │   │   ├── Eif3b_1_peak_info_addanno.txt
+│   │   │   ├── Eif3b_1_peak_info.txt
+│   │   │   ├── Eif3b_1_peak_Mapping_distribution_Bar.pdf
+│   │   │   ├── Eif3b_1_peak_Mapping_distribution_Bar.png
+│   │   │   ├── Eif3b_1_peak_Mapping_distribution.txt
+│   │   │   ├── peak.fa
+│   │   │   ├── peaknum.txt
+│   │   │   ├── peakreads_density.txt
+│   │   │   ├── peakreads_distribution_to_summit_Line.pdf
+│   │   │   ├── peakreads_distribution_to_summit_Line.png
+│   │   │   ├── peak_reads_Mapping_distribution_Bar.pdf
+│   │   │   ├── peak_reads_Mapping_distribution_Bar.png
+│   │   │   ├── peak_reads_Mapping_distribution.txt
+│   │   │   └── Peak_Width_Distribution_peak_width.png
+│   │   ├── Eif3b_2_vs_IgG_2
+│   │   │   ├── Cumulative.txt
+│   │   │   ├── Eif3b_2_nonoverlap_peaks.txt
+│   │   │   ├── Eif3b_2_peak_info_addanno.txt
+│   │   │   ├── Eif3b_2_peak_info.txt
+│   │   │   ├── Eif3b_2_peak_Mapping_distribution_Bar.pdf
+│   │   │   ├── Eif3b_2_peak_Mapping_distribution_Bar.png
+│   │   │   ├── Eif3b_2_peak_Mapping_distribution.txt
+│   │   │   ├── peak.fa
+│   │   │   ├── peaknum.txt
+│   │   │   ├── peakreads_density.txt
+│   │   │   ├── peakreads_distribution_to_summit_Line.pdf
+│   │   │   ├── peakreads_distribution_to_summit_Line.png
+│   │   │   ├── peak_reads_Mapping_distribution_Bar.pdf
+│   │   │   ├── peak_reads_Mapping_distribution_Bar.png
+│   │   │   ├── peak_reads_Mapping_distribution.txt
+│   │   │   └── Peak_Width_Distribution_peak_width.png
+│   │   ├── intergenic.gff
+│   │   ├── intergenic.txt
+│   │   ├── log.20170214.021018.068936.txt
+│   │   ├── peak_mapping_distribution.txt
+│   │   ├── Peak_number_statics_of_eachsample_identified_by_ablifepipeline.txt
+│   │   └── result
+│   ├── overlap
+│   │   ├── ablife_venn
+│   │   │   ├── Eif3b_1_olp_peak
+│   │   │   ├── Eif3b_1_specific_gene
+│   │   │   ├── Eif3b_1_specific_peak
+│   │   │   ├── Eif3b_2_olp_peak
+│   │   │   ├── Eif3b_2_specific_gene
+│   │   │   ├── Eif3b_2_specific_peak
+│   │   │   └── olp_gene
+│   │   ├── allpeaks_cluster_type.bed
+│   │   ├── Eif3b_1_nonoverlap_peaks.txt
+│   │   ├── Eif3b_1_peak_info_addanno.txt
+│   │   ├── Eif3b_2_nonoverlap_peaks.txt
+│   │   ├── Eif3b_2_olp_Eif3b_1
+│   │   ├── Eif3b_2_peak_info_addanno.txt
+│   │   └── Venn.png
+│   └── peak_statics.xls
+├── Sup6_Motif_results
+│   └── ablife
+│       ├── Eif3b_1_vs_IgG_1
+│       │   ├── homerMotifs.all.motifs
+│       │   ├── homerMotifs.motifs10
+│       │   ├── homerMotifs.motifs11
+│       │   ├── homerMotifs.motifs12
+│       │   ├── homerMotifs.motifs5
+│       │   ├── homerMotifs.motifs6
+│       │   ├── homerMotifs.motifs7
+│       │   ├── homerMotifs.motifs8
+│       │   ├── homerMotifs.motifs9
+│       │   ├── homerResults
+│       │   │   ├── motif10-10-homer.png
+│       │   │   ├── motif10-10-known.png
+│       │   │   ├── motif10-1-homer.png
+│       │   │   ├── motif10-1-known.png
+│       │   │   ├── motif10-2-homer.png
+│       │   │   ├── motif10-2-known.png
+│       │   │   ├── motif10-3-homer.png
+│       │   │   ├── motif10-3-known.png
+│       │   │   ├── motif10-4-homer.png
+│       │   │   ├── motif10-4-known.png
+│       │   │   ├── motif10-5-homer.png
+│       │   │   ├── motif10-5-known.png
+│       │   │   ├── motif10-6-homer.png
+│       │   │   ├── motif10-6-known.png
+│       │   │   ├── motif10-7-homer.png
+│       │   │   ├── motif10-7-known.png
+│       │   │   ├── motif10-8-homer.png
+│       │   │   ├── motif10-8-known.png
+│       │   │   ├── motif10-9-homer.png
+│       │   │   ├── motif10-9-known.png
+│       │   │   ├── motif10.info.html
+│       │   │   ├── motif10.logo.pdf
+│       │   │   ├── motif10.logo.png
+│       │   │   ├── motif10.motif
+│       │   │   ├── motif10.rvlogo.pdf
+│       │   │   ├── motif10.rvlogo.png
+│       │   │   ├── motif10RV.motif
+│       │   │   ├── motif10.similar1.logo.png
+│       │   │   ├── motif10.similar1.motif
+│       │   │   ├── motif10.similar2.logo.png
+│       │   │   ├── motif10.similar2.motif
+│       │   │   ├── motif10.similar3.logo.png
+│       │   │   ├── motif10.similar3.motif
+│       │   │   ├── motif10.similar4.logo.png
+│       │   │   ├── motif10.similar4.motif
+│       │   │   ├── motif10.similar5.logo.png
+│       │   │   ├── motif10.similar5.motif
+│       │   │   ├── motif10.similar6.logo.png
+│       │   │   ├── motif10.similar6.motif
+│       │   │   ├── motif10.similar.html
+│       │   │   ├── motif1-10-homer.png
+│       │   │   ├── motif1-10-known.png
+│       │   │   ├── motif11-10-homer.png
+│       │   │   ├── motif11-10-known.png
+│       │   │   ├── motif11-1-homer.png
+│       │   │   ├── motif11-1-known.png
+│       │   │   ├── motif11-2-homer.png
+│       │   │   ├── motif11-2-known.png
+│       │   │   ├── motif11-3-homer.png
+│       │   │   ├── motif11-3-known.png
+│       │   │   ├── motif11-4-homer.png
+│       │   │   ├── motif11-4-known.png
+│       │   │   ├── motif11-5-homer.png
+│       │   │   ├── motif11-5-known.png
+│       │   │   ├── motif11-6-homer.png
+│       │   │   ├── motif11-6-known.png
+│       │   │   ├── motif11-7-homer.png
+│       │   │   ├── motif11-7-known.png
+│       │   │   ├── motif11-8-homer.png
+│       │   │   ├── motif11-8-known.png
+│       │   │   ├── motif11-9-homer.png
+│       │   │   ├── motif11-9-known.png
+│       │   │   ├── motif1-1-homer.png
+│       │   │   ├── motif11.info.html
+│       │   │   ├── motif1-1-known.png
+│       │   │   ├── motif11.logo.pdf
+│       │   │   ├── motif11.logo.png
+│       │   │   ├── motif11.motif
+│       │   │   ├── motif11.rvlogo.pdf
+│       │   │   ├── motif11.rvlogo.png
+│       │   │   ├── motif11RV.motif
+│       │   │   ├── motif11.similar1.logo.png
+│       │   │   ├── motif11.similar1.motif
+│       │   │   ├── motif11.similar2.logo.png
+│       │   │   ├── motif11.similar2.motif
+│       │   │   ├── motif11.similar3.logo.png
+│       │   │   ├── motif11.similar3.motif
+│       │   │   ├── motif11.similar4.logo.png
+│       │   │   ├── motif11.similar4.motif
+│       │   │   ├── motif11.similar5.logo.png
+│       │   │   ├── motif11.similar5.motif
+│       │   │   ├── motif11.similar.html
+│       │   │   ├── motif12-10-homer.png
+│       │   │   ├── motif12-10-known.png
+│       │   │   ├── motif12-1-homer.png
+│       │   │   ├── motif12-1-known.png
+│       │   │   ├── motif12-2-homer.png
+│       │   │   ├── motif12-2-known.png
+│       │   │   ├── motif12-3-homer.png
+│       │   │   ├── motif12-3-known.png
+│       │   │   ├── motif12-4-homer.png
+│       │   │   ├── motif12-4-known.png
+│       │   │   ├── motif12-5-homer.png
+│       │   │   ├── motif12-5-known.png
+│       │   │   ├── motif12-6-homer.png
+│       │   │   ├── motif12-6-known.png
+│       │   │   ├── motif12-7-homer.png
+│       │   │   ├── motif12-7-known.png
+│       │   │   ├── motif12-8-homer.png
+│       │   │   ├── motif12-8-known.png
+│       │   │   ├── motif12-9-homer.png
+│       │   │   ├── motif12-9-known.png
+│       │   │   ├── motif1-2-homer.png
+│       │   │   ├── motif12.info.html
+│       │   │   ├── motif1-2-known.png
+│       │   │   ├── motif12.logo.pdf
+│       │   │   ├── motif12.logo.png
+│       │   │   ├── motif12.motif
+│       │   │   ├── motif12.rvlogo.pdf
+│       │   │   ├── motif12.rvlogo.png
+│       │   │   ├── motif12RV.motif
+│       │   │   ├── motif12.similar1.logo.png
+│       │   │   ├── motif12.similar1.motif
+│       │   │   ├── motif12.similar2.logo.png
+│       │   │   ├── motif12.similar2.motif
+│       │   │   ├── motif12.similar3.logo.png
+│       │   │   ├── motif12.similar3.motif
+│       │   │   ├── motif12.similar4.logo.png
+│       │   │   ├── motif12.similar4.motif
+│       │   │   ├── motif12.similar5.logo.png
+│       │   │   ├── motif12.similar5.motif
+│       │   │   ├── motif12.similar6.logo.png
+│       │   │   ├── motif12.similar6.motif
+│       │   │   ├── motif12.similar.html
+│       │   │   ├── motif13-10-homer.png
+│       │   │   ├── motif13-10-known.png
+│       │   │   ├── motif13-1-homer.png
+│       │   │   ├── motif13-1-known.png
+│       │   │   ├── motif13-2-homer.png
+│       │   │   ├── motif13-2-known.png
+│       │   │   ├── motif13-3-homer.png
+│       │   │   ├── motif13-3-known.png
+│       │   │   ├── motif13-4-homer.png
+│       │   │   ├── motif13-4-known.png
+│       │   │   ├── motif13-5-homer.png
+│       │   │   ├── motif13-5-known.png
+│       │   │   ├── motif13-6-homer.png
+│       │   │   ├── motif13-6-known.png
+│       │   │   ├── motif13-7-homer.png
+│       │   │   ├── motif13-7-known.png
+│       │   │   ├── motif13-8-homer.png
+│       │   │   ├── motif13-8-known.png
+│       │   │   ├── motif13-9-homer.png
+│       │   │   ├── motif13-9-known.png
+│       │   │   ├── motif1-3-homer.png
+│       │   │   ├── motif13.info.html
+│       │   │   ├── motif1-3-known.png
+│       │   │   ├── motif13.logo.pdf
+│       │   │   ├── motif13.logo.png
+│       │   │   ├── motif13.motif
+│       │   │   ├── motif13.rvlogo.pdf
+│       │   │   ├── motif13.rvlogo.png
+│       │   │   ├── motif13RV.motif
+│       │   │   ├── motif13.similar1.logo.png
+│       │   │   ├── motif13.similar1.motif
+│       │   │   ├── motif13.similar.html
+│       │   │   ├── motif14-10-homer.png
+│       │   │   ├── motif14-10-known.png
+│       │   │   ├── motif14-1-homer.png
+│       │   │   ├── motif14-1-known.png
+│       │   │   ├── motif14-2-homer.png
+│       │   │   ├── motif14-2-known.png
+│       │   │   ├── motif14-3-homer.png
+│       │   │   ├── motif14-3-known.png
+│       │   │   ├── motif14-4-homer.png
+│       │   │   ├── motif14-4-known.png
+│       │   │   ├── motif14-5-homer.png
+│       │   │   ├── motif14-5-known.png
+│       │   │   ├── motif14-6-homer.png
+│       │   │   ├── motif14-6-known.png
+│       │   │   ├── motif14-7-homer.png
+│       │   │   ├── motif14-7-known.png
+│       │   │   ├── motif14-8-homer.png
+│       │   │   ├── motif14-8-known.png
+│       │   │   ├── motif14-9-homer.png
+│       │   │   ├── motif14-9-known.png
+│       │   │   ├── motif1-4-homer.png
+│       │   │   ├── motif14.info.html
+│       │   │   ├── motif1-4-known.png
+│       │   │   ├── motif14.logo.pdf
+│       │   │   ├── motif14.logo.png
+│       │   │   ├── motif14.motif
+│       │   │   ├── motif14.rvlogo.pdf
+│       │   │   ├── motif14.rvlogo.png
+│       │   │   ├── motif14RV.motif
+│       │   │   ├── motif14.similar1.logo.png
+│       │   │   ├── motif14.similar1.motif
+│       │   │   ├── motif14.similar2.logo.png
+│       │   │   ├── motif14.similar2.motif
+│       │   │   ├── motif14.similar3.logo.png
+│       │   │   ├── motif14.similar3.motif
+│       │   │   ├── motif14.similar.html
+│       │   │   ├── motif15-10-homer.png
+│       │   │   ├── motif15-10-known.png
+│       │   │   ├── motif15-1-homer.png
+│       │   │   ├── motif15-1-known.png
+│       │   │   ├── motif15-2-homer.png
+│       │   │   ├── motif15-2-known.png
+│       │   │   ├── motif15-3-homer.png
+│       │   │   ├── motif15-3-known.png
+│       │   │   ├── motif15-4-homer.png
+│       │   │   ├── motif15-4-known.png
+│       │   │   ├── motif15-5-homer.png
+│       │   │   ├── motif15-5-known.png
+│       │   │   ├── motif15-6-homer.png
+│       │   │   ├── motif15-6-known.png
+│       │   │   ├── motif15-7-homer.png
+│       │   │   ├── motif15-7-known.png
+│       │   │   ├── motif15-8-homer.png
+│       │   │   ├── motif15-8-known.png
+│       │   │   ├── motif15-9-homer.png
+│       │   │   ├── motif15-9-known.png
+│       │   │   ├── motif1-5-homer.png
+│       │   │   ├── motif15.info.html
+│       │   │   ├── motif1-5-known.png
+│       │   │   ├── motif15.logo.pdf
+│       │   │   ├── motif15.logo.png
+│       │   │   ├── motif15.motif
+│       │   │   ├── motif15.rvlogo.pdf
+│       │   │   ├── motif15.rvlogo.png
+│       │   │   ├── motif15RV.motif
+│       │   │   ├── motif15.similar1.logo.png
+│       │   │   ├── motif15.similar1.motif
+│       │   │   ├── motif15.similar2.logo.png
+│       │   │   ├── motif15.similar2.motif
+│       │   │   ├── motif15.similar3.logo.png
+│       │   │   ├── motif15.similar3.motif
+│       │   │   ├── motif15.similar4.logo.png
+│       │   │   ├── motif15.similar4.motif
+│       │   │   ├── motif15.similar.html
+│       │   │   ├── motif16-10-homer.png
+│       │   │   ├── motif16-10-known.png
+│       │   │   ├── motif16-1-homer.png
+│       │   │   ├── motif16-1-known.png
+│       │   │   ├── motif16-2-homer.png
+│       │   │   ├── motif16-2-known.png
+│       │   │   ├── motif16-3-homer.png
+│       │   │   ├── motif16-3-known.png
+│       │   │   ├── motif16-4-homer.png
+│       │   │   ├── motif16-4-known.png
+│       │   │   ├── motif16-5-homer.png
+│       │   │   ├── motif16-5-known.png
+│       │   │   ├── motif16-6-homer.png
+│       │   │   ├── motif16-6-known.png
+│       │   │   ├── motif16-7-homer.png
+│       │   │   ├── motif16-7-known.png
+│       │   │   ├── motif16-8-homer.png
+│       │   │   ├── motif16-8-known.png
+│       │   │   ├── motif16-9-homer.png
+│       │   │   ├── motif16-9-known.png
+│       │   │   ├── motif1-6-homer.png
+│       │   │   ├── motif16.info.html
+│       │   │   ├── motif1-6-known.png
+│       │   │   ├── motif16.logo.pdf
+│       │   │   ├── motif16.logo.png
+│       │   │   ├── motif16.motif
+│       │   │   ├── motif16.rvlogo.pdf
+│       │   │   ├── motif16.rvlogo.png
+│       │   │   ├── motif16RV.motif
+│       │   │   ├── motif16.similar1.logo.png
+│       │   │   ├── motif16.similar1.motif
+│       │   │   ├── motif16.similar2.logo.png
+│       │   │   ├── motif16.similar2.motif
+│       │   │   ├── motif16.similar3.logo.png
+│       │   │   ├── motif16.similar3.motif
+│       │   │   ├── motif16.similar.html
+│       │   │   ├── motif17-10-homer.png
+│       │   │   ├── motif17-10-known.png
+│       │   │   ├── motif17-1-homer.png
+│       │   │   ├── motif17-1-known.png
+│       │   │   ├── motif17-2-homer.png
+│       │   │   ├── motif17-2-known.png
+│       │   │   ├── motif17-3-homer.png
+│       │   │   ├── motif17-3-known.png
+│       │   │   ├── motif17-4-homer.png
+│       │   │   ├── motif17-4-known.png
+│       │   │   ├── motif17-5-homer.png
+│       │   │   ├── motif17-5-known.png
+│       │   │   ├── motif17-6-homer.png
+│       │   │   ├── motif17-6-known.png
+│       │   │   ├── motif17-7-homer.png
+│       │   │   ├── motif17-7-known.png
+│       │   │   ├── motif17-8-homer.png
+│       │   │   ├── motif17-8-known.png
+│       │   │   ├── motif17-9-homer.png
+│       │   │   ├── motif17-9-known.png
+│       │   │   ├── motif1-7-homer.png
+│       │   │   ├── motif17.info.html
+│       │   │   ├── motif1-7-known.png
+│       │   │   ├── motif17.logo.pdf
+│       │   │   ├── motif17.logo.png
+│       │   │   ├── motif17.motif
+│       │   │   ├── motif17.rvlogo.pdf
+│       │   │   ├── motif17.rvlogo.png
+│       │   │   ├── motif17RV.motif
+│       │   │   ├── motif17.similar1.logo.png
+│       │   │   ├── motif17.similar1.motif
+│       │   │   ├── motif17.similar2.logo.png
+│       │   │   ├── motif17.similar2.motif
+│       │   │   ├── motif17.similar3.logo.png
+│       │   │   ├── motif17.similar3.motif
+│       │   │   ├── motif17.similar.html
+│       │   │   ├── motif18-10-homer.png
+│       │   │   ├── motif18-10-known.png
+│       │   │   ├── motif18-1-homer.png
+│       │   │   ├── motif18-1-known.png
+│       │   │   ├── motif18-2-homer.png
+│       │   │   ├── motif18-2-known.png
+│       │   │   ├── motif18-3-homer.png
+│       │   │   ├── motif18-3-known.png
+│       │   │   ├── motif18-4-homer.png
+│       │   │   ├── motif18-4-known.png
+│       │   │   ├── motif18-5-homer.png
+│       │   │   ├── motif18-5-known.png
+│       │   │   ├── motif18-6-homer.png
+│       │   │   ├── motif18-6-known.png
+│       │   │   ├── motif18-7-homer.png
+│       │   │   ├── motif18-7-known.png
+│       │   │   ├── motif18-8-homer.png
+│       │   │   ├── motif18-8-known.png
+│       │   │   ├── motif18-9-homer.png
+│       │   │   ├── motif18-9-known.png
+│       │   │   ├── motif1-8-homer.png
+│       │   │   ├── motif18.info.html
+│       │   │   ├── motif1-8-known.png
+│       │   │   ├── motif18.logo.pdf
+│       │   │   ├── motif18.logo.png
+│       │   │   ├── motif18.motif
+│       │   │   ├── motif18.rvlogo.pdf
+│       │   │   ├── motif18.rvlogo.png
+│       │   │   ├── motif18RV.motif
+│       │   │   ├── motif18.similar1.logo.png
+│       │   │   ├── motif18.similar1.motif
+│       │   │   ├── motif18.similar2.logo.png
+│       │   │   ├── motif18.similar2.motif
+│       │   │   ├── motif18.similar3.logo.png
+│       │   │   ├── motif18.similar3.motif
+│       │   │   ├── motif18.similar.html
+│       │   │   ├── motif19-10-homer.png
+│       │   │   ├── motif19-10-known.png
+│       │   │   ├── motif19-1-homer.png
+│       │   │   ├── motif19-1-known.png
+│       │   │   ├── motif19-2-homer.png
+│       │   │   ├── motif19-2-known.png
+│       │   │   ├── motif19-3-homer.png
+│       │   │   ├── motif19-3-known.png
+│       │   │   ├── motif19-4-homer.png
+│       │   │   ├── motif19-4-known.png
+│       │   │   ├── motif19-5-homer.png
+│       │   │   ├── motif19-5-known.png
+│       │   │   ├── motif19-6-homer.png
+│       │   │   ├── motif19-6-known.png
+│       │   │   ├── motif19-7-homer.png
+│       │   │   ├── motif19-7-known.png
+│       │   │   ├── motif19-8-homer.png
+│       │   │   ├── motif19-8-known.png
+│       │   │   ├── motif19-9-homer.png
+│       │   │   ├── motif19-9-known.png
+│       │   │   ├── motif1-9-homer.png
+│       │   │   ├── motif19.info.html
+│       │   │   ├── motif1-9-known.png
+│       │   │   ├── motif19.logo.pdf
+│       │   │   ├── motif19.logo.png
+│       │   │   ├── motif19.motif
+│       │   │   ├── motif19.rvlogo.pdf
+│       │   │   ├── motif19.rvlogo.png
+│       │   │   ├── motif19RV.motif
+│       │   │   ├── motif19.similar1.logo.png
+│       │   │   ├── motif19.similar1.motif
+│       │   │   ├── motif19.similar2.logo.png
+│       │   │   ├── motif19.similar2.motif
+│       │   │   ├── motif19.similar3.logo.png
+│       │   │   ├── motif19.similar3.motif
+│       │   │   ├── motif19.similar4.logo.png
+│       │   │   ├── motif19.similar4.motif
+│       │   │   ├── motif19.similar.html
+│       │   │   ├── motif1.info.html
+│       │   │   ├── motif1.logo.pdf
+│       │   │   ├── motif1.logo.png
+│       │   │   ├── motif1.motif
+│       │   │   ├── motif1.rvlogo.pdf
+│       │   │   ├── motif1.rvlogo.png
+│       │   │   ├── motif1RV.motif
+│       │   │   ├── motif1.similar1.logo.png
+│       │   │   ├── motif1.similar1.motif
+│       │   │   ├── motif1.similar2.logo.png
+│       │   │   ├── motif1.similar2.motif
+│       │   │   ├── motif1.similar3.logo.png
+│       │   │   ├── motif1.similar3.motif
+│       │   │   ├── motif1.similar4.logo.png
+│       │   │   ├── motif1.similar4.motif
+│       │   │   ├── motif1.similar5.logo.png
+│       │   │   ├── motif1.similar5.motif
+│       │   │   ├── motif1.similar6.logo.png
+│       │   │   ├── motif1.similar6.motif
+│       │   │   ├── motif1.similar7.logo.png
+│       │   │   ├── motif1.similar7.motif
+│       │   │   ├── motif1.similar8.logo.png
+│       │   │   ├── motif1.similar8.motif
+│       │   │   ├── motif1.similar.html
+│       │   │   ├── motif20-10-homer.png
+│       │   │   ├── motif20-10-known.png
+│       │   │   ├── motif20-1-homer.png
+│       │   │   ├── motif20-1-known.png
+│       │   │   ├── motif20-2-homer.png
+│       │   │   ├── motif20-2-known.png
+│       │   │   ├── motif20-3-homer.png
+│       │   │   ├── motif20-3-known.png
+│       │   │   ├── motif20-4-homer.png
+│       │   │   ├── motif20-4-known.png
+│       │   │   ├── motif20-5-homer.png
+│       │   │   ├── motif20-5-known.png
+│       │   │   ├── motif20-6-homer.png
+│       │   │   ├── motif20-6-known.png
+│       │   │   ├── motif20-7-homer.png
+│       │   │   ├── motif20-7-known.png
+│       │   │   ├── motif20-8-homer.png
+│       │   │   ├── motif20-8-known.png
+│       │   │   ├── motif20-9-homer.png
+│       │   │   ├── motif20-9-known.png
+│       │   │   ├── motif20.info.html
+│       │   │   ├── motif20.logo.pdf
+│       │   │   ├── motif20.logo.png
+│       │   │   ├── motif20.motif
+│       │   │   ├── motif20.rvlogo.pdf
+│       │   │   ├── motif20.rvlogo.png
+│       │   │   ├── motif20RV.motif
+│       │   │   ├── motif20.similar.html
+│       │   │   ├── motif2-10-homer.png
+│       │   │   ├── motif2-10-known.png
+│       │   │   ├── motif21-10-homer.png
+│       │   │   ├── motif21-10-known.png
+│       │   │   ├── motif21-1-homer.png
+│       │   │   ├── motif21-1-known.png
+│       │   │   ├── motif21-2-homer.png
+│       │   │   ├── motif21-2-known.png
+│       │   │   ├── motif21-3-homer.png
+│       │   │   ├── motif21-3-known.png
+│       │   │   ├── motif21-4-homer.png
+│       │   │   ├── motif21-4-known.png
+│       │   │   ├── motif21-5-homer.png
+│       │   │   ├── motif21-5-known.png
+│       │   │   ├── motif21-6-homer.png
+│       │   │   ├── motif21-6-known.png
+│       │   │   ├── motif21-7-homer.png
+│       │   │   ├── motif21-7-known.png
+│       │   │   ├── motif21-8-homer.png
+│       │   │   ├── motif21-8-known.png
+│       │   │   ├── motif21-9-homer.png
+│       │   │   ├── motif21-9-known.png
+│       │   │   ├── motif2-1-homer.png
+│       │   │   ├── motif21.info.html
+│       │   │   ├── motif2-1-known.png
+│       │   │   ├── motif21.logo.pdf
+│       │   │   ├── motif21.logo.png
+│       │   │   ├── motif21.motif
+│       │   │   ├── motif21.rvlogo.pdf
+│       │   │   ├── motif21.rvlogo.png
+│       │   │   ├── motif21RV.motif
+│       │   │   ├── motif21.similar1.logo.png
+│       │   │   ├── motif21.similar1.motif
+│       │   │   ├── motif21.similar2.logo.png
+│       │   │   ├── motif21.similar2.motif
+│       │   │   ├── motif21.similar.html
+│       │   │   ├── motif22-10-homer.png
+│       │   │   ├── motif22-10-known.png
+│       │   │   ├── motif22-1-homer.png
+│       │   │   ├── motif22-1-known.png
+│       │   │   ├── motif22-2-homer.png
+│       │   │   ├── motif22-2-known.png
+│       │   │   ├── motif22-3-homer.png
+│       │   │   ├── motif22-3-known.png
+│       │   │   ├── motif22-4-homer.png
+│       │   │   ├── motif22-4-known.png
+│       │   │   ├── motif22-5-homer.png
+│       │   │   ├── motif22-5-known.png
+│       │   │   ├── motif22-6-homer.png
+│       │   │   ├── motif22-6-known.png
+│       │   │   ├── motif22-7-homer.png
+│       │   │   ├── motif22-7-known.png
+│       │   │   ├── motif22-8-homer.png
+│       │   │   ├── motif22-8-known.png
+│       │   │   ├── motif22-9-homer.png
+│       │   │   ├── motif22-9-known.png
+│       │   │   ├── motif2-2-homer.png
+│       │   │   ├── motif22.info.html
+│       │   │   ├── motif2-2-known.png
+│       │   │   ├── motif22.logo.pdf
+│       │   │   ├── motif22.logo.png
+│       │   │   ├── motif22.motif
+│       │   │   ├── motif22.rvlogo.pdf
+│       │   │   ├── motif22.rvlogo.png
+│       │   │   ├── motif22RV.motif
+│       │   │   ├── motif22.similar1.logo.png
+│       │   │   ├── motif22.similar1.motif
+│       │   │   ├── motif22.similar.html
+│       │   │   ├── motif23-10-homer.png
+│       │   │   ├── motif23-10-known.png
+│       │   │   ├── motif23-1-homer.png
+│       │   │   ├── motif23-1-known.png
+│       │   │   ├── motif23-2-homer.png
+│       │   │   ├── motif23-2-known.png
+│       │   │   ├── motif23-3-homer.png
+│       │   │   ├── motif23-3-known.png
+│       │   │   ├── motif23-4-homer.png
+│       │   │   ├── motif23-4-known.png
+│       │   │   ├── motif23-5-homer.png
+│       │   │   ├── motif23-5-known.png
+│       │   │   ├── motif23-6-homer.png
+│       │   │   ├── motif23-6-known.png
+│       │   │   ├── motif23-7-homer.png
+│       │   │   ├── motif23-7-known.png
+│       │   │   ├── motif23-8-homer.png
+│       │   │   ├── motif23-8-known.png
+│       │   │   ├── motif23-9-homer.png
+│       │   │   ├── motif23-9-known.png
+│       │   │   ├── motif2-3-homer.png
+│       │   │   ├── motif23.info.html
+│       │   │   ├── motif2-3-known.png
+│       │   │   ├── motif23.logo.pdf
+│       │   │   ├── motif23.logo.png
+│       │   │   ├── motif23.motif
+│       │   │   ├── motif23.rvlogo.pdf
+│       │   │   ├── motif23.rvlogo.png
+│       │   │   ├── motif23RV.motif
+│       │   │   ├── motif23.similar1.logo.png
+│       │   │   ├── motif23.similar1.motif
+│       │   │   ├── motif23.similar2.logo.png
+│       │   │   ├── motif23.similar2.motif
+│       │   │   ├── motif23.similar3.logo.png
+│       │   │   ├── motif23.similar3.motif
+│       │   │   ├── motif23.similar.html
+│       │   │   ├── motif24-10-homer.png
+│       │   │   ├── motif24-10-known.png
+│       │   │   ├── motif24-1-homer.png
+│       │   │   ├── motif24-1-known.png
+│       │   │   ├── motif24-2-homer.png
+│       │   │   ├── motif24-2-known.png
+│       │   │   ├── motif24-3-homer.png
+│       │   │   ├── motif24-3-known.png
+│       │   │   ├── motif24-4-homer.png
+│       │   │   ├── motif24-4-known.png
+│       │   │   ├── motif24-5-homer.png
+│       │   │   ├── motif24-5-known.png
+│       │   │   ├── motif24-6-homer.png
+│       │   │   ├── motif24-6-known.png
+│       │   │   ├── motif24-7-homer.png
+│       │   │   ├── motif24-7-known.png
+│       │   │   ├── motif24-8-homer.png
+│       │   │   ├── motif24-8-known.png
+│       │   │   ├── motif24-9-homer.png
+│       │   │   ├── motif24-9-known.png
+│       │   │   ├── motif2-4-homer.png
+│       │   │   ├── motif24.info.html
+│       │   │   ├── motif2-4-known.png
+│       │   │   ├── motif24.logo.pdf
+│       │   │   ├── motif24.logo.png
+│       │   │   ├── motif24.motif
+│       │   │   ├── motif24.rvlogo.pdf
+│       │   │   ├── motif24.rvlogo.png
+│       │   │   ├── motif24RV.motif
+│       │   │   ├── motif24.similar1.logo.png
+│       │   │   ├── motif24.similar1.motif
+│       │   │   ├── motif24.similar2.logo.png
+│       │   │   ├── motif24.similar2.motif
+│       │   │   ├── motif24.similar.html
+│       │   │   ├── motif25-10-homer.png
+│       │   │   ├── motif25-10-known.png
+│       │   │   ├── motif25-1-homer.png
+│       │   │   ├── motif25-1-known.png
+│       │   │   ├── motif25-2-homer.png
+│       │   │   ├── motif25-2-known.png
+│       │   │   ├── motif25-3-homer.png
+│       │   │   ├── motif25-3-known.png
+│       │   │   ├── motif25-4-homer.png
+│       │   │   ├── motif25-4-known.png
+│       │   │   ├── motif25-5-homer.png
+│       │   │   ├── motif25-5-known.png
+│       │   │   ├── motif25-6-homer.png
+│       │   │   ├── motif25-6-known.png
+│       │   │   ├── motif25-7-homer.png
+│       │   │   ├── motif25-7-known.png
+│       │   │   ├── motif25-8-homer.png
+│       │   │   ├── motif25-8-known.png
+│       │   │   ├── motif25-9-homer.png
+│       │   │   ├── motif25-9-known.png
+│       │   │   ├── motif2-5-homer.png
+│       │   │   ├── motif25.info.html
+│       │   │   ├── motif2-5-known.png
+│       │   │   ├── motif25.logo.pdf
+│       │   │   ├── motif25.logo.png
+│       │   │   ├── motif25.motif
+│       │   │   ├── motif25.rvlogo.pdf
+│       │   │   ├── motif25.rvlogo.png
+│       │   │   ├── motif25RV.motif
+│       │   │   ├── motif25.similar1.logo.png
+│       │   │   ├── motif25.similar1.motif
+│       │   │   ├── motif25.similar2.logo.png
+│       │   │   ├── motif25.similar2.motif
+│       │   │   ├── motif25.similar.html
+│       │   │   ├── motif26-10-homer.png
+│       │   │   ├── motif26-10-known.png
+│       │   │   ├── motif26-1-homer.png
+│       │   │   ├── motif26-1-known.png
+│       │   │   ├── motif26-2-homer.png
+│       │   │   ├── motif26-2-known.png
+│       │   │   ├── motif26-3-homer.png
+│       │   │   ├── motif26-3-known.png
+│       │   │   ├── motif26-4-homer.png
+│       │   │   ├── motif26-4-known.png
+│       │   │   ├── motif26-5-homer.png
+│       │   │   ├── motif26-5-known.png
+│       │   │   ├── motif26-6-homer.png
+│       │   │   ├── motif26-6-known.png
+│       │   │   ├── motif26-7-homer.png
+│       │   │   ├── motif26-7-known.png
+│       │   │   ├── motif26-8-homer.png
+│       │   │   ├── motif26-8-known.png
+│       │   │   ├── motif26-9-homer.png
+│       │   │   ├── motif26-9-known.png
+│       │   │   ├── motif2-6-homer.png
+│       │   │   ├── motif26.info.html
+│       │   │   ├── motif2-6-known.png
+│       │   │   ├── motif26.logo.pdf
+│       │   │   ├── motif26.logo.png
+│       │   │   ├── motif26.motif
+│       │   │   ├── motif26.rvlogo.pdf
+│       │   │   ├── motif26.rvlogo.png
+│       │   │   ├── motif26RV.motif
+│       │   │   ├── motif26.similar.html
+│       │   │   ├── motif27-10-homer.png
+│       │   │   ├── motif27-10-known.png
+│       │   │   ├── motif27-1-homer.png
+│       │   │   ├── motif27-1-known.png
+│       │   │   ├── motif27-2-homer.png
+│       │   │   ├── motif27-2-known.png
+│       │   │   ├── motif27-3-homer.png
+│       │   │   ├── motif27-3-known.png
+│       │   │   ├── motif27-4-homer.png
+│       │   │   ├── motif27-4-known.png
+│       │   │   ├── motif27-5-homer.png
+│       │   │   ├── motif27-5-known.png
+│       │   │   ├── motif27-6-homer.png
+│       │   │   ├── motif27-6-known.png
+│       │   │   ├── motif27-7-homer.png
+│       │   │   ├── motif27-7-known.png
+│       │   │   ├── motif27-8-homer.png
+│       │   │   ├── motif27-8-known.png
+│       │   │   ├── motif27-9-homer.png
+│       │   │   ├── motif27-9-known.png
+│       │   │   ├── motif2-7-homer.png
+│       │   │   ├── motif27.info.html
+│       │   │   ├── motif2-7-known.png
+│       │   │   ├── motif27.logo.pdf
+│       │   │   ├── motif27.logo.png
+│       │   │   ├── motif27.motif
+│       │   │   ├── motif27.rvlogo.pdf
+│       │   │   ├── motif27.rvlogo.png
+│       │   │   ├── motif27RV.motif
+│       │   │   ├── motif27.similar.html
+│       │   │   ├── motif28-10-homer.png
+│       │   │   ├── motif28-10-known.png
+│       │   │   ├── motif28-1-homer.png
+│       │   │   ├── motif28-1-known.png
+│       │   │   ├── motif28-2-homer.png
+│       │   │   ├── motif28-2-known.png
+│       │   │   ├── motif28-3-homer.png
+│       │   │   ├── motif28-3-known.png
+│       │   │   ├── motif28-4-homer.png
+│       │   │   ├── motif28-4-known.png
+│       │   │   ├── motif28-5-homer.png
+│       │   │   ├── motif28-5-known.png
+│       │   │   ├── motif28-6-homer.png
+│       │   │   ├── motif28-6-known.png
+│       │   │   ├── motif28-7-homer.png
+│       │   │   ├── motif28-7-known.png
+│       │   │   ├── motif28-8-homer.png
+│       │   │   ├── motif28-8-known.png
+│       │   │   ├── motif28-9-homer.png
+│       │   │   ├── motif28-9-known.png
+│       │   │   ├── motif2-8-homer.png
+│       │   │   ├── motif28.info.html
+│       │   │   ├── motif2-8-known.png
+│       │   │   ├── motif28.logo.pdf
+│       │   │   ├── motif28.logo.png
+│       │   │   ├── motif28.motif
+│       │   │   ├── motif28.rvlogo.pdf
+│       │   │   ├── motif28.rvlogo.png
+│       │   │   ├── motif28RV.motif
+│       │   │   ├── motif28.similar1.logo.png
+│       │   │   ├── motif28.similar1.motif
+│       │   │   ├── motif28.similar.html
+│       │   │   ├── motif29-10-homer.png
+│       │   │   ├── motif29-10-known.png
+│       │   │   ├── motif29-1-homer.png
+│       │   │   ├── motif29-1-known.png
+│       │   │   ├── motif29-2-homer.png
+│       │   │   ├── motif29-2-known.png
+│       │   │   ├── motif29-3-homer.png
+│       │   │   ├── motif29-3-known.png
+│       │   │   ├── motif29-4-homer.png
+│       │   │   ├── motif29-4-known.png
+│       │   │   ├── motif29-5-homer.png
+│       │   │   ├── motif29-5-known.png
+│       │   │   ├── motif29-6-homer.png
+│       │   │   ├── motif29-6-known.png
+│       │   │   ├── motif29-7-homer.png
+│       │   │   ├── motif29-7-known.png
+│       │   │   ├── motif29-8-homer.png
+│       │   │   ├── motif29-8-known.png
+│       │   │   ├── motif29-9-homer.png
+│       │   │   ├── motif29-9-known.png
+│       │   │   ├── motif2-9-homer.png
+│       │   │   ├── motif29.info.html
+│       │   │   ├── motif2-9-known.png
+│       │   │   ├── motif29.logo.pdf
+│       │   │   ├── motif29.logo.png
+│       │   │   ├── motif29.motif
+│       │   │   ├── motif29.rvlogo.pdf
+│       │   │   ├── motif29.rvlogo.png
+│       │   │   ├── motif29RV.motif
+│       │   │   ├── motif29.similar1.logo.png
+│       │   │   ├── motif29.similar1.motif
+│       │   │   ├── motif29.similar2.logo.png
+│       │   │   ├── motif29.similar2.motif
+│       │   │   ├── motif29.similar.html
+│       │   │   ├── motif2.info.html
+│       │   │   ├── motif2.logo.pdf
+│       │   │   ├── motif2.logo.png
+│       │   │   ├── motif2.motif
+│       │   │   ├── motif2.rvlogo.pdf
+│       │   │   ├── motif2.rvlogo.png
+│       │   │   ├── motif2RV.motif
+│       │   │   ├── motif2.similar1.logo.png
+│       │   │   ├── motif2.similar1.motif
+│       │   │   ├── motif2.similar2.logo.png
+│       │   │   ├── motif2.similar2.motif
+│       │   │   ├── motif2.similar3.logo.png
+│       │   │   ├── motif2.similar3.motif
+│       │   │   ├── motif2.similar4.logo.png
+│       │   │   ├── motif2.similar4.motif
+│       │   │   ├── motif2.similar.html
+│       │   │   ├── motif30-10-homer.png
+│       │   │   ├── motif30-10-known.png
+│       │   │   ├── motif30-1-homer.png
+│       │   │   ├── motif30-1-known.png
+│       │   │   ├── motif30-2-homer.png
+│       │   │   ├── motif30-2-known.png
+│       │   │   ├── motif30-3-homer.png
+│       │   │   ├── motif30-3-known.png
+│       │   │   ├── motif30-4-homer.png
+│       │   │   ├── motif30-4-known.png
+│       │   │   ├── motif30-5-homer.png
+│       │   │   ├── motif30-5-known.png
+│       │   │   ├── motif30-6-homer.png
+│       │   │   ├── motif30-6-known.png
+│       │   │   ├── motif30-7-homer.png
+│       │   │   ├── motif30-7-known.png
+│       │   │   ├── motif30-8-homer.png
+│       │   │   ├── motif30-8-known.png
+│       │   │   ├── motif30-9-homer.png
+│       │   │   ├── motif30-9-known.png
+│       │   │   ├── motif30.info.html
+│       │   │   ├── motif30.logo.pdf
+│       │   │   ├── motif30.logo.png
+│       │   │   ├── motif30.motif
+│       │   │   ├── motif30.rvlogo.pdf
+│       │   │   ├── motif30.rvlogo.png
+│       │   │   ├── motif30RV.motif
+│       │   │   ├── motif30.similar.html
+│       │   │   ├── motif3-10-homer.png
+│       │   │   ├── motif3-10-known.png
+│       │   │   ├── motif31-10-homer.png
+│       │   │   ├── motif31-10-known.png
+│       │   │   ├── motif31-1-homer.png
+│       │   │   ├── motif31-1-known.png
+│       │   │   ├── motif31-2-homer.png
+│       │   │   ├── motif31-2-known.png
+│       │   │   ├── motif31-3-homer.png
+│       │   │   ├── motif31-3-known.png
+│       │   │   ├── motif31-4-homer.png
+│       │   │   ├── motif31-4-known.png
+│       │   │   ├── motif31-5-homer.png
+│       │   │   ├── motif31-5-known.png
+│       │   │   ├── motif31-6-homer.png
+│       │   │   ├── motif31-6-known.png
+│       │   │   ├── motif31-7-homer.png
+│       │   │   ├── motif31-7-known.png
+│       │   │   ├── motif31-8-homer.png
+│       │   │   ├── motif31-8-known.png
+│       │   │   ├── motif31-9-homer.png
+│       │   │   ├── motif31-9-known.png
+│       │   │   ├── motif3-1-homer.png
+│       │   │   ├── motif31.info.html
+│       │   │   ├── motif3-1-known.png
+│       │   │   ├── motif31.logo.pdf
+│       │   │   ├── motif31.logo.png
+│       │   │   ├── motif31.motif
+│       │   │   ├── motif31.rvlogo.pdf
+│       │   │   ├── motif31.rvlogo.png
+│       │   │   ├── motif31RV.motif
+│       │   │   ├── motif31.similar1.logo.png
+│       │   │   ├── motif31.similar1.motif
+│       │   │   ├── motif31.similar.html
+│       │   │   ├── motif32-10-homer.png
+│       │   │   ├── motif32-10-known.png
+│       │   │   ├── motif32-1-homer.png
+│       │   │   ├── motif32-1-known.png
+│       │   │   ├── motif32-2-homer.png
+│       │   │   ├── motif32-2-known.png
+│       │   │   ├── motif32-3-homer.png
+│       │   │   ├── motif32-3-known.png
+│       │   │   ├── motif32-4-homer.png
+│       │   │   ├── motif32-4-known.png
+│       │   │   ├── motif32-5-homer.png
+│       │   │   ├── motif32-5-known.png
+│       │   │   ├── motif32-6-homer.png
+│       │   │   ├── motif32-6-known.png
+│       │   │   ├── motif32-7-homer.png
+│       │   │   ├── motif32-7-known.png
+│       │   │   ├── motif32-8-homer.png
+│       │   │   ├── motif32-8-known.png
+│       │   │   ├── motif32-9-homer.png
+│       │   │   ├── motif32-9-known.png
+│       │   │   ├── motif3-2-homer.png
+│       │   │   ├── motif32.info.html
+│       │   │   ├── motif3-2-known.png
+│       │   │   ├── motif32.logo.pdf
+│       │   │   ├── motif32.logo.png
+│       │   │   ├── motif32.motif
+│       │   │   ├── motif32.rvlogo.pdf
+│       │   │   ├── motif32.rvlogo.png
+│       │   │   ├── motif32RV.motif
+│       │   │   ├── motif32.similar1.logo.png
+│       │   │   ├── motif32.similar1.motif
+│       │   │   ├── motif32.similar.html
+│       │   │   ├── motif33-10-homer.png
+│       │   │   ├── motif33-10-known.png
+│       │   │   ├── motif33-1-homer.png
+│       │   │   ├── motif33-1-known.png
+│       │   │   ├── motif33-2-homer.png
+│       │   │   ├── motif33-2-known.png
+│       │   │   ├── motif33-3-homer.png
+│       │   │   ├── motif33-3-known.png
+│       │   │   ├── motif33-4-homer.png
+│       │   │   ├── motif33-4-known.png
+│       │   │   ├── motif33-5-homer.png
+│       │   │   ├── motif33-5-known.png
+│       │   │   ├── motif33-6-homer.png
+│       │   │   ├── motif33-6-known.png
+│       │   │   ├── motif33-7-homer.png
+│       │   │   ├── motif33-7-known.png
+│       │   │   ├── motif33-8-homer.png
+│       │   │   ├── motif33-8-known.png
+│       │   │   ├── motif33-9-homer.png
+│       │   │   ├── motif33-9-known.png
+│       │   │   ├── motif3-3-homer.png
+│       │   │   ├── motif33.info.html
+│       │   │   ├── motif3-3-known.png
+│       │   │   ├── motif33.logo.pdf
+│       │   │   ├── motif33.logo.png
+│       │   │   ├── motif33.motif
+│       │   │   ├── motif33.rvlogo.pdf
+│       │   │   ├── motif33.rvlogo.png
+│       │   │   ├── motif33RV.motif
+│       │   │   ├── motif33.similar1.logo.png
+│       │   │   ├── motif33.similar1.motif
+│       │   │   ├── motif33.similar.html
+│       │   │   ├── motif34-10-homer.png
+│       │   │   ├── motif34-10-known.png
+│       │   │   ├── motif34-1-homer.png
+│       │   │   ├── motif34-1-known.png
+│       │   │   ├── motif34-2-homer.png
+│       │   │   ├── motif34-2-known.png
+│       │   │   ├── motif34-3-homer.png
+│       │   │   ├── motif34-3-known.png
+│       │   │   ├── motif34-4-homer.png
+│       │   │   ├── motif34-4-known.png
+│       │   │   ├── motif34-5-homer.png
+│       │   │   ├── motif34-5-known.png
+│       │   │   ├── motif34-6-homer.png
+│       │   │   ├── motif34-6-known.png
+│       │   │   ├── motif34-7-homer.png
+│       │   │   ├── motif34-7-known.png
+│       │   │   ├── motif34-8-homer.png
+│       │   │   ├── motif34-8-known.png
+│       │   │   ├── motif34-9-homer.png
+│       │   │   ├── motif34-9-known.png
+│       │   │   ├── motif3-4-homer.png
+│       │   │   ├── motif34.info.html
+│       │   │   ├── motif3-4-known.png
+│       │   │   ├── motif34.logo.pdf
+│       │   │   ├── motif34.logo.png
+│       │   │   ├── motif34.motif
+│       │   │   ├── motif34.rvlogo.pdf
+│       │   │   ├── motif34.rvlogo.png
+│       │   │   ├── motif34RV.motif
+│       │   │   ├── motif34.similar1.logo.png
+│       │   │   ├── motif34.similar1.motif
+│       │   │   ├── motif34.similar.html
+│       │   │   ├── motif35-10-homer.png
+│       │   │   ├── motif35-10-known.png
+│       │   │   ├── motif35-1-homer.png
+│       │   │   ├── motif35-1-known.png
+│       │   │   ├── motif35-2-homer.png
+│       │   │   ├── motif35-2-known.png
+│       │   │   ├── motif35-3-homer.png
+│       │   │   ├── motif35-3-known.png
+│       │   │   ├── motif35-4-homer.png
+│       │   │   ├── motif35-4-known.png
+│       │   │   ├── motif35-5-homer.png
+│       │   │   ├── motif35-5-known.png
+│       │   │   ├── motif35-6-homer.png
+│       │   │   ├── motif35-6-known.png
+│       │   │   ├── motif35-7-homer.png
+│       │   │   ├── motif35-7-known.png
+│       │   │   ├── motif35-8-homer.png
+│       │   │   ├── motif35-8-known.png
+│       │   │   ├── motif35-9-homer.png
+│       │   │   ├── motif35-9-known.png
+│       │   │   ├── motif3-5-homer.png
+│       │   │   ├── motif35.info.html
+│       │   │   ├── motif3-5-known.png
+│       │   │   ├── motif35.logo.pdf
+│       │   │   ├── motif35.logo.png
+│       │   │   ├── motif35.motif
+│       │   │   ├── motif35.rvlogo.pdf
+│       │   │   ├── motif35.rvlogo.png
+│       │   │   ├── motif35RV.motif
+│       │   │   ├── motif35.similar.html
+│       │   │   ├── motif36-10-homer.png
+│       │   │   ├── motif36-10-known.png
+│       │   │   ├── motif36-1-homer.png
+│       │   │   ├── motif36-1-known.png
+│       │   │   ├── motif36-2-homer.png
+│       │   │   ├── motif36-2-known.png
+│       │   │   ├── motif36-3-homer.png
+│       │   │   ├── motif36-3-known.png
+│       │   │   ├── motif36-4-homer.png
+│       │   │   ├── motif36-4-known.png
+│       │   │   ├── motif36-5-homer.png
+│       │   │   ├── motif36-5-known.png
+│       │   │   ├── motif36-6-homer.png
+│       │   │   ├── motif36-6-known.png
+│       │   │   ├── motif36-7-homer.png
+│       │   │   ├── motif36-7-known.png
+│       │   │   ├── motif36-8-homer.png
+│       │   │   ├── motif36-8-known.png
+│       │   │   ├── motif36-9-homer.png
+│       │   │   ├── motif36-9-known.png
+│       │   │   ├── motif3-6-homer.png
+│       │   │   ├── motif36.info.html
+│       │   │   ├── motif3-6-known.png
+│       │   │   ├── motif36.logo.pdf
+│       │   │   ├── motif36.logo.png
+│       │   │   ├── motif36.motif
+│       │   │   ├── motif36.rvlogo.pdf
+│       │   │   ├── motif36.rvlogo.png
+│       │   │   ├── motif36RV.motif
+│       │   │   ├── motif36.similar.html
+│       │   │   ├── motif37-10-homer.png
+│       │   │   ├── motif37-10-known.png
+│       │   │   ├── motif37-1-homer.png
+│       │   │   ├── motif37-1-known.png
+│       │   │   ├── motif37-2-homer.png
+│       │   │   ├── motif37-2-known.png
+│       │   │   ├── motif37-3-homer.png
+│       │   │   ├── motif37-3-known.png
+│       │   │   ├── motif37-4-homer.png
+│       │   │   ├── motif37-4-known.png
+│       │   │   ├── motif37-5-homer.png
+│       │   │   ├── motif37-5-known.png
+│       │   │   ├── motif37-6-homer.png
+│       │   │   ├── motif37-6-known.png
+│       │   │   ├── motif37-7-homer.png
+│       │   │   ├── motif37-7-known.png
+│       │   │   ├── motif37-8-homer.png
+│       │   │   ├── motif37-8-known.png
+│       │   │   ├── motif37-9-homer.png
+│       │   │   ├── motif37-9-known.png
+│       │   │   ├── motif3-7-homer.png
+│       │   │   ├── motif37.info.html
+│       │   │   ├── motif3-7-known.png
+│       │   │   ├── motif37.logo.pdf
+│       │   │   ├── motif37.logo.png
+│       │   │   ├── motif37.motif
+│       │   │   ├── motif37.rvlogo.pdf
+│       │   │   ├── motif37.rvlogo.png
+│       │   │   ├── motif37RV.motif
+│       │   │   ├── motif37.similar.html
+│       │   │   ├── motif38-10-homer.png
+│       │   │   ├── motif38-10-known.png
+│       │   │   ├── motif38-1-homer.png
+│       │   │   ├── motif38-1-known.png
+│       │   │   ├── motif38-2-homer.png
+│       │   │   ├── motif38-2-known.png
+│       │   │   ├── motif38-3-homer.png
+│       │   │   ├── motif38-3-known.png
+│       │   │   ├── motif38-4-homer.png
+│       │   │   ├── motif38-4-known.png
+│       │   │   ├── motif38-5-homer.png
+│       │   │   ├── motif38-5-known.png
+│       │   │   ├── motif38-6-homer.png
+│       │   │   ├── motif38-6-known.png
+│       │   │   ├── motif38-7-homer.png
+│       │   │   ├── motif38-7-known.png
+│       │   │   ├── motif38-8-homer.png
+│       │   │   ├── motif38-8-known.png
+│       │   │   ├── motif38-9-homer.png
+│       │   │   ├── motif38-9-known.png
+│       │   │   ├── motif3-8-homer.png
+│       │   │   ├── motif38.info.html
+│       │   │   ├── motif3-8-known.png
+│       │   │   ├── motif38.logo.pdf
+│       │   │   ├── motif38.logo.png
+│       │   │   ├── motif38.motif
+│       │   │   ├── motif38.rvlogo.pdf
+│       │   │   ├── motif38.rvlogo.png
+│       │   │   ├── motif38RV.motif
+│       │   │   ├── motif38.similar.html
+│       │   │   ├── motif39-10-homer.png
+│       │   │   ├── motif39-10-known.png
+│       │   │   ├── motif39-1-homer.png
+│       │   │   ├── motif39-1-known.png
+│       │   │   ├── motif39-2-homer.png
+│       │   │   ├── motif39-2-known.png
+│       │   │   ├── motif39-3-homer.png
+│       │   │   ├── motif39-3-known.png
+│       │   │   ├── motif39-4-homer.png
+│       │   │   ├── motif39-4-known.png
+│       │   │   ├── motif39-5-homer.png
+│       │   │   ├── motif39-5-known.png
+│       │   │   ├── motif39-6-homer.png
+│       │   │   ├── motif39-6-known.png
+│       │   │   ├── motif39-7-homer.png
+│       │   │   ├── motif39-7-known.png
+│       │   │   ├── motif39-8-homer.png
+│       │   │   ├── motif39-8-known.png
+│       │   │   ├── motif39-9-homer.png
+│       │   │   ├── motif39-9-known.png
+│       │   │   ├── motif3-9-homer.png
+│       │   │   ├── motif39.info.html
+│       │   │   ├── motif3-9-known.png
+│       │   │   ├── motif39.logo.pdf
+│       │   │   ├── motif39.logo.png
+│       │   │   ├── motif39.motif
+│       │   │   ├── motif39.rvlogo.pdf
+│       │   │   ├── motif39.rvlogo.png
+│       │   │   ├── motif39RV.motif
+│       │   │   ├── motif39.similar.html
+│       │   │   ├── motif3.info.html
+│       │   │   ├── motif3.logo.pdf
+│       │   │   ├── motif3.logo.png
+│       │   │   ├── motif3.motif
+│       │   │   ├── motif3.rvlogo.pdf
+│       │   │   ├── motif3.rvlogo.png
+│       │   │   ├── motif3RV.motif
+│       │   │   ├── motif3.similar1.logo.png
+│       │   │   ├── motif3.similar1.motif
+│       │   │   ├── motif3.similar2.logo.png
+│       │   │   ├── motif3.similar2.motif
+│       │   │   ├── motif3.similar3.logo.png
+│       │   │   ├── motif3.similar3.motif
+│       │   │   ├── motif3.similar.html
+│       │   │   ├── motif40-10-homer.png
+│       │   │   ├── motif40-10-known.png
+│       │   │   ├── motif40-1-homer.png
+│       │   │   ├── motif40-1-known.png
+│       │   │   ├── motif40-2-homer.png
+│       │   │   ├── motif40-2-known.png
+│       │   │   ├── motif40-3-homer.png
+│       │   │   ├── motif40-3-known.png
+│       │   │   ├── motif40-4-homer.png
+│       │   │   ├── motif40-4-known.png
+│       │   │   ├── motif40-5-homer.png
+│       │   │   ├── motif40-5-known.png
+│       │   │   ├── motif40-6-homer.png
+│       │   │   ├── motif40-6-known.png
+│       │   │   ├── motif40-7-homer.png
+│       │   │   ├── motif40-7-known.png
+│       │   │   ├── motif40-8-homer.png
+│       │   │   ├── motif40-8-known.png
+│       │   │   ├── motif40-9-homer.png
+│       │   │   ├── motif40-9-known.png
+│       │   │   ├── motif40.info.html
+│       │   │   ├── motif40.logo.pdf
+│       │   │   ├── motif40.logo.png
+│       │   │   ├── motif40.motif
+│       │   │   ├── motif40.rvlogo.pdf
+│       │   │   ├── motif40.rvlogo.png
+│       │   │   ├── motif40RV.motif
+│       │   │   ├── motif40.similar.html
+│       │   │   ├── motif4-10-homer.png
+│       │   │   ├── motif4-10-known.png
+│       │   │   ├── motif41-10-homer.png
+│       │   │   ├── motif41-10-known.png
+│       │   │   ├── motif41-1-homer.png
+│       │   │   ├── motif41-1-known.png
+│       │   │   ├── motif41-2-homer.png
+│       │   │   ├── motif41-2-known.png
+│       │   │   ├── motif41-3-homer.png
+│       │   │   ├── motif41-3-known.png
+│       │   │   ├── motif41-4-homer.png
+│       │   │   ├── motif41-4-known.png
+│       │   │   ├── motif41-5-homer.png
+│       │   │   ├── motif41-5-known.png
+│       │   │   ├── motif41-6-homer.png
+│       │   │   ├── motif41-6-known.png
+│       │   │   ├── motif41-7-homer.png
+│       │   │   ├── motif41-7-known.png
+│       │   │   ├── motif41-8-homer.png
+│       │   │   ├── motif41-8-known.png
+│       │   │   ├── motif41-9-homer.png
+│       │   │   ├── motif41-9-known.png
+│       │   │   ├── motif4-1-homer.png
+│       │   │   ├── motif41.info.html
+│       │   │   ├── motif4-1-known.png
+│       │   │   ├── motif41.logo.pdf
+│       │   │   ├── motif41.logo.png
+│       │   │   ├── motif41.motif
+│       │   │   ├── motif41.rvlogo.pdf
+│       │   │   ├── motif41.rvlogo.png
+│       │   │   ├── motif41RV.motif
+│       │   │   ├── motif41.similar.html
+│       │   │   ├── motif42-10-homer.png
+│       │   │   ├── motif42-10-known.png
+│       │   │   ├── motif42-1-homer.png
+│       │   │   ├── motif42-1-known.png
+│       │   │   ├── motif42-2-homer.png
+│       │   │   ├── motif42-2-known.png
+│       │   │   ├── motif42-3-homer.png
+│       │   │   ├── motif42-3-known.png
+│       │   │   ├── motif42-4-homer.png
+│       │   │   ├── motif42-4-known.png
+│       │   │   ├── motif42-5-homer.png
+│       │   │   ├── motif42-5-known.png
+│       │   │   ├── motif42-6-homer.png
+│       │   │   ├── motif42-6-known.png
+│       │   │   ├── motif42-7-homer.png
+│       │   │   ├── motif42-7-known.png
+│       │   │   ├── motif42-8-homer.png
+│       │   │   ├── motif42-8-known.png
+│       │   │   ├── motif42-9-homer.png
+│       │   │   ├── motif42-9-known.png
+│       │   │   ├── motif4-2-homer.png
+│       │   │   ├── motif42.info.html
+│       │   │   ├── motif4-2-known.png
+│       │   │   ├── motif42.logo.pdf
+│       │   │   ├── motif42.logo.png
+│       │   │   ├── motif42.motif
+│       │   │   ├── motif42.rvlogo.pdf
+│       │   │   ├── motif42.rvlogo.png
+│       │   │   ├── motif42RV.motif
+│       │   │   ├── motif42.similar1.logo.png
+│       │   │   ├── motif42.similar1.motif
+│       │   │   ├── motif42.similar.html
+│       │   │   ├── motif43-10-homer.png
+│       │   │   ├── motif43-10-known.png
+│       │   │   ├── motif43-1-homer.png
+│       │   │   ├── motif43-1-known.png
+│       │   │   ├── motif43-2-homer.png
+│       │   │   ├── motif43-2-known.png
+│       │   │   ├── motif43-3-homer.png
+│       │   │   ├── motif43-3-known.png
+│       │   │   ├── motif43-4-homer.png
+│       │   │   ├── motif43-4-known.png
+│       │   │   ├── motif43-5-homer.png
+│       │   │   ├── motif43-5-known.png
+│       │   │   ├── motif43-6-homer.png
+│       │   │   ├── motif43-6-known.png
+│       │   │   ├── motif43-7-homer.png
+│       │   │   ├── motif43-7-known.png
+│       │   │   ├── motif43-8-homer.png
+│       │   │   ├── motif43-8-known.png
+│       │   │   ├── motif43-9-homer.png
+│       │   │   ├── motif43-9-known.png
+│       │   │   ├── motif4-3-homer.png
+│       │   │   ├── motif43.info.html
+│       │   │   ├── motif4-3-known.png
+│       │   │   ├── motif43.logo.pdf
+│       │   │   ├── motif43.logo.png
+│       │   │   ├── motif43.motif
+│       │   │   ├── motif43.rvlogo.pdf
+│       │   │   ├── motif43.rvlogo.png
+│       │   │   ├── motif43RV.motif
+│       │   │   ├── motif43.similar.html
+│       │   │   ├── motif44-10-homer.png
+│       │   │   ├── motif44-10-known.png
+│       │   │   ├── motif44-1-homer.png
+│       │   │   ├── motif44-1-known.png
+│       │   │   ├── motif44-2-homer.png
+│       │   │   ├── motif44-2-known.png
+│       │   │   ├── motif44-3-homer.png
+│       │   │   ├── motif44-3-known.png
+│       │   │   ├── motif44-4-homer.png
+│       │   │   ├── motif44-4-known.png
+│       │   │   ├── motif44-5-homer.png
+│       │   │   ├── motif44-5-known.png
+│       │   │   ├── motif44-6-homer.png
+│       │   │   ├── motif44-6-known.png
+│       │   │   ├── motif44-7-homer.png
+│       │   │   ├── motif44-7-known.png
+│       │   │   ├── motif44-8-homer.png
+│       │   │   ├── motif44-8-known.png
+│       │   │   ├── motif44-9-homer.png
+│       │   │   ├── motif44-9-known.png
+│       │   │   ├── motif4-4-homer.png
+│       │   │   ├── motif44.info.html
+│       │   │   ├── motif4-4-known.png
+│       │   │   ├── motif44.logo.pdf
+│       │   │   ├── motif44.logo.png
+│       │   │   ├── motif44.motif
+│       │   │   ├── motif44.rvlogo.pdf
+│       │   │   ├── motif44.rvlogo.png
+│       │   │   ├── motif44RV.motif
+│       │   │   ├── motif44.similar.html
+│       │   │   ├── motif45-10-homer.png
+│       │   │   ├── motif45-10-known.png
+│       │   │   ├── motif45-1-homer.png
+│       │   │   ├── motif45-1-known.png
+│       │   │   ├── motif45-2-homer.png
+│       │   │   ├── motif45-2-known.png
+│       │   │   ├── motif45-3-homer.png
+│       │   │   ├── motif45-3-known.png
+│       │   │   ├── motif45-4-homer.png
+│       │   │   ├── motif45-4-known.png
+│       │   │   ├── motif45-5-homer.png
+│       │   │   ├── motif45-5-known.png
+│       │   │   ├── motif45-6-homer.png
+│       │   │   ├── motif45-6-known.png
+│       │   │   ├── motif45-7-homer.png
+│       │   │   ├── motif45-7-known.png
+│       │   │   ├── motif45-8-homer.png
+│       │   │   ├── motif45-8-known.png
+│       │   │   ├── motif45-9-homer.png
+│       │   │   ├── motif45-9-known.png
+│       │   │   ├── motif4-5-homer.png
+│       │   │   ├── motif45.info.html
+│       │   │   ├── motif4-5-known.png
+│       │   │   ├── motif45.logo.pdf
+│       │   │   ├── motif45.logo.png
+│       │   │   ├── motif45.motif
+│       │   │   ├── motif45.rvlogo.pdf
+│       │   │   ├── motif45.rvlogo.png
+│       │   │   ├── motif45RV.motif
+│       │   │   ├── motif45.similar.html
+│       │   │   ├── motif46-10-homer.png
+│       │   │   ├── motif46-10-known.png
+│       │   │   ├── motif46-1-homer.png
+│       │   │   ├── motif46-1-known.png
+│       │   │   ├── motif46-2-homer.png
+│       │   │   ├── motif46-2-known.png
+│       │   │   ├── motif46-3-homer.png
+│       │   │   ├── motif46-3-known.png
+│       │   │   ├── motif46-4-homer.png
+│       │   │   ├── motif46-4-known.png
+│       │   │   ├── motif46-5-homer.png
+│       │   │   ├── motif46-5-known.png
+│       │   │   ├── motif46-6-homer.png
+│       │   │   ├── motif46-6-known.png
+│       │   │   ├── motif46-7-homer.png
+│       │   │   ├── motif46-7-known.png
+│       │   │   ├── motif46-8-homer.png
+│       │   │   ├── motif46-8-known.png
+│       │   │   ├── motif46-9-homer.png
+│       │   │   ├── motif46-9-known.png
+│       │   │   ├── motif4-6-homer.png
+│       │   │   ├── motif46.info.html
+│       │   │   ├── motif4-6-known.png
+│       │   │   ├── motif46.logo.pdf
+│       │   │   ├── motif46.logo.png
+│       │   │   ├── motif46.motif
+│       │   │   ├── motif46.rvlogo.pdf
+│       │   │   ├── motif46.rvlogo.png
+│       │   │   ├── motif46RV.motif
+│       │   │   ├── motif46.similar.html
+│       │   │   ├── motif47-10-homer.png
+│       │   │   ├── motif47-10-known.png
+│       │   │   ├── motif47-1-homer.png
+│       │   │   ├── motif47-1-known.png
+│       │   │   ├── motif47-2-homer.png
+│       │   │   ├── motif47-2-known.png
+│       │   │   ├── motif47-3-homer.png
+│       │   │   ├── motif47-3-known.png
+│       │   │   ├── motif47-4-homer.png
+│       │   │   ├── motif47-4-known.png
+│       │   │   ├── motif47-5-homer.png
+│       │   │   ├── motif47-5-known.png
+│       │   │   ├── motif47-6-homer.png
+│       │   │   ├── motif47-6-known.png
+│       │   │   ├── motif47-7-homer.png
+│       │   │   ├── motif47-7-known.png
+│       │   │   ├── motif47-8-homer.png
+│       │   │   ├── motif47-8-known.png
+│       │   │   ├── motif47-9-homer.png
+│       │   │   ├── motif47-9-known.png
+│       │   │   ├── motif4-7-homer.png
+│       │   │   ├── motif47.info.html
+│       │   │   ├── motif4-7-known.png
+│       │   │   ├── motif47.logo.pdf
+│       │   │   ├── motif47.logo.png
+│       │   │   ├── motif47.motif
+│       │   │   ├── motif47.rvlogo.pdf
+│       │   │   ├── motif47.rvlogo.png
+│       │   │   ├── motif47RV.motif
+│       │   │   ├── motif47.similar.html
+│       │   │   ├── motif48-10-homer.png
+│       │   │   ├── motif48-10-known.png
+│       │   │   ├── motif48-1-homer.png
+│       │   │   ├── motif48-1-known.png
+│       │   │   ├── motif48-2-homer.png
+│       │   │   ├── motif48-2-known.png
+│       │   │   ├── motif48-3-homer.png
+│       │   │   ├── motif48-3-known.png
+│       │   │   ├── motif48-4-homer.png
+│       │   │   ├── motif48-4-known.png
+│       │   │   ├── motif48-5-homer.png
+│       │   │   ├── motif48-5-known.png
+│       │   │   ├── motif48-6-homer.png
+│       │   │   ├── motif48-6-known.png
+│       │   │   ├── motif48-7-homer.png
+│       │   │   ├── motif48-7-known.png
+│       │   │   ├── motif48-8-homer.png
+│       │   │   ├── motif48-8-known.png
+│       │   │   ├── motif48-9-homer.png
+│       │   │   ├── motif48-9-known.png
+│       │   │   ├── motif4-8-homer.png
+│       │   │   ├── motif48.info.html
+│       │   │   ├── motif4-8-known.png
+│       │   │   ├── motif48.logo.pdf
+│       │   │   ├── motif48.logo.png
+│       │   │   ├── motif48.motif
+│       │   │   ├── motif48.rvlogo.pdf
+│       │   │   ├── motif48.rvlogo.png
+│       │   │   ├── motif48RV.motif
+│       │   │   ├── motif48.similar.html
+│       │   │   ├── motif49-10-homer.png
+│       │   │   ├── motif49-10-known.png
+│       │   │   ├── motif49-1-homer.png
+│       │   │   ├── motif49-1-known.png
+│       │   │   ├── motif49-2-homer.png
+│       │   │   ├── motif49-2-known.png
+│       │   │   ├── motif49-3-homer.png
+│       │   │   ├── motif49-3-known.png
+│       │   │   ├── motif49-4-homer.png
+│       │   │   ├── motif49-4-known.png
+│       │   │   ├── motif49-5-homer.png
+│       │   │   ├── motif49-5-known.png
+│       │   │   ├── motif49-6-homer.png
+│       │   │   ├── motif49-6-known.png
+│       │   │   ├── motif49-7-homer.png
+│       │   │   ├── motif49-7-known.png
+│       │   │   ├── motif49-8-homer.png
+│       │   │   ├── motif49-8-known.png
+│       │   │   ├── motif49-9-homer.png
+│       │   │   ├── motif49-9-known.png
+│       │   │   ├── motif4-9-homer.png
+│       │   │   ├── motif49.info.html
+│       │   │   ├── motif4-9-known.png
+│       │   │   ├── motif49.logo.pdf
+│       │   │   ├── motif49.logo.png
+│       │   │   ├── motif49.motif
+│       │   │   ├── motif49.rvlogo.pdf
+│       │   │   ├── motif49.rvlogo.png
+│       │   │   ├── motif49RV.motif
+│       │   │   ├── motif49.similar.html
+│       │   │   ├── motif4.info.html
+│       │   │   ├── motif4.logo.pdf
+│       │   │   ├── motif4.logo.png
+│       │   │   ├── motif4.motif
+│       │   │   ├── motif4.rvlogo.pdf
+│       │   │   ├── motif4.rvlogo.png
+│       │   │   ├── motif4RV.motif
+│       │   │   ├── motif4.similar1.logo.png
+│       │   │   ├── motif4.similar1.motif
+│       │   │   ├── motif4.similar2.logo.png
+│       │   │   ├── motif4.similar2.motif
+│       │   │   ├── motif4.similar3.logo.png
+│       │   │   ├── motif4.similar3.motif
+│       │   │   ├── motif4.similar4.logo.png
+│       │   │   ├── motif4.similar4.motif
+│       │   │   ├── motif4.similar5.logo.png
+│       │   │   ├── motif4.similar5.motif
+│       │   │   ├── motif4.similar.html
+│       │   │   ├── motif50-10-homer.png
+│       │   │   ├── motif50-10-known.png
+│       │   │   ├── motif50-1-homer.png
+│       │   │   ├── motif50-1-known.png
+│       │   │   ├── motif50-2-homer.png
+│       │   │   ├── motif50-2-known.png
+│       │   │   ├── motif50-3-homer.png
+│       │   │   ├── motif50-3-known.png
+│       │   │   ├── motif50-4-homer.png
+│       │   │   ├── motif50-4-known.png
+│       │   │   ├── motif50-5-homer.png
+│       │   │   ├── motif50-5-known.png
+│       │   │   ├── motif50-6-homer.png
+│       │   │   ├── motif50-6-known.png
+│       │   │   ├── motif50-7-homer.png
+│       │   │   ├── motif50-7-known.png
+│       │   │   ├── motif50-8-homer.png
+│       │   │   ├── motif50-8-known.png
+│       │   │   ├── motif50-9-homer.png
+│       │   │   ├── motif50-9-known.png
+│       │   │   ├── motif50.info.html
+│       │   │   ├── motif50.logo.pdf
+│       │   │   ├── motif50.logo.png
+│       │   │   ├── motif50.motif
+│       │   │   ├── motif50.rvlogo.pdf
+│       │   │   ├── motif50.rvlogo.png
+│       │   │   ├── motif50RV.motif
+│       │   │   ├── motif50.similar.html
+│       │   │   ├── motif5-10-homer.png
+│       │   │   ├── motif5-10-known.png
+│       │   │   ├── motif51-10-homer.png
+│       │   │   ├── motif51-10-known.png
+│       │   │   ├── motif51-1-homer.png
+│       │   │   ├── motif51-1-known.png
+│       │   │   ├── motif51-2-homer.png
+│       │   │   ├── motif51-2-known.png
+│       │   │   ├── motif51-3-homer.png
+│       │   │   ├── motif51-3-known.png
+│       │   │   ├── motif51-4-homer.png
+│       │   │   ├── motif51-4-known.png
+│       │   │   ├── motif51-5-homer.png
+│       │   │   ├── motif51-5-known.png
+│       │   │   ├── motif51-6-homer.png
+│       │   │   ├── motif51-6-known.png
+│       │   │   ├── motif51-7-homer.png
+│       │   │   ├── motif51-7-known.png
+│       │   │   ├── motif51-8-homer.png
+│       │   │   ├── motif51-8-known.png
+│       │   │   ├── motif51-9-homer.png
+│       │   │   ├── motif51-9-known.png
+│       │   │   ├── motif5-1-homer.png
+│       │   │   ├── motif51.info.html
+│       │   │   ├── motif5-1-known.png
+│       │   │   ├── motif51.logo.pdf
+│       │   │   ├── motif51.logo.png
+│       │   │   ├── motif51.motif
+│       │   │   ├── motif51.rvlogo.pdf
+│       │   │   ├── motif51.rvlogo.png
+│       │   │   ├── motif51RV.motif
+│       │   │   ├── motif51.similar.html
+│       │   │   ├── motif52-10-homer.png
+│       │   │   ├── motif52-10-known.png
+│       │   │   ├── motif52-1-homer.png
+│       │   │   ├── motif52-1-known.png
+│       │   │   ├── motif52-2-homer.png
+│       │   │   ├── motif52-2-known.png
+│       │   │   ├── motif52-3-homer.png
+│       │   │   ├── motif52-3-known.png
+│       │   │   ├── motif52-4-homer.png
+│       │   │   ├── motif52-4-known.png
+│       │   │   ├── motif52-5-homer.png
+│       │   │   ├── motif52-5-known.png
+│       │   │   ├── motif52-6-homer.png
+│       │   │   ├── motif52-6-known.png
+│       │   │   ├── motif52-7-homer.png
+│       │   │   ├── motif52-7-known.png
+│       │   │   ├── motif52-8-homer.png
+│       │   │   ├── motif52-8-known.png
+│       │   │   ├── motif52-9-homer.png
+│       │   │   ├── motif52-9-known.png
+│       │   │   ├── motif5-2-homer.png
+│       │   │   ├── motif52.info.html
+│       │   │   ├── motif5-2-known.png
+│       │   │   ├── motif52.logo.pdf
+│       │   │   ├── motif52.logo.png
+│       │   │   ├── motif52.motif
+│       │   │   ├── motif52.rvlogo.pdf
+│       │   │   ├── motif52.rvlogo.png
+│       │   │   ├── motif52RV.motif
+│       │   │   ├── motif52.similar.html
+│       │   │   ├── motif5-3-homer.png
+│       │   │   ├── motif5-3-known.png
+│       │   │   ├── motif5-4-homer.png
+│       │   │   ├── motif5-4-known.png
+│       │   │   ├── motif5-5-homer.png
+│       │   │   ├── motif5-5-known.png
+│       │   │   ├── motif5-6-homer.png
+│       │   │   ├── motif5-6-known.png
+│       │   │   ├── motif5-7-homer.png
+│       │   │   ├── motif5-7-known.png
+│       │   │   ├── motif5-8-homer.png
+│       │   │   ├── motif5-8-known.png
+│       │   │   ├── motif5-9-homer.png
+│       │   │   ├── motif5-9-known.png
+│       │   │   ├── motif5.info.html
+│       │   │   ├── motif5.logo.pdf
+│       │   │   ├── motif5.logo.png
+│       │   │   ├── motif5.motif
+│       │   │   ├── motif5.rvlogo.pdf
+│       │   │   ├── motif5.rvlogo.png
+│       │   │   ├── motif5RV.motif
+│       │   │   ├── motif5.similar10.logo.png
+│       │   │   ├── motif5.similar10.motif
+│       │   │   ├── motif5.similar11.logo.png
+│       │   │   ├── motif5.similar11.motif
+│       │   │   ├── motif5.similar12.logo.png
+│       │   │   ├── motif5.similar12.motif
+│       │   │   ├── motif5.similar13.logo.png
+│       │   │   ├── motif5.similar13.motif
+│       │   │   ├── motif5.similar1.logo.png
+│       │   │   ├── motif5.similar1.motif
+│       │   │   ├── motif5.similar2.logo.png
+│       │   │   ├── motif5.similar2.motif
+│       │   │   ├── motif5.similar3.logo.png
+│       │   │   ├── motif5.similar3.motif
+│       │   │   ├── motif5.similar4.logo.png
+│       │   │   ├── motif5.similar4.motif
+│       │   │   ├── motif5.similar5.logo.png
+│       │   │   ├── motif5.similar5.motif
+│       │   │   ├── motif5.similar6.logo.png
+│       │   │   ├── motif5.similar6.motif
+│       │   │   ├── motif5.similar7.logo.png
+│       │   │   ├── motif5.similar7.motif
+│       │   │   ├── motif5.similar8.logo.png
+│       │   │   ├── motif5.similar8.motif
+│       │   │   ├── motif5.similar9.logo.png
+│       │   │   ├── motif5.similar9.motif
+│       │   │   ├── motif5.similar.html
+│       │   │   ├── motif6-10-homer.png
+│       │   │   ├── motif6-10-known.png
+│       │   │   ├── motif6-1-homer.png
+│       │   │   ├── motif6-1-known.png
+│       │   │   ├── motif6-2-homer.png
+│       │   │   ├── motif6-2-known.png
+│       │   │   ├── motif6-3-homer.png
+│       │   │   ├── motif6-3-known.png
+│       │   │   ├── motif6-4-homer.png
+│       │   │   ├── motif6-4-known.png
+│       │   │   ├── motif6-5-homer.png
+│       │   │   ├── motif6-5-known.png
+│       │   │   ├── motif6-6-homer.png
+│       │   │   ├── motif6-6-known.png
+│       │   │   ├── motif6-7-homer.png
+│       │   │   ├── motif6-7-known.png
+│       │   │   ├── motif6-8-homer.png
+│       │   │   ├── motif6-8-known.png
+│       │   │   ├── motif6-9-homer.png
+│       │   │   ├── motif6-9-known.png
+│       │   │   ├── motif6.info.html
+│       │   │   ├── motif6.logo.pdf
+│       │   │   ├── motif6.logo.png
+│       │   │   ├── motif6.motif
+│       │   │   ├── motif6.rvlogo.pdf
+│       │   │   ├── motif6.rvlogo.png
+│       │   │   ├── motif6RV.motif
+│       │   │   ├── motif6.similar1.logo.png
+│       │   │   ├── motif6.similar1.motif
+│       │   │   ├── motif6.similar2.logo.png
+│       │   │   ├── motif6.similar2.motif
+│       │   │   ├── motif6.similar3.logo.png
+│       │   │   ├── motif6.similar3.motif
+│       │   │   ├── motif6.similar4.logo.png
+│       │   │   ├── motif6.similar4.motif
+│       │   │   ├── motif6.similar.html
+│       │   │   ├── motif7-10-homer.png
+│       │   │   ├── motif7-10-known.png
+│       │   │   ├── motif7-1-homer.png
+│       │   │   ├── motif7-1-known.png
+│       │   │   ├── motif7-2-homer.png
+│       │   │   ├── motif7-2-known.png
+│       │   │   ├── motif7-3-homer.png
+│       │   │   ├── motif7-3-known.png
+│       │   │   ├── motif7-4-homer.png
+│       │   │   ├── motif7-4-known.png
+│       │   │   ├── motif7-5-homer.png
+│       │   │   ├── motif7-5-known.png
+│       │   │   ├── motif7-6-homer.png
+│       │   │   ├── motif7-6-known.png
+│       │   │   ├── motif7-7-homer.png
+│       │   │   ├── motif7-7-known.png
+│       │   │   ├── motif7-8-homer.png
+│       │   │   ├── motif7-8-known.png
+│       │   │   ├── motif7-9-homer.png
+│       │   │   ├── motif7-9-known.png
+│       │   │   ├── motif7.info.html
+│       │   │   ├── motif7.logo.pdf
+│       │   │   ├── motif7.logo.png
+│       │   │   ├── motif7.motif
+│       │   │   ├── motif7.rvlogo.pdf
+│       │   │   ├── motif7.rvlogo.png
+│       │   │   ├── motif7RV.motif
+│       │   │   ├── motif7.similar1.logo.png
+│       │   │   ├── motif7.similar1.motif
+│       │   │   ├── motif7.similar.html
+│       │   │   ├── motif8-10-homer.png
+│       │   │   ├── motif8-10-known.png
+│       │   │   ├── motif8-1-homer.png
+│       │   │   ├── motif8-1-known.png
+│       │   │   ├── motif8-2-homer.png
+│       │   │   ├── motif8-2-known.png
+│       │   │   ├── motif8-3-homer.png
+│       │   │   ├── motif8-3-known.png
+│       │   │   ├── motif8-4-homer.png
+│       │   │   ├── motif8-4-known.png
+│       │   │   ├── motif8-5-homer.png
+│       │   │   ├── motif8-5-known.png
+│       │   │   ├── motif8-6-homer.png
+│       │   │   ├── motif8-6-known.png
+│       │   │   ├── motif8-7-homer.png
+│       │   │   ├── motif8-7-known.png
+│       │   │   ├── motif8-8-homer.png
+│       │   │   ├── motif8-8-known.png
+│       │   │   ├── motif8-9-homer.png
+│       │   │   ├── motif8-9-known.png
+│       │   │   ├── motif8.info.html
+│       │   │   ├── motif8.logo.pdf
+│       │   │   ├── motif8.logo.png
+│       │   │   ├── motif8.motif
+│       │   │   ├── motif8.rvlogo.pdf
+│       │   │   ├── motif8.rvlogo.png
+│       │   │   ├── motif8RV.motif
+│       │   │   ├── motif8.similar10.logo.png
+│       │   │   ├── motif8.similar10.motif
+│       │   │   ├── motif8.similar11.logo.png
+│       │   │   ├── motif8.similar11.motif
+│       │   │   ├── motif8.similar12.logo.png
+│       │   │   ├── motif8.similar12.motif
+│       │   │   ├── motif8.similar13.logo.png
+│       │   │   ├── motif8.similar13.motif
+│       │   │   ├── motif8.similar14.logo.png
+│       │   │   ├── motif8.similar14.motif
+│       │   │   ├── motif8.similar15.logo.png
+│       │   │   ├── motif8.similar15.motif
+│       │   │   ├── motif8.similar16.logo.png
+│       │   │   ├── motif8.similar16.motif
+│       │   │   ├── motif8.similar1.logo.png
+│       │   │   ├── motif8.similar1.motif
+│       │   │   ├── motif8.similar2.logo.png
+│       │   │   ├── motif8.similar2.motif
+│       │   │   ├── motif8.similar3.logo.png
+│       │   │   ├── motif8.similar3.motif
+│       │   │   ├── motif8.similar4.logo.png
+│       │   │   ├── motif8.similar4.motif
+│       │   │   ├── motif8.similar5.logo.png
+│       │   │   ├── motif8.similar5.motif
+│       │   │   ├── motif8.similar6.logo.png
+│       │   │   ├── motif8.similar6.motif
+│       │   │   ├── motif8.similar7.logo.png
+│       │   │   ├── motif8.similar7.motif
+│       │   │   ├── motif8.similar8.logo.png
+│       │   │   ├── motif8.similar8.motif
+│       │   │   ├── motif8.similar9.logo.png
+│       │   │   ├── motif8.similar9.motif
+│       │   │   ├── motif8.similar.html
+│       │   │   ├── motif9-10-homer.png
+│       │   │   ├── motif9-10-known.png
+│       │   │   ├── motif9-1-homer.png
+│       │   │   ├── motif9-1-known.png
+│       │   │   ├── motif9-2-homer.png
+│       │   │   ├── motif9-2-known.png
+│       │   │   ├── motif9-3-homer.png
+│       │   │   ├── motif9-3-known.png
+│       │   │   ├── motif9-4-homer.png
+│       │   │   ├── motif9-4-known.png
+│       │   │   ├── motif9-5-homer.png
+│       │   │   ├── motif9-5-known.png
+│       │   │   ├── motif9-6-homer.png
+│       │   │   ├── motif9-6-known.png
+│       │   │   ├── motif9-7-homer.png
+│       │   │   ├── motif9-7-known.png
+│       │   │   ├── motif9-8-homer.png
+│       │   │   ├── motif9-8-known.png
+│       │   │   ├── motif9-9-homer.png
+│       │   │   ├── motif9-9-known.png
+│       │   │   ├── motif9.info.html
+│       │   │   ├── motif9.logo.pdf
+│       │   │   ├── motif9.logo.png
+│       │   │   ├── motif9.motif
+│       │   │   ├── motif9.rvlogo.pdf
+│       │   │   ├── motif9.rvlogo.png
+│       │   │   ├── motif9RV.motif
+│       │   │   ├── motif9.similar1.logo.png
+│       │   │   ├── motif9.similar1.motif
+│       │   │   ├── motif9.similar2.logo.png
+│       │   │   ├── motif9.similar2.motif
+│       │   │   ├── motif9.similar3.logo.png
+│       │   │   ├── motif9.similar3.motif
+│       │   │   ├── motif9.similar4.logo.png
+│       │   │   ├── motif9.similar4.motif
+│       │   │   ├── motif9.similar5.logo.png
+│       │   │   ├── motif9.similar5.motif
+│       │   │   ├── motif9.similar6.logo.png
+│       │   │   ├── motif9.similar6.motif
+│       │   │   ├── motif9.similar7.logo.png
+│       │   │   ├── motif9.similar7.motif
+│       │   │   ├── motif9.similar8.logo.png
+│       │   │   ├── motif9.similar8.motif
+│       │   │   └── motif9.similar.html
+│       │   ├── homerResults.html
+│       │   ├── motifFindingParameters.txt
+│       │   └── seq.autonorm.tsv
+│       └── Eif3b_2_vs_IgG_2
+│           ├── homerMotifs.all.motifs
+│           ├── homerMotifs.motifs10
+│           ├── homerMotifs.motifs11
+│           ├── homerMotifs.motifs12
+│           ├── homerMotifs.motifs5
+│           ├── homerMotifs.motifs6
+│           ├── homerMotifs.motifs7
+│           ├── homerMotifs.motifs8
+│           ├── homerMotifs.motifs9
+│           ├── homerResults
+│           │   ├── motif10-10-homer.png
+│           │   ├── motif10-10-known.png
+│           │   ├── motif10-1-homer.png
+│           │   ├── motif10-1-known.png
+│           │   ├── motif10-2-homer.png
+│           │   ├── motif10-2-known.png
+│           │   ├── motif10-3-homer.png
+│           │   ├── motif10-3-known.png
+│           │   ├── motif10-4-homer.png
+│           │   ├── motif10-4-known.png
+│           │   ├── motif10-5-homer.png
+│           │   ├── motif10-5-known.png
+│           │   ├── motif10-6-homer.png
+│           │   ├── motif10-6-known.png
+│           │   ├── motif10-7-homer.png
+│           │   ├── motif10-7-known.png
+│           │   ├── motif10-8-homer.png
+│           │   ├── motif10-8-known.png
+│           │   ├── motif10-9-homer.png
+│           │   ├── motif10-9-known.png
+│           │   ├── motif10.info.html
+│           │   ├── motif10.logo.pdf
+│           │   ├── motif10.logo.png
+│           │   ├── motif10.motif
+│           │   ├── motif10.rvlogo.pdf
+│           │   ├── motif10.rvlogo.png
+│           │   ├── motif10RV.motif
+│           │   ├── motif10.similar1.logo.png
+│           │   ├── motif10.similar1.motif
+│           │   ├── motif10.similar2.logo.png
+│           │   ├── motif10.similar2.motif
+│           │   ├── motif10.similar3.logo.png
+│           │   ├── motif10.similar3.motif
+│           │   ├── motif10.similar.html
+│           │   ├── motif1-10-homer.png
+│           │   ├── motif1-10-known.png
+│           │   ├── motif11-10-homer.png
+│           │   ├── motif11-10-known.png
+│           │   ├── motif11-1-homer.png
+│           │   ├── motif11-1-known.png
+│           │   ├── motif11-2-homer.png
+│           │   ├── motif11-2-known.png
+│           │   ├── motif11-3-homer.png
+│           │   ├── motif11-3-known.png
+│           │   ├── motif11-4-homer.png
+│           │   ├── motif11-4-known.png
+│           │   ├── motif11-5-homer.png
+│           │   ├── motif11-5-known.png
+│           │   ├── motif11-6-homer.png
+│           │   ├── motif11-6-known.png
+│           │   ├── motif11-7-homer.png
+│           │   ├── motif11-7-known.png
+│           │   ├── motif11-8-homer.png
+│           │   ├── motif11-8-known.png
+│           │   ├── motif11-9-homer.png
+│           │   ├── motif11-9-known.png
+│           │   ├── motif1-1-homer.png
+│           │   ├── motif11.info.html
+│           │   ├── motif1-1-known.png
+│           │   ├── motif11.logo.pdf
+│           │   ├── motif11.logo.png
+│           │   ├── motif11.motif
+│           │   ├── motif11.rvlogo.pdf
+│           │   ├── motif11.rvlogo.png
+│           │   ├── motif11RV.motif
+│           │   ├── motif11.similar1.logo.png
+│           │   ├── motif11.similar1.motif
+│           │   ├── motif11.similar2.logo.png
+│           │   ├── motif11.similar2.motif
+│           │   ├── motif11.similar3.logo.png
+│           │   ├── motif11.similar3.motif
+│           │   ├── motif11.similar4.logo.png
+│           │   ├── motif11.similar4.motif
+│           │   ├── motif11.similar5.logo.png
+│           │   ├── motif11.similar5.motif
+│           │   ├── motif11.similar6.logo.png
+│           │   ├── motif11.similar6.motif
+│           │   ├── motif11.similar7.logo.png
+│           │   ├── motif11.similar7.motif
+│           │   ├── motif11.similar8.logo.png
+│           │   ├── motif11.similar8.motif
+│           │   ├── motif11.similar9.logo.png
+│           │   ├── motif11.similar9.motif
+│           │   ├── motif11.similar.html
+│           │   ├── motif12-10-homer.png
+│           │   ├── motif12-10-known.png
+│           │   ├── motif12-1-homer.png
+│           │   ├── motif12-1-known.png
+│           │   ├── motif12-2-homer.png
+│           │   ├── motif12-2-known.png
+│           │   ├── motif12-3-homer.png
+│           │   ├── motif12-3-known.png
+│           │   ├── motif12-4-homer.png
+│           │   ├── motif12-4-known.png
+│           │   ├── motif12-5-homer.png
+│           │   ├── motif12-5-known.png
+│           │   ├── motif12-6-homer.png
+│           │   ├── motif12-6-known.png
+│           │   ├── motif12-7-homer.png
+│           │   ├── motif12-7-known.png
+│           │   ├── motif12-8-homer.png
+│           │   ├── motif12-8-known.png
+│           │   ├── motif12-9-homer.png
+│           │   ├── motif12-9-known.png
+│           │   ├── motif1-2-homer.png
+│           │   ├── motif12.info.html
+│           │   ├── motif1-2-known.png
+│           │   ├── motif12.logo.pdf
+│           │   ├── motif12.logo.png
+│           │   ├── motif12.motif
+│           │   ├── motif12.rvlogo.pdf
+│           │   ├── motif12.rvlogo.png
+│           │   ├── motif12RV.motif
+│           │   ├── motif12.similar1.logo.png
+│           │   ├── motif12.similar1.motif
+│           │   ├── motif12.similar2.logo.png
+│           │   ├── motif12.similar2.motif
+│           │   ├── motif12.similar.html
+│           │   ├── motif13-10-homer.png
+│           │   ├── motif13-10-known.png
+│           │   ├── motif13-1-homer.png
+│           │   ├── motif13-1-known.png
+│           │   ├── motif13-2-homer.png
+│           │   ├── motif13-2-known.png
+│           │   ├── motif13-3-homer.png
+│           │   ├── motif13-3-known.png
+│           │   ├── motif13-4-homer.png
+│           │   ├── motif13-4-known.png
+│           │   ├── motif13-5-homer.png
+│           │   ├── motif13-5-known.png
+│           │   ├── motif13-6-homer.png
+│           │   ├── motif13-6-known.png
+│           │   ├── motif13-7-homer.png
+│           │   ├── motif13-7-known.png
+│           │   ├── motif13-8-homer.png
+│           │   ├── motif13-8-known.png
+│           │   ├── motif13-9-homer.png
+│           │   ├── motif13-9-known.png
+│           │   ├── motif1-3-homer.png
+│           │   ├── motif13.info.html
+│           │   ├── motif1-3-known.png
+│           │   ├── motif13.logo.pdf
+│           │   ├── motif13.logo.png
+│           │   ├── motif13.motif
+│           │   ├── motif13.rvlogo.pdf
+│           │   ├── motif13.rvlogo.png
+│           │   ├── motif13RV.motif
+│           │   ├── motif13.similar.html
+│           │   ├── motif14-10-homer.png
+│           │   ├── motif14-10-known.png
+│           │   ├── motif14-1-homer.png
+│           │   ├── motif14-1-known.png
+│           │   ├── motif14-2-homer.png
+│           │   ├── motif14-2-known.png
+│           │   ├── motif14-3-homer.png
+│           │   ├── motif14-3-known.png
+│           │   ├── motif14-4-homer.png
+│           │   ├── motif14-4-known.png
+│           │   ├── motif14-5-homer.png
+│           │   ├── motif14-5-known.png
+│           │   ├── motif14-6-homer.png
+│           │   ├── motif14-6-known.png
+│           │   ├── motif14-7-homer.png
+│           │   ├── motif14-7-known.png
+│           │   ├── motif14-8-homer.png
+│           │   ├── motif14-8-known.png
+│           │   ├── motif14-9-homer.png
+│           │   ├── motif14-9-known.png
+│           │   ├── motif1-4-homer.png
+│           │   ├── motif14.info.html
+│           │   ├── motif1-4-known.png
+│           │   ├── motif14.logo.pdf
+│           │   ├── motif14.logo.png
+│           │   ├── motif14.motif
+│           │   ├── motif14.rvlogo.pdf
+│           │   ├── motif14.rvlogo.png
+│           │   ├── motif14RV.motif
+│           │   ├── motif14.similar1.logo.png
+│           │   ├── motif14.similar1.motif
+│           │   ├── motif14.similar2.logo.png
+│           │   ├── motif14.similar2.motif
+│           │   ├── motif14.similar3.logo.png
+│           │   ├── motif14.similar3.motif
+│           │   ├── motif14.similar4.logo.png
+│           │   ├── motif14.similar4.motif
+│           │   ├── motif14.similar5.logo.png
+│           │   ├── motif14.similar5.motif
+│           │   ├── motif14.similar6.logo.png
+│           │   ├── motif14.similar6.motif
+│           │   ├── motif14.similar.html
+│           │   ├── motif15-10-homer.png
+│           │   ├── motif15-10-known.png
+│           │   ├── motif15-1-homer.png
+│           │   ├── motif15-1-known.png
+│           │   ├── motif15-2-homer.png
+│           │   ├── motif15-2-known.png
+│           │   ├── motif15-3-homer.png
+│           │   ├── motif15-3-known.png
+│           │   ├── motif15-4-homer.png
+│           │   ├── motif15-4-known.png
+│           │   ├── motif15-5-homer.png
+│           │   ├── motif15-5-known.png
+│           │   ├── motif15-6-homer.png
+│           │   ├── motif15-6-known.png
+│           │   ├── motif15-7-homer.png
+│           │   ├── motif15-7-known.png
+│           │   ├── motif15-8-homer.png
+│           │   ├── motif15-8-known.png
+│           │   ├── motif15-9-homer.png
+│           │   ├── motif15-9-known.png
+│           │   ├── motif1-5-homer.png
+│           │   ├── motif15.info.html
+│           │   ├── motif1-5-known.png
+│           │   ├── motif15.logo.pdf
+│           │   ├── motif15.logo.png
+│           │   ├── motif15.motif
+│           │   ├── motif15.rvlogo.pdf
+│           │   ├── motif15.rvlogo.png
+│           │   ├── motif15RV.motif
+│           │   ├── motif15.similar1.logo.png
+│           │   ├── motif15.similar1.motif
+│           │   ├── motif15.similar2.logo.png
+│           │   ├── motif15.similar2.motif
+│           │   ├── motif15.similar3.logo.png
+│           │   ├── motif15.similar3.motif
+│           │   ├── motif15.similar4.logo.png
+│           │   ├── motif15.similar4.motif
+│           │   ├── motif15.similar5.logo.png
+│           │   ├── motif15.similar5.motif
+│           │   ├── motif15.similar6.logo.png
+│           │   ├── motif15.similar6.motif
+│           │   ├── motif15.similar7.logo.png
+│           │   ├── motif15.similar7.motif
+│           │   ├── motif15.similar8.logo.png
+│           │   ├── motif15.similar8.motif
+│           │   ├── motif15.similar.html
+│           │   ├── motif16-10-homer.png
+│           │   ├── motif16-10-known.png
+│           │   ├── motif16-1-homer.png
+│           │   ├── motif16-1-known.png
+│           │   ├── motif16-2-homer.png
+│           │   ├── motif16-2-known.png
+│           │   ├── motif16-3-homer.png
+│           │   ├── motif16-3-known.png
+│           │   ├── motif16-4-homer.png
+│           │   ├── motif16-4-known.png
+│           │   ├── motif16-5-homer.png
+│           │   ├── motif16-5-known.png
+│           │   ├── motif16-6-homer.png
+│           │   ├── motif16-6-known.png
+│           │   ├── motif16-7-homer.png
+│           │   ├── motif16-7-known.png
+│           │   ├── motif16-8-homer.png
+│           │   ├── motif16-8-known.png
+│           │   ├── motif16-9-homer.png
+│           │   ├── motif16-9-known.png
+│           │   ├── motif1-6-homer.png
+│           │   ├── motif16.info.html
+│           │   ├── motif1-6-known.png
+│           │   ├── motif16.logo.pdf
+│           │   ├── motif16.logo.png
+│           │   ├── motif16.motif
+│           │   ├── motif16.rvlogo.pdf
+│           │   ├── motif16.rvlogo.png
+│           │   ├── motif16RV.motif
+│           │   ├── motif16.similar1.logo.png
+│           │   ├── motif16.similar1.motif
+│           │   ├── motif16.similar.html
+│           │   ├── motif17-10-homer.png
+│           │   ├── motif17-10-known.png
+│           │   ├── motif17-1-homer.png
+│           │   ├── motif17-1-known.png
+│           │   ├── motif17-2-homer.png
+│           │   ├── motif17-2-known.png
+│           │   ├── motif17-3-homer.png
+│           │   ├── motif17-3-known.png
+│           │   ├── motif17-4-homer.png
+│           │   ├── motif17-4-known.png
+│           │   ├── motif17-5-homer.png
+│           │   ├── motif17-5-known.png
+│           │   ├── motif17-6-homer.png
+│           │   ├── motif17-6-known.png
+│           │   ├── motif17-7-homer.png
+│           │   ├── motif17-7-known.png
+│           │   ├── motif17-8-homer.png
+│           │   ├── motif17-8-known.png
+│           │   ├── motif17-9-homer.png
+│           │   ├── motif17-9-known.png
+│           │   ├── motif1-7-homer.png
+│           │   ├── motif17.info.html
+│           │   ├── motif1-7-known.png
+│           │   ├── motif17.logo.pdf
+│           │   ├── motif17.logo.png
+│           │   ├── motif17.motif
+│           │   ├── motif17.rvlogo.pdf
+│           │   ├── motif17.rvlogo.png
+│           │   ├── motif17RV.motif
+│           │   ├── motif17.similar.html
+│           │   ├── motif18-10-homer.png
+│           │   ├── motif18-10-known.png
+│           │   ├── motif18-1-homer.png
+│           │   ├── motif18-1-known.png
+│           │   ├── motif18-2-homer.png
+│           │   ├── motif18-2-known.png
+│           │   ├── motif18-3-homer.png
+│           │   ├── motif18-3-known.png
+│           │   ├── motif18-4-homer.png
+│           │   ├── motif18-4-known.png
+│           │   ├── motif18-5-homer.png
+│           │   ├── motif18-5-known.png
+│           │   ├── motif18-6-homer.png
+│           │   ├── motif18-6-known.png
+│           │   ├── motif18-7-homer.png
+│           │   ├── motif18-7-known.png
+│           │   ├── motif18-8-homer.png
+│           │   ├── motif18-8-known.png
+│           │   ├── motif18-9-homer.png
+│           │   ├── motif18-9-known.png
+│           │   ├── motif1-8-homer.png
+│           │   ├── motif18.info.html
+│           │   ├── motif1-8-known.png
+│           │   ├── motif18.logo.pdf
+│           │   ├── motif18.logo.png
+│           │   ├── motif18.motif
+│           │   ├── motif18.rvlogo.pdf
+│           │   ├── motif18.rvlogo.png
+│           │   ├── motif18RV.motif
+│           │   ├── motif18.similar.html
+│           │   ├── motif19-10-homer.png
+│           │   ├── motif19-10-known.png
+│           │   ├── motif19-1-homer.png
+│           │   ├── motif19-1-known.png
+│           │   ├── motif19-2-homer.png
+│           │   ├── motif19-2-known.png
+│           │   ├── motif19-3-homer.png
+│           │   ├── motif19-3-known.png
+│           │   ├── motif19-4-homer.png
+│           │   ├── motif19-4-known.png
+│           │   ├── motif19-5-homer.png
+│           │   ├── motif19-5-known.png
+│           │   ├── motif19-6-homer.png
+│           │   ├── motif19-6-known.png
+│           │   ├── motif19-7-homer.png
+│           │   ├── motif19-7-known.png
+│           │   ├── motif19-8-homer.png
+│           │   ├── motif19-8-known.png
+│           │   ├── motif19-9-homer.png
+│           │   ├── motif19-9-known.png
+│           │   ├── motif1-9-homer.png
+│           │   ├── motif19.info.html
+│           │   ├── motif1-9-known.png
+│           │   ├── motif19.logo.pdf
+│           │   ├── motif19.logo.png
+│           │   ├── motif19.motif
+│           │   ├── motif19.rvlogo.pdf
+│           │   ├── motif19.rvlogo.png
+│           │   ├── motif19RV.motif
+│           │   ├── motif19.similar1.logo.png
+│           │   ├── motif19.similar1.motif
+│           │   ├── motif19.similar.html
+│           │   ├── motif1.info.html
+│           │   ├── motif1.logo.pdf
+│           │   ├── motif1.logo.png
+│           │   ├── motif1.motif
+│           │   ├── motif1.rvlogo.pdf
+│           │   ├── motif1.rvlogo.png
+│           │   ├── motif1RV.motif
+│           │   ├── motif1.similar10.logo.png
+│           │   ├── motif1.similar10.motif
+│           │   ├── motif1.similar11.logo.png
+│           │   ├── motif1.similar11.motif
+│           │   ├── motif1.similar12.logo.png
+│           │   ├── motif1.similar12.motif
+│           │   ├── motif1.similar13.logo.png
+│           │   ├── motif1.similar13.motif
+│           │   ├── motif1.similar14.logo.png
+│           │   ├── motif1.similar14.motif
+│           │   ├── motif1.similar15.logo.png
+│           │   ├── motif1.similar15.motif
+│           │   ├── motif1.similar16.logo.png
+│           │   ├── motif1.similar16.motif
+│           │   ├── motif1.similar17.logo.png
+│           │   ├── motif1.similar17.motif
+│           │   ├── motif1.similar1.logo.png
+│           │   ├── motif1.similar1.motif
+│           │   ├── motif1.similar2.logo.png
+│           │   ├── motif1.similar2.motif
+│           │   ├── motif1.similar3.logo.png
+│           │   ├── motif1.similar3.motif
+│           │   ├── motif1.similar4.logo.png
+│           │   ├── motif1.similar4.motif
+│           │   ├── motif1.similar5.logo.png
+│           │   ├── motif1.similar5.motif
+│           │   ├── motif1.similar6.logo.png
+│           │   ├── motif1.similar6.motif
+│           │   ├── motif1.similar7.logo.png
+│           │   ├── motif1.similar7.motif
+│           │   ├── motif1.similar8.logo.png
+│           │   ├── motif1.similar8.motif
+│           │   ├── motif1.similar9.logo.png
+│           │   ├── motif1.similar9.motif
+│           │   ├── motif1.similar.html
+│           │   ├── motif20-10-homer.png
+│           │   ├── motif20-10-known.png
+│           │   ├── motif20-1-homer.png
+│           │   ├── motif20-1-known.png
+│           │   ├── motif20-2-homer.png
+│           │   ├── motif20-2-known.png
+│           │   ├── motif20-3-homer.png
+│           │   ├── motif20-3-known.png
+│           │   ├── motif20-4-homer.png
+│           │   ├── motif20-4-known.png
+│           │   ├── motif20-5-homer.png
+│           │   ├── motif20-5-known.png
+│           │   ├── motif20-6-homer.png
+│           │   ├── motif20-6-known.png
+│           │   ├── motif20-7-homer.png
+│           │   ├── motif20-7-known.png
+│           │   ├── motif20-8-homer.png
+│           │   ├── motif20-8-known.png
+│           │   ├── motif20-9-homer.png
+│           │   ├── motif20-9-known.png
+│           │   ├── motif20.info.html
+│           │   ├── motif20.logo.pdf
+│           │   ├── motif20.logo.png
+│           │   ├── motif20.motif
+│           │   ├── motif20.rvlogo.pdf
+│           │   ├── motif20.rvlogo.png
+│           │   ├── motif20RV.motif
+│           │   ├── motif20.similar.html
+│           │   ├── motif2-10-homer.png
+│           │   ├── motif2-10-known.png
+│           │   ├── motif21-10-homer.png
+│           │   ├── motif21-10-known.png
+│           │   ├── motif21-1-homer.png
+│           │   ├── motif21-1-known.png
+│           │   ├── motif21-2-homer.png
+│           │   ├── motif21-2-known.png
+│           │   ├── motif21-3-homer.png
+│           │   ├── motif21-3-known.png
+│           │   ├── motif21-4-homer.png
+│           │   ├── motif21-4-known.png
+│           │   ├── motif21-5-homer.png
+│           │   ├── motif21-5-known.png
+│           │   ├── motif21-6-homer.png
+│           │   ├── motif21-6-known.png
+│           │   ├── motif21-7-homer.png
+│           │   ├── motif21-7-known.png
+│           │   ├── motif21-8-homer.png
+│           │   ├── motif21-8-known.png
+│           │   ├── motif21-9-homer.png
+│           │   ├── motif21-9-known.png
+│           │   ├── motif2-1-homer.png
+│           │   ├── motif21.info.html
+│           │   ├── motif2-1-known.png
+│           │   ├── motif21.logo.pdf
+│           │   ├── motif21.logo.png
+│           │   ├── motif21.motif
+│           │   ├── motif21.rvlogo.pdf
+│           │   ├── motif21.rvlogo.png
+│           │   ├── motif21RV.motif
+│           │   ├── motif21.similar1.logo.png
+│           │   ├── motif21.similar1.motif
+│           │   ├── motif21.similar2.logo.png
+│           │   ├── motif21.similar2.motif
+│           │   ├── motif21.similar.html
+│           │   ├── motif22-10-homer.png
+│           │   ├── motif22-10-known.png
+│           │   ├── motif22-1-homer.png
+│           │   ├── motif22-1-known.png
+│           │   ├── motif22-2-homer.png
+│           │   ├── motif22-2-known.png
+│           │   ├── motif22-3-homer.png
+│           │   ├── motif22-3-known.png
+│           │   ├── motif22-4-homer.png
+│           │   ├── motif22-4-known.png
+│           │   ├── motif22-5-homer.png
+│           │   ├── motif22-5-known.png
+│           │   ├── motif22-6-homer.png
+│           │   ├── motif22-6-known.png
+│           │   ├── motif22-7-homer.png
+│           │   ├── motif22-7-known.png
+│           │   ├── motif22-8-homer.png
+│           │   ├── motif22-8-known.png
+│           │   ├── motif22-9-homer.png
+│           │   ├── motif22-9-known.png
+│           │   ├── motif2-2-homer.png
+│           │   ├── motif22.info.html
+│           │   ├── motif2-2-known.png
+│           │   ├── motif22.logo.pdf
+│           │   ├── motif22.logo.png
+│           │   ├── motif22.motif
+│           │   ├── motif22.rvlogo.pdf
+│           │   ├── motif22.rvlogo.png
+│           │   ├── motif22RV.motif
+│           │   ├── motif22.similar1.logo.png
+│           │   ├── motif22.similar1.motif
+│           │   ├── motif22.similar2.logo.png
+│           │   ├── motif22.similar2.motif
+│           │   ├── motif22.similar.html
+│           │   ├── motif23-10-homer.png
+│           │   ├── motif23-10-known.png
+│           │   ├── motif23-1-homer.png
+│           │   ├── motif23-1-known.png
+│           │   ├── motif23-2-homer.png
+│           │   ├── motif23-2-known.png
+│           │   ├── motif23-3-homer.png
+│           │   ├── motif23-3-known.png
+│           │   ├── motif23-4-homer.png
+│           │   ├── motif23-4-known.png
+│           │   ├── motif23-5-homer.png
+│           │   ├── motif23-5-known.png
+│           │   ├── motif23-6-homer.png
+│           │   ├── motif23-6-known.png
+│           │   ├── motif23-7-homer.png
+│           │   ├── motif23-7-known.png
+│           │   ├── motif23-8-homer.png
+│           │   ├── motif23-8-known.png
+│           │   ├── motif23-9-homer.png
+│           │   ├── motif23-9-known.png
+│           │   ├── motif2-3-homer.png
+│           │   ├── motif23.info.html
+│           │   ├── motif2-3-known.png
+│           │   ├── motif23.logo.pdf
+│           │   ├── motif23.logo.png
+│           │   ├── motif23.motif
+│           │   ├── motif23.rvlogo.pdf
+│           │   ├── motif23.rvlogo.png
+│           │   ├── motif23RV.motif
+│           │   ├── motif23.similar1.logo.png
+│           │   ├── motif23.similar1.motif
+│           │   ├── motif23.similar.html
+│           │   ├── motif24-10-homer.png
+│           │   ├── motif24-10-known.png
+│           │   ├── motif24-1-homer.png
+│           │   ├── motif24-1-known.png
+│           │   ├── motif24-2-homer.png
+│           │   ├── motif24-2-known.png
+│           │   ├── motif24-3-homer.png
+│           │   ├── motif24-3-known.png
+│           │   ├── motif24-4-homer.png
+│           │   ├── motif24-4-known.png
+│           │   ├── motif24-5-homer.png
+│           │   ├── motif24-5-known.png
+│           │   ├── motif24-6-homer.png
+│           │   ├── motif24-6-known.png
+│           │   ├── motif24-7-homer.png
+│           │   ├── motif24-7-known.png
+│           │   ├── motif24-8-homer.png
+│           │   ├── motif24-8-known.png
+│           │   ├── motif24-9-homer.png
+│           │   ├── motif24-9-known.png
+│           │   ├── motif2-4-homer.png
+│           │   ├── motif24.info.html
+│           │   ├── motif2-4-known.png
+│           │   ├── motif24.logo.pdf
+│           │   ├── motif24.logo.png
+│           │   ├── motif24.motif
+│           │   ├── motif24.rvlogo.pdf
+│           │   ├── motif24.rvlogo.png
+│           │   ├── motif24RV.motif
+│           │   ├── motif24.similar1.logo.png
+│           │   ├── motif24.similar1.motif
+│           │   ├── motif24.similar.html
+│           │   ├── motif25-10-homer.png
+│           │   ├── motif25-10-known.png
+│           │   ├── motif25-1-homer.png
+│           │   ├── motif25-1-known.png
+│           │   ├── motif25-2-homer.png
+│           │   ├── motif25-2-known.png
+│           │   ├── motif25-3-homer.png
+│           │   ├── motif25-3-known.png
+│           │   ├── motif25-4-homer.png
+│           │   ├── motif25-4-known.png
+│           │   ├── motif25-5-homer.png
+│           │   ├── motif25-5-known.png
+│           │   ├── motif25-6-homer.png
+│           │   ├── motif25-6-known.png
+│           │   ├── motif25-7-homer.png
+│           │   ├── motif25-7-known.png
+│           │   ├── motif25-8-homer.png
+│           │   ├── motif25-8-known.png
+│           │   ├── motif25-9-homer.png
+│           │   ├── motif25-9-known.png
+│           │   ├── motif2-5-homer.png
+│           │   ├── motif25.info.html
+│           │   ├── motif2-5-known.png
+│           │   ├── motif25.logo.pdf
+│           │   ├── motif25.logo.png
+│           │   ├── motif25.motif
+│           │   ├── motif25.rvlogo.pdf
+│           │   ├── motif25.rvlogo.png
+│           │   ├── motif25RV.motif
+│           │   ├── motif25.similar1.logo.png
+│           │   ├── motif25.similar1.motif
+│           │   ├── motif25.similar.html
+│           │   ├── motif26-10-homer.png
+│           │   ├── motif26-10-known.png
+│           │   ├── motif26-1-homer.png
+│           │   ├── motif26-1-known.png
+│           │   ├── motif26-2-homer.png
+│           │   ├── motif26-2-known.png
+│           │   ├── motif26-3-homer.png
+│           │   ├── motif26-3-known.png
+│           │   ├── motif26-4-homer.png
+│           │   ├── motif26-4-known.png
+│           │   ├── motif26-5-homer.png
+│           │   ├── motif26-5-known.png
+│           │   ├── motif26-6-homer.png
+│           │   ├── motif26-6-known.png
+│           │   ├── motif26-7-homer.png
+│           │   ├── motif26-7-known.png
+│           │   ├── motif26-8-homer.png
+│           │   ├── motif26-8-known.png
+│           │   ├── motif26-9-homer.png
+│           │   ├── motif26-9-known.png
+│           │   ├── motif2-6-homer.png
+│           │   ├── motif26.info.html
+│           │   ├── motif2-6-known.png
+│           │   ├── motif26.logo.pdf
+│           │   ├── motif26.logo.png
+│           │   ├── motif26.motif
+│           │   ├── motif26.rvlogo.pdf
+│           │   ├── motif26.rvlogo.png
+│           │   ├── motif26RV.motif
+│           │   ├── motif26.similar1.logo.png
+│           │   ├── motif26.similar1.motif
+│           │   ├── motif26.similar2.logo.png
+│           │   ├── motif26.similar2.motif
+│           │   ├── motif26.similar3.logo.png
+│           │   ├── motif26.similar3.motif
+│           │   ├── motif26.similar4.logo.png
+│           │   ├── motif26.similar4.motif
+│           │   ├── motif26.similar5.logo.png
+│           │   ├── motif26.similar5.motif
+│           │   ├── motif26.similar.html
+│           │   ├── motif27-10-homer.png
+│           │   ├── motif27-10-known.png
+│           │   ├── motif27-1-homer.png
+│           │   ├── motif27-1-known.png
+│           │   ├── motif27-2-homer.png
+│           │   ├── motif27-2-known.png
+│           │   ├── motif27-3-homer.png
+│           │   ├── motif27-3-known.png
+│           │   ├── motif27-4-homer.png
+│           │   ├── motif27-4-known.png
+│           │   ├── motif27-5-homer.png
+│           │   ├── motif27-5-known.png
+│           │   ├── motif27-6-homer.png
+│           │   ├── motif27-6-known.png
+│           │   ├── motif27-7-homer.png
+│           │   ├── motif27-7-known.png
+│           │   ├── motif27-8-homer.png
+│           │   ├── motif27-8-known.png
+│           │   ├── motif27-9-homer.png
+│           │   ├── motif27-9-known.png
+│           │   ├── motif2-7-homer.png
+│           │   ├── motif27.info.html
+│           │   ├── motif2-7-known.png
+│           │   ├── motif27.logo.pdf
+│           │   ├── motif27.logo.png
+│           │   ├── motif27.motif
+│           │   ├── motif27.rvlogo.pdf
+│           │   ├── motif27.rvlogo.png
+│           │   ├── motif27RV.motif
+│           │   ├── motif27.similar1.logo.png
+│           │   ├── motif27.similar1.motif
+│           │   ├── motif27.similar2.logo.png
+│           │   ├── motif27.similar2.motif
+│           │   ├── motif27.similar3.logo.png
+│           │   ├── motif27.similar3.motif
+│           │   ├── motif27.similar.html
+│           │   ├── motif28-10-homer.png
+│           │   ├── motif28-10-known.png
+│           │   ├── motif28-1-homer.png
+│           │   ├── motif28-1-known.png
+│           │   ├── motif28-2-homer.png
+│           │   ├── motif28-2-known.png
+│           │   ├── motif28-3-homer.png
+│           │   ├── motif28-3-known.png
+│           │   ├── motif28-4-homer.png
+│           │   ├── motif28-4-known.png
+│           │   ├── motif28-5-homer.png
+│           │   ├── motif28-5-known.png
+│           │   ├── motif28-6-homer.png
+│           │   ├── motif28-6-known.png
+│           │   ├── motif28-7-homer.png
+│           │   ├── motif28-7-known.png
+│           │   ├── motif28-8-homer.png
+│           │   ├── motif28-8-known.png
+│           │   ├── motif28-9-homer.png
+│           │   ├── motif28-9-known.png
+│           │   ├── motif2-8-homer.png
+│           │   ├── motif28.info.html
+│           │   ├── motif2-8-known.png
+│           │   ├── motif28.logo.pdf
+│           │   ├── motif28.logo.png
+│           │   ├── motif28.motif
+│           │   ├── motif28.rvlogo.pdf
+│           │   ├── motif28.rvlogo.png
+│           │   ├── motif28RV.motif
+│           │   ├── motif28.similar.html
+│           │   ├── motif29-10-homer.png
+│           │   ├── motif29-10-known.png
+│           │   ├── motif29-1-homer.png
+│           │   ├── motif29-1-known.png
+│           │   ├── motif29-2-homer.png
+│           │   ├── motif29-2-known.png
+│           │   ├── motif29-3-homer.png
+│           │   ├── motif29-3-known.png
+│           │   ├── motif29-4-homer.png
+│           │   ├── motif29-4-known.png
+│           │   ├── motif29-5-homer.png
+│           │   ├── motif29-5-known.png
+│           │   ├── motif29-6-homer.png
+│           │   ├── motif29-6-known.png
+│           │   ├── motif29-7-homer.png
+│           │   ├── motif29-7-known.png
+│           │   ├── motif29-8-homer.png
+│           │   ├── motif29-8-known.png
+│           │   ├── motif29-9-homer.png
+│           │   ├── motif29-9-known.png
+│           │   ├── motif2-9-homer.png
+│           │   ├── motif29.info.html
+│           │   ├── motif2-9-known.png
+│           │   ├── motif29.logo.pdf
+│           │   ├── motif29.logo.png
+│           │   ├── motif29.motif
+│           │   ├── motif29.rvlogo.pdf
+│           │   ├── motif29.rvlogo.png
+│           │   ├── motif29RV.motif
+│           │   ├── motif29.similar1.logo.png
+│           │   ├── motif29.similar1.motif
+│           │   ├── motif29.similar.html
+│           │   ├── motif2.info.html
+│           │   ├── motif2.logo.pdf
+│           │   ├── motif2.logo.png
+│           │   ├── motif2.motif
+│           │   ├── motif2.rvlogo.pdf
+│           │   ├── motif2.rvlogo.png
+│           │   ├── motif2RV.motif
+│           │   ├── motif2.similar10.logo.png
+│           │   ├── motif2.similar10.motif
+│           │   ├── motif2.similar11.logo.png
+│           │   ├── motif2.similar11.motif
+│           │   ├── motif2.similar12.logo.png
+│           │   ├── motif2.similar12.motif
+│           │   ├── motif2.similar13.logo.png
+│           │   ├── motif2.similar13.motif
+│           │   ├── motif2.similar1.logo.png
+│           │   ├── motif2.similar1.motif
+│           │   ├── motif2.similar2.logo.png
+│           │   ├── motif2.similar2.motif
+│           │   ├── motif2.similar3.logo.png
+│           │   ├── motif2.similar3.motif
+│           │   ├── motif2.similar4.logo.png
+│           │   ├── motif2.similar4.motif
+│           │   ├── motif2.similar5.logo.png
+│           │   ├── motif2.similar5.motif
+│           │   ├── motif2.similar6.logo.png
+│           │   ├── motif2.similar6.motif
+│           │   ├── motif2.similar7.logo.png
+│           │   ├── motif2.similar7.motif
+│           │   ├── motif2.similar8.logo.png
+│           │   ├── motif2.similar8.motif
+│           │   ├── motif2.similar9.logo.png
+│           │   ├── motif2.similar9.motif
+│           │   ├── motif2.similar.html
+│           │   ├── motif30-10-homer.png
+│           │   ├── motif30-10-known.png
+│           │   ├── motif30-1-homer.png
+│           │   ├── motif30-1-known.png
+│           │   ├── motif30-2-homer.png
+│           │   ├── motif30-2-known.png
+│           │   ├── motif30-3-homer.png
+│           │   ├── motif30-3-known.png
+│           │   ├── motif30-4-homer.png
+│           │   ├── motif30-4-known.png
+│           │   ├── motif30-5-homer.png
+│           │   ├── motif30-5-known.png
+│           │   ├── motif30-6-homer.png
+│           │   ├── motif30-6-known.png
+│           │   ├── motif30-7-homer.png
+│           │   ├── motif30-7-known.png
+│           │   ├── motif30-8-homer.png
+│           │   ├── motif30-8-known.png
+│           │   ├── motif30-9-homer.png
+│           │   ├── motif30-9-known.png
+│           │   ├── motif30.info.html
+│           │   ├── motif30.logo.pdf
+│           │   ├── motif30.logo.png
+│           │   ├── motif30.motif
+│           │   ├── motif30.rvlogo.pdf
+│           │   ├── motif30.rvlogo.png
+│           │   ├── motif30RV.motif
+│           │   ├── motif30.similar1.logo.png
+│           │   ├── motif30.similar1.motif
+│           │   ├── motif30.similar.html
+│           │   ├── motif3-10-homer.png
+│           │   ├── motif3-10-known.png
+│           │   ├── motif31-10-homer.png
+│           │   ├── motif31-10-known.png
+│           │   ├── motif31-1-homer.png
+│           │   ├── motif31-1-known.png
+│           │   ├── motif31-2-homer.png
+│           │   ├── motif31-2-known.png
+│           │   ├── motif31-3-homer.png
+│           │   ├── motif31-3-known.png
+│           │   ├── motif31-4-homer.png
+│           │   ├── motif31-4-known.png
+│           │   ├── motif31-5-homer.png
+│           │   ├── motif31-5-known.png
+│           │   ├── motif31-6-homer.png
+│           │   ├── motif31-6-known.png
+│           │   ├── motif31-7-homer.png
+│           │   ├── motif31-7-known.png
+│           │   ├── motif31-8-homer.png
+│           │   ├── motif31-8-known.png
+│           │   ├── motif31-9-homer.png
+│           │   ├── motif31-9-known.png
+│           │   ├── motif3-1-homer.png
+│           │   ├── motif31.info.html
+│           │   ├── motif3-1-known.png
+│           │   ├── motif31.logo.pdf
+│           │   ├── motif31.logo.png
+│           │   ├── motif31.motif
+│           │   ├── motif31.rvlogo.pdf
+│           │   ├── motif31.rvlogo.png
+│           │   ├── motif31RV.motif
+│           │   ├── motif31.similar.html
+│           │   ├── motif32-10-homer.png
+│           │   ├── motif32-10-known.png
+│           │   ├── motif32-1-homer.png
+│           │   ├── motif32-1-known.png
+│           │   ├── motif32-2-homer.png
+│           │   ├── motif32-2-known.png
+│           │   ├── motif32-3-homer.png
+│           │   ├── motif32-3-known.png
+│           │   ├── motif32-4-homer.png
+│           │   ├── motif32-4-known.png
+│           │   ├── motif32-5-homer.png
+│           │   ├── motif32-5-known.png
+│           │   ├── motif32-6-homer.png
+│           │   ├── motif32-6-known.png
+│           │   ├── motif32-7-homer.png
+│           │   ├── motif32-7-known.png
+│           │   ├── motif32-8-homer.png
+│           │   ├── motif32-8-known.png
+│           │   ├── motif32-9-homer.png
+│           │   ├── motif32-9-known.png
+│           │   ├── motif3-2-homer.png
+│           │   ├── motif32.info.html
+│           │   ├── motif3-2-known.png
+│           │   ├── motif32.logo.pdf
+│           │   ├── motif32.logo.png
+│           │   ├── motif32.motif
+│           │   ├── motif32.rvlogo.pdf
+│           │   ├── motif32.rvlogo.png
+│           │   ├── motif32RV.motif
+│           │   ├── motif32.similar1.logo.png
+│           │   ├── motif32.similar1.motif
+│           │   ├── motif32.similar.html
+│           │   ├── motif33-10-homer.png
+│           │   ├── motif33-10-known.png
+│           │   ├── motif33-1-homer.png
+│           │   ├── motif33-1-known.png
+│           │   ├── motif33-2-homer.png
+│           │   ├── motif33-2-known.png
+│           │   ├── motif33-3-homer.png
+│           │   ├── motif33-3-known.png
+│           │   ├── motif33-4-homer.png
+│           │   ├── motif33-4-known.png
+│           │   ├── motif33-5-homer.png
+│           │   ├── motif33-5-known.png
+│           │   ├── motif33-6-homer.png
+│           │   ├── motif33-6-known.png
+│           │   ├── motif33-7-homer.png
+│           │   ├── motif33-7-known.png
+│           │   ├── motif33-8-homer.png
+│           │   ├── motif33-8-known.png
+│           │   ├── motif33-9-homer.png
+│           │   ├── motif33-9-known.png
+│           │   ├── motif3-3-homer.png
+│           │   ├── motif33.info.html
+│           │   ├── motif3-3-known.png
+│           │   ├── motif33.logo.pdf
+│           │   ├── motif33.logo.png
+│           │   ├── motif33.motif
+│           │   ├── motif33.rvlogo.pdf
+│           │   ├── motif33.rvlogo.png
+│           │   ├── motif33RV.motif
+│           │   ├── motif33.similar1.logo.png
+│           │   ├── motif33.similar1.motif
+│           │   ├── motif33.similar.html
+│           │   ├── motif34-10-homer.png
+│           │   ├── motif34-10-known.png
+│           │   ├── motif34-1-homer.png
+│           │   ├── motif34-1-known.png
+│           │   ├── motif34-2-homer.png
+│           │   ├── motif34-2-known.png
+│           │   ├── motif34-3-homer.png
+│           │   ├── motif34-3-known.png
+│           │   ├── motif34-4-homer.png
+│           │   ├── motif34-4-known.png
+│           │   ├── motif34-5-homer.png
+│           │   ├── motif34-5-known.png
+│           │   ├── motif34-6-homer.png
+│           │   ├── motif34-6-known.png
+│           │   ├── motif34-7-homer.png
+│           │   ├── motif34-7-known.png
+│           │   ├── motif34-8-homer.png
+│           │   ├── motif34-8-known.png
+│           │   ├── motif34-9-homer.png
+│           │   ├── motif34-9-known.png
+│           │   ├── motif3-4-homer.png
+│           │   ├── motif34.info.html
+│           │   ├── motif3-4-known.png
+│           │   ├── motif34.logo.pdf
+│           │   ├── motif34.logo.png
+│           │   ├── motif34.motif
+│           │   ├── motif34.rvlogo.pdf
+│           │   ├── motif34.rvlogo.png
+│           │   ├── motif34RV.motif
+│           │   ├── motif34.similar1.logo.png
+│           │   ├── motif34.similar1.motif
+│           │   ├── motif34.similar2.logo.png
+│           │   ├── motif34.similar2.motif
+│           │   ├── motif34.similar3.logo.png
+│           │   ├── motif34.similar3.motif
+│           │   ├── motif34.similar.html
+│           │   ├── motif35-10-homer.png
+│           │   ├── motif35-10-known.png
+│           │   ├── motif35-1-homer.png
+│           │   ├── motif35-1-known.png
+│           │   ├── motif35-2-homer.png
+│           │   ├── motif35-2-known.png
+│           │   ├── motif35-3-homer.png
+│           │   ├── motif35-3-known.png
+│           │   ├── motif35-4-homer.png
+│           │   ├── motif35-4-known.png
+│           │   ├── motif35-5-homer.png
+│           │   ├── motif35-5-known.png
+│           │   ├── motif35-6-homer.png
+│           │   ├── motif35-6-known.png
+│           │   ├── motif35-7-homer.png
+│           │   ├── motif35-7-known.png
+│           │   ├── motif35-8-homer.png
+│           │   ├── motif35-8-known.png
+│           │   ├── motif35-9-homer.png
+│           │   ├── motif35-9-known.png
+│           │   ├── motif3-5-homer.png
+│           │   ├── motif35.info.html
+│           │   ├── motif3-5-known.png
+│           │   ├── motif35.logo.pdf
+│           │   ├── motif35.logo.png
+│           │   ├── motif35.motif
+│           │   ├── motif35.rvlogo.pdf
+│           │   ├── motif35.rvlogo.png
+│           │   ├── motif35RV.motif
+│           │   ├── motif35.similar1.logo.png
+│           │   ├── motif35.similar1.motif
+│           │   ├── motif35.similar2.logo.png
+│           │   ├── motif35.similar2.motif
+│           │   ├── motif35.similar.html
+│           │   ├── motif36-10-homer.png
+│           │   ├── motif36-10-known.png
+│           │   ├── motif36-1-homer.png
+│           │   ├── motif36-1-known.png
+│           │   ├── motif36-2-homer.png
+│           │   ├── motif36-2-known.png
+│           │   ├── motif36-3-homer.png
+│           │   ├── motif36-3-known.png
+│           │   ├── motif36-4-homer.png
+│           │   ├── motif36-4-known.png
+│           │   ├── motif36-5-homer.png
+│           │   ├── motif36-5-known.png
+│           │   ├── motif36-6-homer.png
+│           │   ├── motif36-6-known.png
+│           │   ├── motif36-7-homer.png
+│           │   ├── motif36-7-known.png
+│           │   ├── motif36-8-homer.png
+│           │   ├── motif36-8-known.png
+│           │   ├── motif36-9-homer.png
+│           │   ├── motif36-9-known.png
+│           │   ├── motif3-6-homer.png
+│           │   ├── motif36.info.html
+│           │   ├── motif3-6-known.png
+│           │   ├── motif36.logo.pdf
+│           │   ├── motif36.logo.png
+│           │   ├── motif36.motif
+│           │   ├── motif36.rvlogo.pdf
+│           │   ├── motif36.rvlogo.png
+│           │   ├── motif36RV.motif
+│           │   ├── motif36.similar.html
+│           │   ├── motif37-10-homer.png
+│           │   ├── motif37-10-known.png
+│           │   ├── motif37-1-homer.png
+│           │   ├── motif37-1-known.png
+│           │   ├── motif37-2-homer.png
+│           │   ├── motif37-2-known.png
+│           │   ├── motif37-3-homer.png
+│           │   ├── motif37-3-known.png
+│           │   ├── motif37-4-homer.png
+│           │   ├── motif37-4-known.png
+│           │   ├── motif37-5-homer.png
+│           │   ├── motif37-5-known.png
+│           │   ├── motif37-6-homer.png
+│           │   ├── motif37-6-known.png
+│           │   ├── motif37-7-homer.png
+│           │   ├── motif37-7-known.png
+│           │   ├── motif37-8-homer.png
+│           │   ├── motif37-8-known.png
+│           │   ├── motif37-9-homer.png
+│           │   ├── motif37-9-known.png
+│           │   ├── motif3-7-homer.png
+│           │   ├── motif37.info.html
+│           │   ├── motif3-7-known.png
+│           │   ├── motif37.logo.pdf
+│           │   ├── motif37.logo.png
+│           │   ├── motif37.motif
+│           │   ├── motif37.rvlogo.pdf
+│           │   ├── motif37.rvlogo.png
+│           │   ├── motif37RV.motif
+│           │   ├── motif37.similar.html
+│           │   ├── motif38-10-homer.png
+│           │   ├── motif38-10-known.png
+│           │   ├── motif38-1-homer.png
+│           │   ├── motif38-1-known.png
+│           │   ├── motif38-2-homer.png
+│           │   ├── motif38-2-known.png
+│           │   ├── motif38-3-homer.png
+│           │   ├── motif38-3-known.png
+│           │   ├── motif38-4-homer.png
+│           │   ├── motif38-4-known.png
+│           │   ├── motif38-5-homer.png
+│           │   ├── motif38-5-known.png
+│           │   ├── motif38-6-homer.png
+│           │   ├── motif38-6-known.png
+│           │   ├── motif38-7-homer.png
+│           │   ├── motif38-7-known.png
+│           │   ├── motif38-8-homer.png
+│           │   ├── motif38-8-known.png
+│           │   ├── motif38-9-homer.png
+│           │   ├── motif38-9-known.png
+│           │   ├── motif3-8-homer.png
+│           │   ├── motif38.info.html
+│           │   ├── motif3-8-known.png
+│           │   ├── motif38.logo.pdf
+│           │   ├── motif38.logo.png
+│           │   ├── motif38.motif
+│           │   ├── motif38.rvlogo.pdf
+│           │   ├── motif38.rvlogo.png
+│           │   ├── motif38RV.motif
+│           │   ├── motif38.similar1.logo.png
+│           │   ├── motif38.similar1.motif
+│           │   ├── motif38.similar.html
+│           │   ├── motif39-10-homer.png
+│           │   ├── motif39-10-known.png
+│           │   ├── motif39-1-homer.png
+│           │   ├── motif39-1-known.png
+│           │   ├── motif39-2-homer.png
+│           │   ├── motif39-2-known.png
+│           │   ├── motif39-3-homer.png
+│           │   ├── motif39-3-known.png
+│           │   ├── motif39-4-homer.png
+│           │   ├── motif39-4-known.png
+│           │   ├── motif39-5-homer.png
+│           │   ├── motif39-5-known.png
+│           │   ├── motif39-6-homer.png
+│           │   ├── motif39-6-known.png
+│           │   ├── motif39-7-homer.png
+│           │   ├── motif39-7-known.png
+│           │   ├── motif39-8-homer.png
+│           │   ├── motif39-8-known.png
+│           │   ├── motif39-9-homer.png
+│           │   ├── motif39-9-known.png
+│           │   ├── motif3-9-homer.png
+│           │   ├── motif39.info.html
+│           │   ├── motif3-9-known.png
+│           │   ├── motif39.logo.pdf
+│           │   ├── motif39.logo.png
+│           │   ├── motif39.motif
+│           │   ├── motif39.rvlogo.pdf
+│           │   ├── motif39.rvlogo.png
+│           │   ├── motif39RV.motif
+│           │   ├── motif39.similar.html
+│           │   ├── motif3.info.html
+│           │   ├── motif3.logo.pdf
+│           │   ├── motif3.logo.png
+│           │   ├── motif3.motif
+│           │   ├── motif3.rvlogo.pdf
+│           │   ├── motif3.rvlogo.png
+│           │   ├── motif3RV.motif
+│           │   ├── motif3.similar10.logo.png
+│           │   ├── motif3.similar10.motif
+│           │   ├── motif3.similar1.logo.png
+│           │   ├── motif3.similar1.motif
+│           │   ├── motif3.similar2.logo.png
+│           │   ├── motif3.similar2.motif
+│           │   ├── motif3.similar3.logo.png
+│           │   ├── motif3.similar3.motif
+│           │   ├── motif3.similar4.logo.png
+│           │   ├── motif3.similar4.motif
+│           │   ├── motif3.similar5.logo.png
+│           │   ├── motif3.similar5.motif
+│           │   ├── motif3.similar6.logo.png
+│           │   ├── motif3.similar6.motif
+│           │   ├── motif3.similar7.logo.png
+│           │   ├── motif3.similar7.motif
+│           │   ├── motif3.similar8.logo.png
+│           │   ├── motif3.similar8.motif
+│           │   ├── motif3.similar9.logo.png
+│           │   ├── motif3.similar9.motif
+│           │   ├── motif3.similar.html
+│           │   ├── motif40-10-homer.png
+│           │   ├── motif40-10-known.png
+│           │   ├── motif40-1-homer.png
+│           │   ├── motif40-1-known.png
+│           │   ├── motif40-2-homer.png
+│           │   ├── motif40-2-known.png
+│           │   ├── motif40-3-homer.png
+│           │   ├── motif40-3-known.png
+│           │   ├── motif40-4-homer.png
+│           │   ├── motif40-4-known.png
+│           │   ├── motif40-5-homer.png
+│           │   ├── motif40-5-known.png
+│           │   ├── motif40-6-homer.png
+│           │   ├── motif40-6-known.png
+│           │   ├── motif40-7-homer.png
+│           │   ├── motif40-7-known.png
+│           │   ├── motif40-8-homer.png
+│           │   ├── motif40-8-known.png
+│           │   ├── motif40-9-homer.png
+│           │   ├── motif40-9-known.png
+│           │   ├── motif40.info.html
+│           │   ├── motif40.logo.pdf
+│           │   ├── motif40.logo.png
+│           │   ├── motif40.motif
+│           │   ├── motif40.rvlogo.pdf
+│           │   ├── motif40.rvlogo.png
+│           │   ├── motif40RV.motif
+│           │   ├── motif40.similar.html
+│           │   ├── motif4-10-homer.png
+│           │   ├── motif4-10-known.png
+│           │   ├── motif41-10-homer.png
+│           │   ├── motif41-10-known.png
+│           │   ├── motif41-1-homer.png
+│           │   ├── motif41-1-known.png
+│           │   ├── motif41-2-homer.png
+│           │   ├── motif41-2-known.png
+│           │   ├── motif41-3-homer.png
+│           │   ├── motif41-3-known.png
+│           │   ├── motif41-4-homer.png
+│           │   ├── motif41-4-known.png
+│           │   ├── motif41-5-homer.png
+│           │   ├── motif41-5-known.png
+│           │   ├── motif41-6-homer.png
+│           │   ├── motif41-6-known.png
+│           │   ├── motif41-7-homer.png
+│           │   ├── motif41-7-known.png
+│           │   ├── motif41-8-homer.png
+│           │   ├── motif41-8-known.png
+│           │   ├── motif41-9-homer.png
+│           │   ├── motif41-9-known.png
+│           │   ├── motif4-1-homer.png
+│           │   ├── motif41.info.html
+│           │   ├── motif4-1-known.png
+│           │   ├── motif41.logo.pdf
+│           │   ├── motif41.logo.png
+│           │   ├── motif41.motif
+│           │   ├── motif41.rvlogo.pdf
+│           │   ├── motif41.rvlogo.png
+│           │   ├── motif41RV.motif
+│           │   ├── motif41.similar1.logo.png
+│           │   ├── motif41.similar1.motif
+│           │   ├── motif41.similar2.logo.png
+│           │   ├── motif41.similar2.motif
+│           │   ├── motif41.similar.html
+│           │   ├── motif42-10-homer.png
+│           │   ├── motif42-10-known.png
+│           │   ├── motif42-1-homer.png
+│           │   ├── motif42-1-known.png
+│           │   ├── motif42-2-homer.png
+│           │   ├── motif42-2-known.png
+│           │   ├── motif42-3-homer.png
+│           │   ├── motif42-3-known.png
+│           │   ├── motif42-4-homer.png
+│           │   ├── motif42-4-known.png
+│           │   ├── motif42-5-homer.png
+│           │   ├── motif42-5-known.png
+│           │   ├── motif42-6-homer.png
+│           │   ├── motif42-6-known.png
+│           │   ├── motif42-7-homer.png
+│           │   ├── motif42-7-known.png
+│           │   ├── motif42-8-homer.png
+│           │   ├── motif42-8-known.png
+│           │   ├── motif42-9-homer.png
+│           │   ├── motif42-9-known.png
+│           │   ├── motif4-2-homer.png
+│           │   ├── motif42.info.html
+│           │   ├── motif4-2-known.png
+│           │   ├── motif42.logo.pdf
+│           │   ├── motif42.logo.png
+│           │   ├── motif42.motif
+│           │   ├── motif42.rvlogo.pdf
+│           │   ├── motif42.rvlogo.png
+│           │   ├── motif42RV.motif
+│           │   ├── motif42.similar1.logo.png
+│           │   ├── motif42.similar1.motif
+│           │   ├── motif42.similar.html
+│           │   ├── motif43-10-homer.png
+│           │   ├── motif43-10-known.png
+│           │   ├── motif43-1-homer.png
+│           │   ├── motif43-1-known.png
+│           │   ├── motif43-2-homer.png
+│           │   ├── motif43-2-known.png
+│           │   ├── motif43-3-homer.png
+│           │   ├── motif43-3-known.png
+│           │   ├── motif43-4-homer.png
+│           │   ├── motif43-4-known.png
+│           │   ├── motif43-5-homer.png
+│           │   ├── motif43-5-known.png
+│           │   ├── motif43-6-homer.png
+│           │   ├── motif43-6-known.png
+│           │   ├── motif43-7-homer.png
+│           │   ├── motif43-7-known.png
+│           │   ├── motif43-8-homer.png
+│           │   ├── motif43-8-known.png
+│           │   ├── motif43-9-homer.png
+│           │   ├── motif43-9-known.png
+│           │   ├── motif4-3-homer.png
+│           │   ├── motif43.info.html
+│           │   ├── motif4-3-known.png
+│           │   ├── motif43.logo.pdf
+│           │   ├── motif43.logo.png
+│           │   ├── motif43.motif
+│           │   ├── motif43.rvlogo.pdf
+│           │   ├── motif43.rvlogo.png
+│           │   ├── motif43RV.motif
+│           │   ├── motif43.similar1.logo.png
+│           │   ├── motif43.similar1.motif
+│           │   ├── motif43.similar.html
+│           │   ├── motif44-10-homer.png
+│           │   ├── motif44-10-known.png
+│           │   ├── motif44-1-homer.png
+│           │   ├── motif44-1-known.png
+│           │   ├── motif44-2-homer.png
+│           │   ├── motif44-2-known.png
+│           │   ├── motif44-3-homer.png
+│           │   ├── motif44-3-known.png
+│           │   ├── motif44-4-homer.png
+│           │   ├── motif44-4-known.png
+│           │   ├── motif44-5-homer.png
+│           │   ├── motif44-5-known.png
+│           │   ├── motif44-6-homer.png
+│           │   ├── motif44-6-known.png
+│           │   ├── motif44-7-homer.png
+│           │   ├── motif44-7-known.png
+│           │   ├── motif44-8-homer.png
+│           │   ├── motif44-8-known.png
+│           │   ├── motif44-9-homer.png
+│           │   ├── motif44-9-known.png
+│           │   ├── motif4-4-homer.png
+│           │   ├── motif44.info.html
+│           │   ├── motif4-4-known.png
+│           │   ├── motif44.logo.pdf
+│           │   ├── motif44.logo.png
+│           │   ├── motif44.motif
+│           │   ├── motif44.rvlogo.pdf
+│           │   ├── motif44.rvlogo.png
+│           │   ├── motif44RV.motif
+│           │   ├── motif44.similar.html
+│           │   ├── motif45-10-homer.png
+│           │   ├── motif45-10-known.png
+│           │   ├── motif45-1-homer.png
+│           │   ├── motif45-1-known.png
+│           │   ├── motif45-2-homer.png
+│           │   ├── motif45-2-known.png
+│           │   ├── motif45-3-homer.png
+│           │   ├── motif45-3-known.png
+│           │   ├── motif45-4-homer.png
+│           │   ├── motif45-4-known.png
+│           │   ├── motif45-5-homer.png
+│           │   ├── motif45-5-known.png
+│           │   ├── motif45-6-homer.png
+│           │   ├── motif45-6-known.png
+│           │   ├── motif45-7-homer.png
+│           │   ├── motif45-7-known.png
+│           │   ├── motif45-8-homer.png
+│           │   ├── motif45-8-known.png
+│           │   ├── motif45-9-homer.png
+│           │   ├── motif45-9-known.png
+│           │   ├── motif4-5-homer.png
+│           │   ├── motif45.info.html
+│           │   ├── motif4-5-known.png
+│           │   ├── motif45.logo.pdf
+│           │   ├── motif45.logo.png
+│           │   ├── motif45.motif
+│           │   ├── motif45.rvlogo.pdf
+│           │   ├── motif45.rvlogo.png
+│           │   ├── motif45RV.motif
+│           │   ├── motif45.similar1.logo.png
+│           │   ├── motif45.similar1.motif
+│           │   ├── motif45.similar.html
+│           │   ├── motif46-10-homer.png
+│           │   ├── motif46-10-known.png
+│           │   ├── motif46-1-homer.png
+│           │   ├── motif46-1-known.png
+│           │   ├── motif46-2-homer.png
+│           │   ├── motif46-2-known.png
+│           │   ├── motif46-3-homer.png
+│           │   ├── motif46-3-known.png
+│           │   ├── motif46-4-homer.png
+│           │   ├── motif46-4-known.png
+│           │   ├── motif46-5-homer.png
+│           │   ├── motif46-5-known.png
+│           │   ├── motif46-6-homer.png
+│           │   ├── motif46-6-known.png
+│           │   ├── motif46-7-homer.png
+│           │   ├── motif46-7-known.png
+│           │   ├── motif46-8-homer.png
+│           │   ├── motif46-8-known.png
+│           │   ├── motif46-9-homer.png
+│           │   ├── motif46-9-known.png
+│           │   ├── motif4-6-homer.png
+│           │   ├── motif46.info.html
+│           │   ├── motif4-6-known.png
+│           │   ├── motif46.logo.pdf
+│           │   ├── motif46.logo.png
+│           │   ├── motif46.motif
+│           │   ├── motif46.rvlogo.pdf
+│           │   ├── motif46.rvlogo.png
+│           │   ├── motif46RV.motif
+│           │   ├── motif46.similar1.logo.png
+│           │   ├── motif46.similar1.motif
+│           │   ├── motif46.similar.html
+│           │   ├── motif47-10-homer.png
+│           │   ├── motif47-10-known.png
+│           │   ├── motif47-1-homer.png
+│           │   ├── motif47-1-known.png
+│           │   ├── motif47-2-homer.png
+│           │   ├── motif47-2-known.png
+│           │   ├── motif47-3-homer.png
+│           │   ├── motif47-3-known.png
+│           │   ├── motif47-4-homer.png
+│           │   ├── motif47-4-known.png
+│           │   ├── motif47-5-homer.png
+│           │   ├── motif47-5-known.png
+│           │   ├── motif47-6-homer.png
+│           │   ├── motif47-6-known.png
+│           │   ├── motif47-7-homer.png
+│           │   ├── motif47-7-known.png
+│           │   ├── motif47-8-homer.png
+│           │   ├── motif47-8-known.png
+│           │   ├── motif47-9-homer.png
+│           │   ├── motif47-9-known.png
+│           │   ├── motif4-7-homer.png
+│           │   ├── motif47.info.html
+│           │   ├── motif4-7-known.png
+│           │   ├── motif47.logo.pdf
+│           │   ├── motif47.logo.png
+│           │   ├── motif47.motif
+│           │   ├── motif47.rvlogo.pdf
+│           │   ├── motif47.rvlogo.png
+│           │   ├── motif47RV.motif
+│           │   ├── motif47.similar.html
+│           │   ├── motif48-10-homer.png
+│           │   ├── motif48-10-known.png
+│           │   ├── motif48-1-homer.png
+│           │   ├── motif48-1-known.png
+│           │   ├── motif48-2-homer.png
+│           │   ├── motif48-2-known.png
+│           │   ├── motif48-3-homer.png
+│           │   ├── motif48-3-known.png
+│           │   ├── motif48-4-homer.png
+│           │   ├── motif48-4-known.png
+│           │   ├── motif48-5-homer.png
+│           │   ├── motif48-5-known.png
+│           │   ├── motif48-6-homer.png
+│           │   ├── motif48-6-known.png
+│           │   ├── motif48-7-homer.png
+│           │   ├── motif48-7-known.png
+│           │   ├── motif48-8-homer.png
+│           │   ├── motif48-8-known.png
+│           │   ├── motif48-9-homer.png
+│           │   ├── motif48-9-known.png
+│           │   ├── motif4-8-homer.png
+│           │   ├── motif48.info.html
+│           │   ├── motif4-8-known.png
+│           │   ├── motif48.logo.pdf
+│           │   ├── motif48.logo.png
+│           │   ├── motif48.motif
+│           │   ├── motif48.rvlogo.pdf
+│           │   ├── motif48.rvlogo.png
+│           │   ├── motif48RV.motif
+│           │   ├── motif48.similar.html
+│           │   ├── motif49-10-homer.png
+│           │   ├── motif49-10-known.png
+│           │   ├── motif49-1-homer.png
+│           │   ├── motif49-1-known.png
+│           │   ├── motif49-2-homer.png
+│           │   ├── motif49-2-known.png
+│           │   ├── motif49-3-homer.png
+│           │   ├── motif49-3-known.png
+│           │   ├── motif49-4-homer.png
+│           │   ├── motif49-4-known.png
+│           │   ├── motif49-5-homer.png
+│           │   ├── motif49-5-known.png
+│           │   ├── motif49-6-homer.png
+│           │   ├── motif49-6-known.png
+│           │   ├── motif49-7-homer.png
+│           │   ├── motif49-7-known.png
+│           │   ├── motif49-8-homer.png
+│           │   ├── motif49-8-known.png
+│           │   ├── motif49-9-homer.png
+│           │   ├── motif49-9-known.png
+│           │   ├── motif4-9-homer.png
+│           │   ├── motif49.info.html
+│           │   ├── motif4-9-known.png
+│           │   ├── motif49.logo.pdf
+│           │   ├── motif49.logo.png
+│           │   ├── motif49.motif
+│           │   ├── motif49.rvlogo.pdf
+│           │   ├── motif49.rvlogo.png
+│           │   ├── motif49RV.motif
+│           │   ├── motif49.similar.html
+│           │   ├── motif4.info.html
+│           │   ├── motif4.logo.pdf
+│           │   ├── motif4.logo.png
+│           │   ├── motif4.motif
+│           │   ├── motif4.rvlogo.pdf
+│           │   ├── motif4.rvlogo.png
+│           │   ├── motif4RV.motif
+│           │   ├── motif4.similar1.logo.png
+│           │   ├── motif4.similar1.motif
+│           │   ├── motif4.similar2.logo.png
+│           │   ├── motif4.similar2.motif
+│           │   ├── motif4.similar3.logo.png
+│           │   ├── motif4.similar3.motif
+│           │   ├── motif4.similar4.logo.png
+│           │   ├── motif4.similar4.motif
+│           │   ├── motif4.similar5.logo.png
+│           │   ├── motif4.similar5.motif
+│           │   ├── motif4.similar.html
+│           │   ├── motif50-10-homer.png
+│           │   ├── motif50-10-known.png
+│           │   ├── motif50-1-homer.png
+│           │   ├── motif50-1-known.png
+│           │   ├── motif50-2-homer.png
+│           │   ├── motif50-2-known.png
+│           │   ├── motif50-3-homer.png
+│           │   ├── motif50-3-known.png
+│           │   ├── motif50-4-homer.png
+│           │   ├── motif50-4-known.png
+│           │   ├── motif50-5-homer.png
+│           │   ├── motif50-5-known.png
+│           │   ├── motif50-6-homer.png
+│           │   ├── motif50-6-known.png
+│           │   ├── motif50-7-homer.png
+│           │   ├── motif50-7-known.png
+│           │   ├── motif50-8-homer.png
+│           │   ├── motif50-8-known.png
+│           │   ├── motif50-9-homer.png
+│           │   ├── motif50-9-known.png
+│           │   ├── motif50.info.html
+│           │   ├── motif50.logo.pdf
+│           │   ├── motif50.logo.png
+│           │   ├── motif50.motif
+│           │   ├── motif50.rvlogo.pdf
+│           │   ├── motif50.rvlogo.png
+│           │   ├── motif50RV.motif
+│           │   ├── motif50.similar.html
+│           │   ├── motif5-10-homer.png
+│           │   ├── motif5-10-known.png
+│           │   ├── motif51-10-homer.png
+│           │   ├── motif51-10-known.png
+│           │   ├── motif51-1-homer.png
+│           │   ├── motif51-1-known.png
+│           │   ├── motif51-2-homer.png
+│           │   ├── motif51-2-known.png
+│           │   ├── motif51-3-homer.png
+│           │   ├── motif51-3-known.png
+│           │   ├── motif51-4-homer.png
+│           │   ├── motif51-4-known.png
+│           │   ├── motif51-5-homer.png
+│           │   ├── motif51-5-known.png
+│           │   ├── motif51-6-homer.png
+│           │   ├── motif51-6-known.png
+│           │   ├── motif51-7-homer.png
+│           │   ├── motif51-7-known.png
+│           │   ├── motif51-8-homer.png
+│           │   ├── motif51-8-known.png
+│           │   ├── motif51-9-homer.png
+│           │   ├── motif51-9-known.png
+│           │   ├── motif5-1-homer.png
+│           │   ├── motif51.info.html
+│           │   ├── motif5-1-known.png
+│           │   ├── motif51.logo.pdf
+│           │   ├── motif51.logo.png
+│           │   ├── motif51.motif
+│           │   ├── motif51.rvlogo.pdf
+│           │   ├── motif51.rvlogo.png
+│           │   ├── motif51RV.motif
+│           │   ├── motif51.similar.html
+│           │   ├── motif52-10-homer.png
+│           │   ├── motif52-10-known.png
+│           │   ├── motif52-1-homer.png
+│           │   ├── motif52-1-known.png
+│           │   ├── motif52-2-homer.png
+│           │   ├── motif52-2-known.png
+│           │   ├── motif52-3-homer.png
+│           │   ├── motif52-3-known.png
+│           │   ├── motif52-4-homer.png
+│           │   ├── motif52-4-known.png
+│           │   ├── motif52-5-homer.png
+│           │   ├── motif52-5-known.png
+│           │   ├── motif52-6-homer.png
+│           │   ├── motif52-6-known.png
+│           │   ├── motif52-7-homer.png
+│           │   ├── motif52-7-known.png
+│           │   ├── motif52-8-homer.png
+│           │   ├── motif52-8-known.png
+│           │   ├── motif52-9-homer.png
+│           │   ├── motif52-9-known.png
+│           │   ├── motif5-2-homer.png
+│           │   ├── motif52.info.html
+│           │   ├── motif5-2-known.png
+│           │   ├── motif52.logo.pdf
+│           │   ├── motif52.logo.png
+│           │   ├── motif52.motif
+│           │   ├── motif52.rvlogo.pdf
+│           │   ├── motif52.rvlogo.png
+│           │   ├── motif52RV.motif
+│           │   ├── motif52.similar1.logo.png
+│           │   ├── motif52.similar1.motif
+│           │   ├── motif52.similar.html
+│           │   ├── motif53-10-homer.png
+│           │   ├── motif53-10-known.png
+│           │   ├── motif53-1-homer.png
+│           │   ├── motif53-1-known.png
+│           │   ├── motif53-2-homer.png
+│           │   ├── motif53-2-known.png
+│           │   ├── motif53-3-homer.png
+│           │   ├── motif53-3-known.png
+│           │   ├── motif53-4-homer.png
+│           │   ├── motif53-4-known.png
+│           │   ├── motif53-5-homer.png
+│           │   ├── motif53-5-known.png
+│           │   ├── motif53-6-homer.png
+│           │   ├── motif53-6-known.png
+│           │   ├── motif53-7-homer.png
+│           │   ├── motif53-7-known.png
+│           │   ├── motif53-8-homer.png
+│           │   ├── motif53-8-known.png
+│           │   ├── motif53-9-homer.png
+│           │   ├── motif53-9-known.png
+│           │   ├── motif5-3-homer.png
+│           │   ├── motif53.info.html
+│           │   ├── motif5-3-known.png
+│           │   ├── motif53.logo.pdf
+│           │   ├── motif53.logo.png
+│           │   ├── motif53.motif
+│           │   ├── motif53.rvlogo.pdf
+│           │   ├── motif53.rvlogo.png
+│           │   ├── motif53RV.motif
+│           │   ├── motif53.similar.html
+│           │   ├── motif54-10-homer.png
+│           │   ├── motif54-10-known.png
+│           │   ├── motif54-1-homer.png
+│           │   ├── motif54-1-known.png
+│           │   ├── motif54-2-homer.png
+│           │   ├── motif54-2-known.png
+│           │   ├── motif54-3-homer.png
+│           │   ├── motif54-3-known.png
+│           │   ├── motif54-4-homer.png
+│           │   ├── motif54-4-known.png
+│           │   ├── motif54-5-homer.png
+│           │   ├── motif54-5-known.png
+│           │   ├── motif54-6-homer.png
+│           │   ├── motif54-6-known.png
+│           │   ├── motif54-7-homer.png
+│           │   ├── motif54-7-known.png
+│           │   ├── motif54-8-homer.png
+│           │   ├── motif54-8-known.png
+│           │   ├── motif54-9-homer.png
+│           │   ├── motif54-9-known.png
+│           │   ├── motif5-4-homer.png
+│           │   ├── motif54.info.html
+│           │   ├── motif5-4-known.png
+│           │   ├── motif54.logo.pdf
+│           │   ├── motif54.logo.png
+│           │   ├── motif54.motif
+│           │   ├── motif54.rvlogo.pdf
+│           │   ├── motif54.rvlogo.png
+│           │   ├── motif54RV.motif
+│           │   ├── motif54.similar.html
+│           │   ├── motif55-10-homer.png
+│           │   ├── motif55-10-known.png
+│           │   ├── motif55-1-homer.png
+│           │   ├── motif55-1-known.png
+│           │   ├── motif55-2-homer.png
+│           │   ├── motif55-2-known.png
+│           │   ├── motif55-3-homer.png
+│           │   ├── motif55-3-known.png
+│           │   ├── motif55-4-homer.png
+│           │   ├── motif55-4-known.png
+│           │   ├── motif55-5-homer.png
+│           │   ├── motif55-5-known.png
+│           │   ├── motif55-6-homer.png
+│           │   ├── motif55-6-known.png
+│           │   ├── motif55-7-homer.png
+│           │   ├── motif55-7-known.png
+│           │   ├── motif55-8-homer.png
+│           │   ├── motif55-8-known.png
+│           │   ├── motif55-9-homer.png
+│           │   ├── motif55-9-known.png
+│           │   ├── motif5-5-homer.png
+│           │   ├── motif55.info.html
+│           │   ├── motif5-5-known.png
+│           │   ├── motif55.logo.pdf
+│           │   ├── motif55.logo.png
+│           │   ├── motif55.motif
+│           │   ├── motif55.rvlogo.pdf
+│           │   ├── motif55.rvlogo.png
+│           │   ├── motif55RV.motif
+│           │   ├── motif55.similar.html
+│           │   ├── motif5-6-homer.png
+│           │   ├── motif5-6-known.png
+│           │   ├── motif5-7-homer.png
+│           │   ├── motif5-7-known.png
+│           │   ├── motif5-8-homer.png
+│           │   ├── motif5-8-known.png
+│           │   ├── motif5-9-homer.png
+│           │   ├── motif5-9-known.png
+│           │   ├── motif5.info.html
+│           │   ├── motif5.logo.pdf
+│           │   ├── motif5.logo.png
+│           │   ├── motif5.motif
+│           │   ├── motif5.rvlogo.pdf
+│           │   ├── motif5.rvlogo.png
+│           │   ├── motif5RV.motif
+│           │   ├── motif5.similar1.logo.png
+│           │   ├── motif5.similar1.motif
+│           │   ├── motif5.similar2.logo.png
+│           │   ├── motif5.similar2.motif
+│           │   ├── motif5.similar3.logo.png
+│           │   ├── motif5.similar3.motif
+│           │   ├── motif5.similar.html
+│           │   ├── motif6-10-homer.png
+│           │   ├── motif6-10-known.png
+│           │   ├── motif6-1-homer.png
+│           │   ├── motif6-1-known.png
+│           │   ├── motif6-2-homer.png
+│           │   ├── motif6-2-known.png
+│           │   ├── motif6-3-homer.png
+│           │   ├── motif6-3-known.png
+│           │   ├── motif6-4-homer.png
+│           │   ├── motif6-4-known.png
+│           │   ├── motif6-5-homer.png
+│           │   ├── motif6-5-known.png
+│           │   ├── motif6-6-homer.png
+│           │   ├── motif6-6-known.png
+│           │   ├── motif6-7-homer.png
+│           │   ├── motif6-7-known.png
+│           │   ├── motif6-8-homer.png
+│           │   ├── motif6-8-known.png
+│           │   ├── motif6-9-homer.png
+│           │   ├── motif6-9-known.png
+│           │   ├── motif6.info.html
+│           │   ├── motif6.logo.pdf
+│           │   ├── motif6.logo.png
+│           │   ├── motif6.motif
+│           │   ├── motif6.rvlogo.pdf
+│           │   ├── motif6.rvlogo.png
+│           │   ├── motif6RV.motif
+│           │   ├── motif6.similar1.logo.png
+│           │   ├── motif6.similar1.motif
+│           │   ├── motif6.similar.html
+│           │   ├── motif7-10-homer.png
+│           │   ├── motif7-10-known.png
+│           │   ├── motif7-1-homer.png
+│           │   ├── motif7-1-known.png
+│           │   ├── motif7-2-homer.png
+│           │   ├── motif7-2-known.png
+│           │   ├── motif7-3-homer.png
+│           │   ├── motif7-3-known.png
+│           │   ├── motif7-4-homer.png
+│           │   ├── motif7-4-known.png
+│           │   ├── motif7-5-homer.png
+│           │   ├── motif7-5-known.png
+│           │   ├── motif7-6-homer.png
+│           │   ├── motif7-6-known.png
+│           │   ├── motif7-7-homer.png
+│           │   ├── motif7-7-known.png
+│           │   ├── motif7-8-homer.png
+│           │   ├── motif7-8-known.png
+│           │   ├── motif7-9-homer.png
+│           │   ├── motif7-9-known.png
+│           │   ├── motif7.info.html
+│           │   ├── motif7.logo.pdf
+│           │   ├── motif7.logo.png
+│           │   ├── motif7.motif
+│           │   ├── motif7.rvlogo.pdf
+│           │   ├── motif7.rvlogo.png
+│           │   ├── motif7RV.motif
+│           │   ├── motif7.similar.html
+│           │   ├── motif8-10-homer.png
+│           │   ├── motif8-10-known.png
+│           │   ├── motif8-1-homer.png
+│           │   ├── motif8-1-known.png
+│           │   ├── motif8-2-homer.png
+│           │   ├── motif8-2-known.png
+│           │   ├── motif8-3-homer.png
+│           │   ├── motif8-3-known.png
+│           │   ├── motif8-4-homer.png
+│           │   ├── motif8-4-known.png
+│           │   ├── motif8-5-homer.png
+│           │   ├── motif8-5-known.png
+│           │   ├── motif8-6-homer.png
+│           │   ├── motif8-6-known.png
+│           │   ├── motif8-7-homer.png
+│           │   ├── motif8-7-known.png
+│           │   ├── motif8-8-homer.png
+│           │   ├── motif8-8-known.png
+│           │   ├── motif8-9-homer.png
+│           │   ├── motif8-9-known.png
+│           │   ├── motif8.info.html
+│           │   ├── motif8.logo.pdf
+│           │   ├── motif8.logo.png
+│           │   ├── motif8.motif
+│           │   ├── motif8.rvlogo.pdf
+│           │   ├── motif8.rvlogo.png
+│           │   ├── motif8RV.motif
+│           │   ├── motif8.similar1.logo.png
+│           │   ├── motif8.similar1.motif
+│           │   ├── motif8.similar2.logo.png
+│           │   ├── motif8.similar2.motif
+│           │   ├── motif8.similar3.logo.png
+│           │   ├── motif8.similar3.motif
+│           │   ├── motif8.similar4.logo.png
+│           │   ├── motif8.similar4.motif
+│           │   ├── motif8.similar5.logo.png
+│           │   ├── motif8.similar5.motif
+│           │   ├── motif8.similar6.logo.png
+│           │   ├── motif8.similar6.motif
+│           │   ├── motif8.similar7.logo.png
+│           │   ├── motif8.similar7.motif
+│           │   ├── motif8.similar8.logo.png
+│           │   ├── motif8.similar8.motif
+│           │   ├── motif8.similar.html
+│           │   ├── motif9-10-homer.png
+│           │   ├── motif9-10-known.png
+│           │   ├── motif9-1-homer.png
+│           │   ├── motif9-1-known.png
+│           │   ├── motif9-2-homer.png
+│           │   ├── motif9-2-known.png
+│           │   ├── motif9-3-homer.png
+│           │   ├── motif9-3-known.png
+│           │   ├── motif9-4-homer.png
+│           │   ├── motif9-4-known.png
+│           │   ├── motif9-5-homer.png
+│           │   ├── motif9-5-known.png
+│           │   ├── motif9-6-homer.png
+│           │   ├── motif9-6-known.png
+│           │   ├── motif9-7-homer.png
+│           │   ├── motif9-7-known.png
+│           │   ├── motif9-8-homer.png
+│           │   ├── motif9-8-known.png
+│           │   ├── motif9-9-homer.png
+│           │   ├── motif9-9-known.png
+│           │   ├── motif9.info.html
+│           │   ├── motif9.logo.pdf
+│           │   ├── motif9.logo.png
+│           │   ├── motif9.motif
+│           │   ├── motif9.rvlogo.pdf
+│           │   ├── motif9.rvlogo.png
+│           │   ├── motif9RV.motif
+│           │   ├── motif9.similar1.logo.png
+│           │   ├── motif9.similar1.motif
+│           │   ├── motif9.similar2.logo.png
+│           │   ├── motif9.similar2.motif
+│           │   ├── motif9.similar3.logo.png
+│           │   ├── motif9.similar3.motif
+│           │   ├── motif9.similar4.logo.png
+│           │   ├── motif9.similar4.motif
+│           │   ├── motif9.similar5.logo.png
+│           │   ├── motif9.similar5.motif
+│           │   └── motif9.similar.html
+│           ├── homerResults.html
+│           ├── motifFindingParameters.txt
+│           └── seq.autonorm.tsv
+└── Supplements_tree.txt
+
+53 directories, 3860 files

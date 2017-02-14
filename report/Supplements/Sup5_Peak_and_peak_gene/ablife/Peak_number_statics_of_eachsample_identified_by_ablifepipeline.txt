@@ -1,0 +1,5 @@
+Sample
+Eif3b_1
+Eif3b_2
+IgG_1
+IgG_2

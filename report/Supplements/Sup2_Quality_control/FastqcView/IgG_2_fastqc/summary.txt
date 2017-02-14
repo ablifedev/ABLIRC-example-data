@@ -1,0 +1,11 @@
+PASS	Basic Statistics	IgG_2.fq
+PASS	Per base sequence quality	IgG_2.fq
+PASS	Per sequence quality scores	IgG_2.fq
+FAIL	Per base sequence content	IgG_2.fq
+FAIL	Per base GC content	IgG_2.fq
+FAIL	Per sequence GC content	IgG_2.fq
+PASS	Per base N content	IgG_2.fq
+WARN	Sequence Length Distribution	IgG_2.fq
+FAIL	Sequence Duplication Levels	IgG_2.fq
+FAIL	Overrepresented sequences	IgG_2.fq
+FAIL	Kmer Content	IgG_2.fq

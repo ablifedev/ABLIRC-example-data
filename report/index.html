@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>生命之美结题报告</title>
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/lightbox.css" rel="stylesheet" />
+    <link href="assets/css/markdown.css" rel="stylesheet">
+    
+    <link href="assets/css/report.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="assets/css/zTreeStyle.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css" />  
+
+</head>
+
+<body>
+<div id="menubar" class="noprint"><a href="#modal" class="second" data-toggle="tooltip" data-placement="right" title="点击展开或隐藏导航"></a></div>
+
+<div id="container" class="container">
+
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div id="page-top" class="page noprintborder">
+
+
+        <div class="pageheader-first" style="text-align:center;">
+            <img src="assets/img/header3.png" height="60" width="327">
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+        <div class="title1">结题报告</div>
+        <div class="title2">CLIP-seq</div>
+        <div class="title3">技术委托服务项目</div>
+        <div class="info">
+            <div><span class="info1">委托方（甲方）：</span><span class="info2"></span></div>
+            <div><span class="info1">受托方（乙方）：</span><span class="info2">武汉生命之美科技有限公司</span></div>
+            <div><span class="info1">报告日期：</span><span class="info2"></span></div>
+        </div>
+        <div style="height:150px">
+        </div>
+<!--         <div class="timepoint">
+            <p class="timetitle">项目执行的重要时间点：</p>
+            
+            
+
+            
+        </div> -->
+        <div class="foot">武汉生命之美科技有限公司，武汉，中国</div>
+
+        <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+    <!-- /pageend -->
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+    <h1>Part Ⅰ CLIP-seq Data analysis Process</h1>
+
+	<div class="tablediv"><div class="row"><div class="col-xs-7 col-md-7 center-block" style="float:none;"><a href="assets/public/CLIP-seq_workflow_v2.2.png" data-lightbox="g1" data-title="Figure 1.1．CLIP-seq workflow" class="thumbnail"><img src="assets/public/CLIP-seq_workflow_v2.2.png" alt="Figure 1.1．CLIP-seq workflow" /></a></div></div>
+<div><p class="figure_info">Figure 1.1．CLIP-seq workflow</p></div>
+<div><p class="figure_info"></p></div>
+</div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h1>Part Ⅱ CLIP-seq Data Clean</h1>
+
+<h2>2.1 Method Description</h2>
+
+<p>Clean reads refers to the effective reads which removed the adapter and low-quality base.</p>
+
+<p><strong>Description of the clean reads extraction policy:</strong></p>
+
+<p><strong>1-end clean policy:</strong></p>
+
+<ol>
+<li><p>Cut off the adapter, cut off the front 3 bases, and retain the length of 16 or more reads;</p></li>
+<li><p>Remove the quality of less than 20 bases, retain the length of 16 or more reads;</p></li>
+<li><p>Remove the 30% base reads below 20 reads;</p></li>
+<li><p>discard NN,discard polyG, Keeps reads of length 16 or longer;</p></li>
+</ol>
+
+<p><strong>2-end clean policy:</strong></p>
+
+<ol>
+<li><p>Cut off the adapter, cut off the end of the three bases, and retain the length of more than 16 reads;</p></li>
+<li><p>Remove the quality of less than 20 bases, to retain the length of 16 or more reads;</p></li>
+<li><p>Remove the 30% of the base quality of less than 20 reads;</p></li>
+<li><p>discard NN,discard polyG, Keeps reads of length 16 or longer.</p></li>
+</ol>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<p><strong>Results:</strong></p>
+
+0<p><strong>Description</strong></p>
+
+<p>Sample:Name of the experimental sample;</p>
+
+<p>Raw:raw reads, the number of original sequences transformed from the original base data by the sequencing;</p>
+
+<p>clean:clean reads, the number of valid sequences used for subsequent analysis after the raw reads were removed from the linker sequence and the low quality base;</p>
+
+<p>clean per:Percent of clean reads in raw reads;</p>
+
+<p>unique tag:Percent of Non-repetitive reads in clean reads;</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h1>Part Ⅲ CLIP-seq Project Results - Basic Analysis</h1>
+
+<h2>3.1 CLIP-seq Data Quality Analysis</h2>
+
+<h3>3.1.1 Clean reads base quality analysis</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>Note: Sequencing quality distribution:</p>
+
+<p>y-axis represents the sequencing quality score , it was calculated through the following formula :</p>
+
+	<div class="tablediv"><div class="row"><div class="col-xs-8 col-md-8 center-block" style="float:none;"><a href="assets/public/Quality score formula.png" data-lightbox="g2" data-title="Figure3.1 sequencing quality score formula" class="thumbnail"><img src="assets/public/Quality score formula.png" alt="Figure3.1 sequencing quality score formula" /></a></div></div>
+<div><p class="figure_info">Figure3.1 sequencing quality score formula</p></div>
+<div><p class="figure_info">aaa</p></div>
+</div>
+<p>Where p is the probability that the corresponding base call is incorrect, x-axis represents each position of the read(bp), when the Q=30,the p=0.001</p>
+
+<p>Sequence content distribution:</p>
+
+<p>y-axis represents the percentage of each kind of nucleotide, x-axis represents each position of the read(bp)</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g3" aria-expanded="true" aria-controls="g3">
+		          per_base_quality
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_per_base_quality.png" data-lightbox="g3" data-title="Eif3b_1_per_base_quality" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_per_base_quality.png" alt="Eif3b_1_per_base_quality" /><div class="caption">Eif3b_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_per_base_quality.png" data-lightbox="g3" data-title="Eif3b_2_per_base_quality" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_per_base_quality.png" alt="Eif3b_2_per_base_quality" /><div class="caption">Eif3b_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_per_base_quality.png" data-lightbox="g3" data-title="IgG_1_per_base_quality" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_per_base_quality.png" alt="IgG_1_per_base_quality" /><div class="caption">IgG_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_per_base_quality.png" data-lightbox="g3" data-title="IgG_2_per_base_quality" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_per_base_quality.png" alt="IgG_2_per_base_quality" /><div class="caption">IgG_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.1.2 GC content analysis</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>Evaluate the distribution of the four kind of bases' percent from the sequencing reads.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g4" aria-expanded="true" aria-controls="g4">
+		          per_base_sequence_content
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_per_base_sequence_content.png" data-lightbox="g4" data-title="Eif3b_1_per_base_sequence_content" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_per_base_sequence_content.png" alt="Eif3b_1_per_base_sequence_content" /><div class="caption">Eif3b_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_per_base_sequence_content.png" data-lightbox="g4" data-title="Eif3b_2_per_base_sequence_content" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_per_base_sequence_content.png" alt="Eif3b_2_per_base_sequence_content" /><div class="caption">Eif3b_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_per_base_sequence_content.png" data-lightbox="g4" data-title="IgG_1_per_base_sequence_content" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_per_base_sequence_content.png" alt="IgG_1_per_base_sequence_content" /><div class="caption">IgG_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_per_base_sequence_content.png" data-lightbox="g4" data-title="IgG_2_per_base_sequence_content" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_per_base_sequence_content.png" alt="IgG_2_per_base_sequence_content" /><div class="caption">IgG_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.1.3 Effective length statistics</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>After removing the index sequence, building a library with random bases and truncating the low-quality base, we used the obtained clean reads for the effective length analysis.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g5" aria-expanded="true" aria-controls="g5">
+		          sequence_length_distribution
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_sequence_length_distribution.png" data-lightbox="g5" data-title="Eif3b_1_sequence_length_distribution" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_sequence_length_distribution.png" alt="Eif3b_1_sequence_length_distribution" /><div class="caption">Eif3b_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_sequence_length_distribution.png" data-lightbox="g5" data-title="Eif3b_2_sequence_length_distribution" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_sequence_length_distribution.png" alt="Eif3b_2_sequence_length_distribution" /><div class="caption">Eif3b_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_sequence_length_distribution.png" data-lightbox="g5" data-title="IgG_1_sequence_length_distribution" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_sequence_length_distribution.png" alt="IgG_1_sequence_length_distribution" /><div class="caption">IgG_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_sequence_length_distribution.png" data-lightbox="g5" data-title="IgG_2_sequence_length_distribution" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_sequence_length_distribution.png" alt="IgG_2_sequence_length_distribution" /><div class="caption">IgG_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.1.4 Representative Analysis of cDNA Library</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>If the PCR amplification is excessive, the library will contain a large number of duplicate reads. In order to ensure that the library better represents the abundance of the original DNA, the company in the database on the PCR amplification cycle has strict control.</p>
+
+<p>PCR duplication level Calculated as follows: from the sequencing data were randomly selected 200 000 reads as Total Reads, according to the following formula:
+<center></p>
+
+<p><strong>PCR duplication level=Duplication Reads/Total Reads</strong></p>
+
+<p></center></p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g6" aria-expanded="true" aria-controls="g6">
+		          duplication_levels
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_duplication_levels.png" data-lightbox="g6" data-title="Eif3b_1_duplication_levels" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_1_fastqc/Eif3b_1_duplication_levels.png" alt="Eif3b_1_duplication_levels" /><div class="caption">Eif3b_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_duplication_levels.png" data-lightbox="g6" data-title="Eif3b_2_duplication_levels" class="thumbnail"><img src="Supplements/Sup2_Quality_control/Eif3b_2_fastqc/Eif3b_2_duplication_levels.png" alt="Eif3b_2_duplication_levels" /><div class="caption">Eif3b_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_duplication_levels.png" data-lightbox="g6" data-title="IgG_1_duplication_levels" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_1_fastqc/IgG_1_duplication_levels.png" alt="IgG_1_duplication_levels" /><div class="caption">IgG_1_fastqc</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_duplication_levels.png" data-lightbox="g6" data-title="IgG_2_duplication_levels" class="thumbnail"><img src="Supplements/Sup2_Quality_control/IgG_2_fastqc/IgG_2_duplication_levels.png" alt="IgG_2_duplication_levels" /><div class="caption">IgG_2_fastqc</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>3.2 Whole genome location analysis</h2>
+
+<h3>3.2.1 Reference to genomic information</h3>
+
+<div class="tablediv"><a href="Supplements/Sup0_Reference_genome/Length_distribution_across_Genomic_Regions.xls"><p class="table_info">Table3.1.Length distribution across genomic regions</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-8 center-block" style="float:none;font-size: inherit;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">Region_Type</th><th colspan="1">Percent</th></tr>
+</thead><tbody><tr><td>CDS</td><td>32238311.00<br>(1.00%)</td></tr>
+<tr><td>five_prime_UTR</td><td>4970687.00<br>(0.15%)</td></tr>
+<tr><td>intergenic</td><td>1727720699.00<br>(53.71%)</td></tr>
+<tr><td>intron</td><td>1393221651.00<br>(43.31%)</td></tr>
+<tr><td>noncoding_exon</td><td>30622057.00<br>(0.95%)</td></tr>
+<tr><td>three_prime_UTR</td><td>27714668.00<br>(0.86%)</td></tr>
+</tbody></table></div></div></div>
+
+
+	<div class="tablediv"><div class="row"><div class="col-xs-7 col-md-7 center-block" style="float:none;"><a href="Supplements/Sup0_Reference_genome/Length_distribution_across_Genomic_Regions_Bar.png" data-lightbox="g7" data-title="Figure3.2 Length distribution across genomic regions" class="thumbnail"><img src="Supplements/Sup0_Reference_genome/Length_distribution_across_Genomic_Regions_Bar.png" alt="Figure3.2 Length distribution across genomic regions" /></a></div></div>
+<div><p class="figure_info">Figure3.2 Length distribution across genomic regions</p></div>
+<div><p class="figure_info"></p></div>
+</div>
+<p><strong>Description</strong></p>
+
+<p>CDS:The total number of bases in the coding region, and the proportion in the genome;</p>
+
+<p>five_prime_UTR:5'untranslated region, and the proportion in the genome;</p>
+
+<p>Intergenic:The total number of bases in the intergenic region, and the proportion in the genome;</p>
+
+<p>Introns:The total number of bases in the intron region, and the proportion in the genome;</p>
+
+<p>noncoding_exon:The total number of bases in the non-coding RNA exon region, and the proportion in the genome;</p>
+
+<p>three_prime_UTR:The total number of bases in the 3'untranslated region, and the proportion in the genome.</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.2 Reads aligned to the reference genome.</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>In this part of the analysis, we compare valid clean reads to the reference genome.</p>
+
+<p><strong>Results:</strong></p>
+
+<div class="tablediv"><a href="Supplements/Sup3_Mapping/Mapping_of_clean_reads_on_the_reference_genome.txt"><p class="table_info">Table3.2 Mapping of clean reads on the reference genome</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-12 center-block" style="float:none;font-size: inherit;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">Sample</th><th colspan="1">Eif3b_1</th><th colspan="1">Eif3b_2</th><th colspan="1">IgG_1</th><th colspan="1">IgG_2</th></tr>
+</thead><tbody><tr><td>Total reads</td><td>10313497</td><td>20536537</td><td>1293296</td><td>1984719</td></tr>
+<tr><td>Total mapped</td><td>9290830<br>(90.08%)</td><td>18602589<br>(90.58%)</td><td>460046<br>(35.57%)</td><td>1285477<br>(64.77%)</td></tr>
+<tr><td>Total Uniquely mapped</td><td>1488774<br>(16.02%)</td><td>2925041<br>(15.72%)</td><td>122635<br>(26.66%)</td><td>249970<br>(19.45%)</td></tr>
+<tr><td>Total Multiple mapped</td><td>7802056<br>(83.98%)</td><td>15677548<br>(84.28%)</td><td>337411<br>(73.34%)</td><td>1035507<br>(80.55%)</td></tr>
+<tr><td>rmdup reads</td><td>560284<br>(37.63%)</td><td>1173218<br>(40.11%)</td><td>61521<br>(50.17%)</td><td>100373<br>(40.15%)</td></tr>
+</tbody></table></div></div></div>
+<p><strong>Description</strong></p>
+
+<p>input data:clean reads, the number of reads after the sequence is filtered;</p>
+
+<p>total mapped reads:The number of sequencing sequences that can be located on the genome is counted;</p>
+
+<p>uniq mapped reads:The number of unique reads in the reference genome and the proportion of total mapped reads, the vast majority of single-position reads from the mature mRNA;</p>
+
+<p>multiple mapped reads:The number of reads in the reference genome and the proportion of the total mapped reads were the most significant.</p>
+
+<p>rmdup reads:remove duplicate reads, Remove the duplication of PCR reads, that is, all repeat reads only count the total number of reads after the statistics, and its proportion of uniq mapped reads;</p>
+
+<p>splice reads:Segment alignment compares the sequencing sequences (also called Junction reads) to the two exons;</p>
+
+<p>nonsplice reads:Whole sequence alignment to the exon of the sequencing sequence statistics;</p>
+
+<p>antisense reads:Compare to the reads on the antisense strand.</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.3 Distribution of reads in different regions of the genome</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>The clean reads were compared to the reference genome, and the distribution of each region was statistically analyzed. The statistical results were as follows:</p>
+
+<p><strong>Results:</strong></p>
+
+<div class="tablediv"><a href="Supplements/Sup3_Mapping/Reads_distribution_across_reference_Genomic_Regions.txt"><p class="table_info">Table3.3 Reads distribution across reference genomic regions</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-10 center-block" style="float:none;font-size: smaller;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">Sample</th><th colspan="1">5'UTR</th><th colspan="1">3'UTR</th><th colspan="1">CDS</th><th colspan="1">Nc_exon</th><th colspan="1">Introns</th><th colspan="1">Intergenic</th><th colspan="1">Antisense</th></tr>
+</thead><tbody><tr><td>Eif3b_1</td><td>77859<br>(5.23%)</td><td>143082<br>(9.61%)</td><td>297021<br>(19.95%)</td><td>333069<br>(22.37%)</td><td>543105<br>(36.48%)</td><td>94635<br>(6.36%)</td><td>0</td></tr>
+<tr><td>Eif3b_2</td><td>145666<br>(4.98%)</td><td>272755<br>(9.32%)</td><td>581956<br>(19.90%)</td><td>651576<br>(22.28%)</td><td>1084853<br>(37.09%)</td><td>188232<br>(6.44%)</td><td>0</td></tr>
+<tr><td>IgG_1</td><td>5770<br>(4.71%)</td><td>18841<br>(15.36%)</td><td>38460<br>(31.36%)</td><td>18265<br>(14.89%)</td><td>30943<br>(25.23%)</td><td>10352<br>(8.44%)</td><td>0</td></tr>
+<tr><td>IgG_2</td><td>13511<br>(5.41%)</td><td>28286<br>(11.32%)</td><td>56443<br>(22.58%)</td><td>50155<br>(20.06%)</td><td>78724<br>(31.49%)</td><td>22847<br>(9.14%)</td><td>0</td></tr>
+</tbody></table></div></div></div>
+
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g8" aria-expanded="true" aria-controls="g8">
+		          Mapping_distribution
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g8" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_Mapping_distribution_Bar.png" data-lightbox="g8" data-title="Eif3b_1_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_Mapping_distribution_Bar.png" alt="Eif3b_1_Mapping_distribution_Bar" /><div class="caption">Eif3b_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_Mapping_distribution_Bar.png" data-lightbox="g8" data-title="Eif3b_2_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_Mapping_distribution_Bar.png" alt="Eif3b_2_Mapping_distribution_Bar" /><div class="caption">Eif3b_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_1/IgG_1_Mapping_distribution_Bar.png" data-lightbox="g8" data-title="IgG_1_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_1/IgG_1_Mapping_distribution_Bar.png" alt="IgG_1_Mapping_distribution_Bar" /><div class="caption">IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_2/IgG_2_Mapping_distribution_Bar.png" data-lightbox="g8" data-title="IgG_2_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_2/IgG_2_Mapping_distribution_Bar.png" alt="IgG_2_Mapping_distribution_Bar" /><div class="caption">IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.4 Genome Coverage and Character Analysis</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>CLIP-seq reads With the length of the transcription unit coverage intensity analysis, to the transcription initiation site and transcription termination sites as the standard, the cDNA was divided into 100 copies, each called a bin, to fall in each bin Of the average of the reads, resulting in the overall reads coverage per bin.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g9" aria-expanded="true" aria-controls="g9">
+		          randCheck_mRNA
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g9" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_randCheck_mRNA_Line.png" data-lightbox="g9" data-title="Eif3b_1_randCheck_mRNA_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_randCheck_mRNA_Line.png" alt="Eif3b_1_randCheck_mRNA_Line" /><div class="caption">Eif3b_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_randCheck_mRNA_Line.png" data-lightbox="g9" data-title="Eif3b_2_randCheck_mRNA_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_randCheck_mRNA_Line.png" alt="Eif3b_2_randCheck_mRNA_Line" /><div class="caption">Eif3b_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_1/IgG_1_randCheck_mRNA_Line.png" data-lightbox="g9" data-title="IgG_1_randCheck_mRNA_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_1/IgG_1_randCheck_mRNA_Line.png" alt="IgG_1_randCheck_mRNA_Line" /><div class="caption">IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_2/IgG_2_randCheck_mRNA_Line.png" data-lightbox="g9" data-title="IgG_2_randCheck_mRNA_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_2/IgG_2_randCheck_mRNA_Line.png" alt="IgG_2_randCheck_mRNA_Line" /><div class="caption">IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+<p><strong>Method Description:</strong></p>
+
+<p>The average of the gene is divided into 100 copies, each known as a bin, seeking to fall in each bin in the average of the sum of reads, resulting in the overall bin coverage of each bin coverage.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g10" aria-expanded="true" aria-controls="g10">
+		          randCheck_gene
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_randCheck_gene_Line.png" data-lightbox="g10" data-title="Eif3b_1_randCheck_gene_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_randCheck_gene_Line.png" alt="Eif3b_1_randCheck_gene_Line" /><div class="caption">Eif3b_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_randCheck_gene_Line.png" data-lightbox="g10" data-title="Eif3b_2_randCheck_gene_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_randCheck_gene_Line.png" alt="Eif3b_2_randCheck_gene_Line" /><div class="caption">Eif3b_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_1/IgG_1_randCheck_gene_Line.png" data-lightbox="g10" data-title="IgG_1_randCheck_gene_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_1/IgG_1_randCheck_gene_Line.png" alt="IgG_1_randCheck_gene_Line" /><div class="caption">IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/IgG_2/IgG_2_randCheck_gene_Line.png" data-lightbox="g10" data-title="IgG_2_randCheck_gene_Line" class="thumbnail"><img src="Supplements/Sup3_Mapping/IgG_2/IgG_2_randCheck_gene_Line.png" alt="IgG_2_randCheck_gene_Line" /><div class="caption">IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.5 Reads the distribution at the transcriptional start site, the transcription termination site, the start codon, and the stop codon</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>Transcription start site / transcription termination site, translation initiation codon / stop codon as the origin, statistics of the upstream and downstream 1kb range reads the distribution of the situation.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g11" aria-expanded="true" aria-controls="g11">
+		          distance2_tsstts_reads_density
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density.png" data-lightbox="g11" data-title="Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density.png" alt="Eif3b_1_vs_IgG_1_distance2_tsstts_reads_density" /><div class="caption">Eif3b_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density.png" data-lightbox="g11" data-title="Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density.png" alt="Eif3b_2_vs_IgG_2_distance2_tsstts_reads_density" /><div class="caption">Eif3b_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g12" aria-expanded="true" aria-controls="g12">
+		          distance2codon_reads_density
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g12" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_vs_IgG_1_distance2codon_reads_density.png" data-lightbox="g12" data-title="Eif3b_1_vs_IgG_1_distance2codon_reads_density" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_1/Eif3b_1_vs_IgG_1_distance2codon_reads_density.png" alt="Eif3b_1_vs_IgG_1_distance2codon_reads_density" /><div class="caption">Eif3b_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_vs_IgG_2_distance2codon_reads_density.png" data-lightbox="g12" data-title="Eif3b_2_vs_IgG_2_distance2codon_reads_density" class="thumbnail"><img src="Supplements/Sup3_Mapping/Eif3b_2/Eif3b_2_vs_IgG_2_distance2codon_reads_density.png" alt="Eif3b_2_vs_IgG_2_distance2codon_reads_density" /><div class="caption">Eif3b_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.6 Sample correlation analysis</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>Calculate the RPKM value for each gene by comparing the number of reads in each gene, and then comparing the RPKM values of the same gene in the two samples to get the correlation between the two samples.In the IP project, if the experiment and the control The high coefficient of correlation between the samples indicates that most of the reads in the two samples are similar in distribution on the chromosome, implying that the RNA / DNA pool of the sample is low and the enrichment and specificity are low.</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g13" aria-expanded="true" aria-controls="g13">
+		          lm
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g13" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup4_Correlation/Eif3b_1_vs_IgG_1/Eif3b_1_vs_IgG_1_lm.png" data-lightbox="g13" data-title="Eif3b_1_vs_IgG_1_lm" class="thumbnail"><img src="Supplements/Sup4_Correlation/Eif3b_1_vs_IgG_1/Eif3b_1_vs_IgG_1_lm.png" alt="Eif3b_1_vs_IgG_1_lm" /><div class="caption">Eif3b_1_vs_IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup4_Correlation/Eif3b_2_vs_IgG_2/Eif3b_2_vs_IgG_2_lm.png" data-lightbox="g13" data-title="Eif3b_2_vs_IgG_2_lm" class="thumbnail"><img src="Supplements/Sup4_Correlation/Eif3b_2_vs_IgG_2/Eif3b_2_vs_IgG_2_lm.png" alt="Eif3b_2_vs_IgG_2_lm" /><div class="caption">Eif3b_2_vs_IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h3>3.2.7 sample cluster analysis</h3>
+
+<p><strong>Method Description:</strong></p>
+
+<p>In this part of the analysis, clustering analysis of samples was conducted according to the sample correlation coefficient.</p>
+
+<p><strong>Results:</strong></p>
+
+<div class="tablediv"><a href="Supplements/Sup4_Correlation/Sample_correlation.xls"><p class="table_info">Table3.4 Sample Correlation</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-10 center-block" style="float:none;font-size: inherit;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">Gene</th><th colspan="1">Eif3b_1</th><th colspan="1">Eif3b_2</th><th colspan="1">IgG_1</th><th colspan="1">IgG_2</th></tr>
+</thead><tbody><tr><td>Eif3b_1</td><td>1.0000</td><td>0.7750</td><td>0.5916</td><td>0.6492</td></tr>
+<tr><td>Eif3b_2</td><td>0.7750</td><td>1.0000</td><td>0.5770</td><td>0.6513</td></tr>
+<tr><td>IgG_1</td><td>0.5916</td><td>0.5770</td><td>1.0000</td><td>0.5940</td></tr>
+<tr><td>IgG_2</td><td>0.6492</td><td>0.6513</td><td>0.5940</td><td>1.0000</td></tr>
+</tbody></table></div></div></div>
+
+
+	<div class="tablediv"><div class="row"><div class="col-xs-8 col-md-8 center-block" style="float:none;"><a href="Supplements/Sup4_Correlation/Sample_correlation.png" data-lightbox="g14" data-title="Sample_correlation" class="thumbnail"><img src="Supplements/Sup4_Correlation/Sample_correlation.png" alt="Sample_correlation" /></a></div></div>
+<div><p class="figure_info">Sample_correlation</p></div>
+<div><p class="figure_info"></p></div>
+</div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h1>Part Ⅳ Combine peaks analysis</h1>
+
+<h2>4.1 Combine peaks analysis strategy</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>Since the amount of each gene is different, the number of CLIP-seq sequences located at one position in the genome can not assess whether the RNA-binding protein specifically binds at that position. How to eliminate the specific binding of the gene expression to the RNA-binding protein MIT's Phillip A Sharp (obtained Nobel Prize for discovery of gene splicing) in a paper in 2009 using the exon array transcript abundance as a reference, (Chi, Zang et al., 2009). The theoretical basis for this is that the expression of the AGO2 protein specifically binds to the mRNA,
+MRNA with low transcript abundance is less likely to be caught by RNA-binding proteins in the IP process, and vice versa.
+Method :ABLife</p>
+
+	<div class="tablediv"><div class="row"><div class="col-xs-7 col-md-7 center-block" style="float:none;"><a href="assets/public/peak_calling.jpg" data-lightbox="g15" data-title="Figure4.1 Peak calling" class="thumbnail"><img src="assets/public/peak_calling.jpg" alt="Figure4.1 Peak calling" /></a></div></div>
+<div><p class="figure_info">Figure4.1 Peak calling</p></div>
+<div><p class="figure_info"></p></div>
+</div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>4.2 Peak statistics</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>In this project, we use Peak Calling method to test the rmdup reads of the samples with the background of IgG samples, and get the specific peaks of the samples. The results are as follows:</p>
+
+<p><strong>Results:</strong></p>
+
+<div class="tablediv"><a href="Supplements/Sup5_Peak_and_peak_gene/peak_statics.xls"><p class="table_info">Table4.2 Peak Number</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-10 center-block" style="float:none;font-size: inherit;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">group</th><th colspan="1">method</th><th colspan="1">rmdup_reads</th><th colspan="1">peak_number</th><th colspan="1">peakreads_number</th><th colspan="1">gene_number</th></tr>
+</thead><tbody><tr><td>Eif3b_2_vs_IgG_2</td><td>ablife</td><td>1173218</td><td>9957</td><td>112783<br>(9.61%)</td><td>1024</td></tr>
+<tr><td>Eif3b_1_vs_IgG_1</td><td>ablife</td><td>560284</td><td>3106</td><td>38906<br>(6.94%)</td><td>587</td></tr>
+</tbody></table></div></div></div>
+<p><strong>Description</strong></p>
+
+<p>group:IP test group number;</p>
+
+<p>method:Peak detection method;</p>
+
+<p>rmdup reads:Remove duplicate reads, remove the number of reads after PCR duplication;</p>
+
+<p>peak number:The number of peaks detected in the sample;</p>
+
+<p>peak reads number:The number of peak can be detected in the experimental sample.</p>
+
+<p>gene number:The number of genes associated with the peak detected in the experimental sample.</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>4.3 Peak width statistics</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>The width of the peak specific to the test sample was counted, and the results were as follows:</p>
+
+<p><strong>Results:</strong></p>
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g16" aria-expanded="true" aria-controls="g16">
+		          peak_width
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g16" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_1_vs_IgG_1/Peak_Width_Distribution_peak_width.png" data-lightbox="g16" data-title="Peak_Width_Distribution_peak_width" class="thumbnail"><img src="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_1_vs_IgG_1/Peak_Width_Distribution_peak_width.png" alt="Peak_Width_Distribution_peak_width" /><div class="caption">Eif3b_1_vs_IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_2_vs_IgG_2/Peak_Width_Distribution_peak_width.png" data-lightbox="g16" data-title="Peak_Width_Distribution_peak_width" class="thumbnail"><img src="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_2_vs_IgG_2/Peak_Width_Distribution_peak_width.png" alt="Peak_Width_Distribution_peak_width" /><div class="caption">Eif3b_2_vs_IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>4.4 The distribution of binding peaks on the reference genome</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>The distribution of binding peaks in each region of the reference genome was statistically analyzed. The results were as follows:</p>
+
+<p><strong>Results:</strong></p>
+
+<div class="tablediv"><a href="Supplements/Sup5_Peak_and_peak_gene/ablife/peak_mapping_distribution.txt"><p class="table_info">Table4.3 Peak distribution across reference genomic regions</p></a>
+<div><p class="table_info"></p></div>
+	<div class="row"><div class="col-xs-12 col-md-10 center-block" style="float:none;font-size: smaller;"><table class="table table-hover table-striped"><thead>
+<tr><th colspan="1">Sample</th><th colspan="1">5'UTR</th><th colspan="1">3'UTR</th><th colspan="1">CDS</th><th colspan="1">Nc_exon</th><th colspan="1">Introns</th><th colspan="1">Intergenic</th><th colspan="1">Antisense</th></tr>
+</thead><tbody><tr><td>Eif3b_1_vs_IgG_1</td><td>372<br>(11.87%)</td><td>313<br>(9.99%)</td><td>1179<br>(37.62%)</td><td>226<br>(7.21%)</td><td>569<br>(18.16%)</td><td>241<br>(7.69%)</td><td>234<br>(7.47%)</td></tr>
+<tr><td>Eif3b_2_vs_IgG_2</td><td>1041<br>(10.40%)</td><td>1289<br>(12.87%)</td><td>4997<br>(49.90%)</td><td>422<br>(4.21%)</td><td>1295<br>(12.93%)</td><td>489<br>(4.88%)</td><td>481<br>(4.80%)</td></tr>
+</tbody></table></div></div></div>
+
+
+		<div class="row">
+
+			  <div class="panel panel-default col-xs-10 col-md-10 center-block" style="float:none;padding:0px;">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <div class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#g17" aria-expanded="true" aria-controls="g17">
+		          peak_Mapping_distribution_Bar
+		        </a>
+		      </div>
+		    </div>
+		    <div id="g17" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+		<div class="row">
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_1_vs_IgG_1/Eif3b_1_peak_Mapping_distribution_Bar.png" data-lightbox="g17" data-title="Eif3b_1_peak_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_1_vs_IgG_1/Eif3b_1_peak_Mapping_distribution_Bar.png" alt="Eif3b_1_peak_Mapping_distribution_Bar" /><div class="caption">Eif3b_1_vs_IgG_1</div></a></div>
+				<div class="col-xs-6 col-md-5"><a href="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_2_vs_IgG_2/Eif3b_2_peak_Mapping_distribution_Bar.png" data-lightbox="g17" data-title="Eif3b_2_peak_Mapping_distribution_Bar" class="thumbnail"><img src="Supplements/Sup5_Peak_and_peak_gene/ablife/Eif3b_2_vs_IgG_2/Eif3b_2_peak_Mapping_distribution_Bar.png" alt="Eif3b_2_peak_Mapping_distribution_Bar" /><div class="caption">Eif3b_2_vs_IgG_2</div></a></div>
+<div class="clearfix visible-xs-block visible-md-block visible-lg-block"></div>			</div>
+				</div>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>4.5 Peak overlap analysis</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>The Venn diagram mainly shows the number of overlapping peaks between the ablife analysis methods for the two replicates.</p>
+
+<p><strong>Results:</strong></p>
+
+	<div class="tablediv"><div class="row"><div class="col-xs-6 col-md-6 center-block" style="float:none;"><a href="Supplements/Sup5_Peak_and_peak_gene/overlap/Venn.png" data-lightbox="g18" data-title="Venn" class="thumbnail"><img src="Supplements/Sup5_Peak_and_peak_gene/overlap/Venn.png" alt="Venn" /></a></div></div>
+<div><p class="figure_info">Venn</p></div>
+<div><p class="figure_info"></p></div>
+</div>
+<p><strong>Description</strong></p>
+
+<p>olp peak:There are overlapping peaks between the two experiments, and the number of overlapping peaks detected between the two experiments is not the same because of the overlap or inclusion of the positions of the peaks;</p>
+
+<p>merged olp peak:The clusters with overlapping peaks are clustered and the overlapping peaks are classified into the same cluster. The number of clusters with overlapping peaks is less than the number of overlapping peaks detected by each experiment;</p>
+
+<p>specific peak:The number of peaks that do not overlap between the two experiments;</p>
+
+<p>specific gene:The number of genes associated with the non-overlapping peaks between the two replicates;</p>
+
+<p>olp gene:There were peak detected genes between the two experiments. The peaks of the detected peaks could be overlapped or non-overlapping. The number of olp genes was more than the number of olp peaks, and contein merged olp peaks and specific peaks.</p>
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+<h2>4.6 Binding motif analysis</h2>
+
+<p><strong>Method Description:</strong></p>
+
+<p>We used a HOMER (Hypergeometric Optimization of Motif EnRichment) to perform a motif analysis of the binding peaks specific to the test sample.</p>
+
+<p><strong>Results:</strong></p>
+
+				<p><a href="Supplements/Sup6_Motif_results/ablife/Eif3b_1_vs_IgG_1/homerResults.html" target="_blank">Eif3b_1_vs_IgG_1 homerResults[link]</a></p>
+				<p><a href="Supplements/Sup6_Motif_results/ablife/Eif3b_2_vs_IgG_2/homerResults.html" target="_blank">Eif3b_2_vs_IgG_2 homerResults[link]</a></p>
+
+
+       <div class="tb-block noprint">
+            <div class="blblock"></div>
+            <div class="brblock"></div>
+        </div>
+    </div>
+
+
+    <!-- new page -->
+    <div class="page noprintborder">
+        <div class="tb-block noprint">
+            <div class="tlblock"></div>
+            <div class="trblock"></div>
+        </div>
+        <div class="pageheader">
+            <img src="assets/img/logo.png">
+            <span class="headerword">ABLIFE TRANSLATES SEQUENCE TO SCIENCE AND INDUSTRY</span>
+            <hr class="hr0"/>
+            <hr class="hr1"/>
+        </div>
+
+
+
+
+
+
+    </div>
+    <!-- /pageend -->
+
+
+</div>
+<!-- /container -->
+
+
+<div id="modal noprint"></div>
+
+
+<div class="menu noprint">
+    <div id="gotop" class="item">
+        <a class="link icon_top"></a>
+        <a class="item_content">Top</a>
+    </div>
+    <div id="print" class="item">
+        <a class="link icon_print"></a>
+        <a class="item_content">打印</a>
+    </div>
+    <div id="expand" class="item">
+        <a class="link icon_expand"></a>
+        <a class="item_content">版式</a>
+    </div>
+    <div class="item">
+        <a href="#modal" class="link icon_menu second"></a>
+        <a href="#modal" class="second item_content">导航</a>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- other JavaScript
+================================================== -->
+<!-- lightbox js -->
+<script src="assets/js/lightbox.js"></script>
+
+<!-- ztree js -->
+<script type="text/javascript" src="assets/js/jquery.ztree.all-3.5.js"></script>
+<script type="text/javascript" src="assets/js/ztree_toc.js"></script>
+
+<!-- mCustomScrollbar js -->
+<script src="assets/js/jquery.mCustomScrollbar.js"></script>
+
+<!-- pageslide js -->
+<script src="assets/js/jquery.pageslide.js"></script>
+<script>
+    /* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+    $(".second").pageslide({direction: "right", modal: true});
+</script>
+
+<!-- tools js -->
+<script type="text/javascript">
+
+    $(function () {
+
+
+
+        //点击回到顶部的元素
+        $("#gotop").click(function (e) {
+            //以1秒的间隔返回顶部
+            $('body,html').animate({scrollTop: 0}, 300);
+        });
+
+        $("#print").click(function (e) {
+            //以1秒的间隔返回顶部
+            $.pageslide.close();
+            window.print();
+        });
+
+        $("#expand").click(function (e) {
+            if ($('.tb-block').is(':visible')) {
+                $('.tb-block').css("display", "none");
+                $('.pageheader').css("display", "block");
+                $('.pagefooter').css("display", "block");
+                $('.page').css("margin", "30px 0");
+                $('#container').css("padding", "30px 0");
+                $('.icon_expand').css("background", "transparent url(assets/img/collapse.png) no-repeat top left");
+            } else {
+                $('.tb-block').css("display", "block");
+                $('.page').css("margin", "0");
+                $('.pageheader').css("display", "none");
+                $('.pagefooter').css("display", "none");
+                $('#container').css("padding", "30px 0");
+                $('.icon_expand').css("background", "transparent url(assets/img/expand.png) no-repeat top left");
+            }
+
+        });
+    });
+
+    $(".item").mouseover(function (e) {
+        $(this).css("opacity", "1");
+    });
+    $(".item").mouseout(function (e) {
+        $(this).css("opacity", "0.7");
+    });
+    $('.item').hover(
+            function () {
+                var $this = $(this);
+                expand($this);
+            },
+            function () {
+                var $this = $(this);
+                collapse($this);
+            }
+    );
+    function expand($elem) {
+        $elem.stop().animate({width: '120px'}, 500)
+                .find('.item_content').fadeIn(200, function () {
+                    $(this).find('p').stop(true, true).fadeIn(300);
+                });
+    }
+    function collapse($elem) {
+        $elem.stop().animate({width: '52px'}, 500)
+                .find('.item_content').stop(true, true).fadeOut().find('p').stop(true, true).fadeOut();
+    }
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</body>
+</html>

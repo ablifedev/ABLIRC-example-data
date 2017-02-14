@@ -1,0 +1,11 @@
+PASS	Basic Statistics	Eif3b_2.fq
+PASS	Per base sequence quality	Eif3b_2.fq
+PASS	Per sequence quality scores	Eif3b_2.fq
+WARN	Per base sequence content	Eif3b_2.fq
+FAIL	Per base GC content	Eif3b_2.fq
+WARN	Per sequence GC content	Eif3b_2.fq
+PASS	Per base N content	Eif3b_2.fq
+WARN	Sequence Length Distribution	Eif3b_2.fq
+FAIL	Sequence Duplication Levels	Eif3b_2.fq
+FAIL	Overrepresented sequences	Eif3b_2.fq
+FAIL	Kmer Content	Eif3b_2.fq

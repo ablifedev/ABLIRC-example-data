@@ -1,0 +1,1 @@
+cmd = /root/test-seq/result/clip_callpeak/ablife/Eif3b_2_vs_IgG_2/peak.fa fasta ./ -fasta bg_peak.fa -rna -len 5,6,7,8,9,10,11,12 -p 24
